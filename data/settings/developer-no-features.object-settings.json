@@ -1,0 +1,632 @@
+{
+  "account": {
+    "sharingModel": "ReadWrite"
+  },
+  "accountCleanInfo": {
+    "sharingModel": "ControlledByParent"
+  },
+  "activity": {
+    "sharingModel": "Private"
+  },
+  "address": {
+    "sharingModel": "ControlledByParent"
+  },
+  "alternativePaymentMethod": {
+    "sharingModel": "Private"
+  },
+  "appointmentTopicTimeSlot": {
+    "sharingModel": "ReadWrite"
+  },
+  "approvalSubmission": {
+    "sharingModel": "Private"
+  },
+  "approvalSubmissionDetail": {
+    "sharingModel": "ControlledByParent"
+  },
+  "approvalWorkItem": {
+    "sharingModel": "ControlledByParent"
+  },
+  "apptBundleAggrDurDnscale": {
+    "sharingModel": "ControlledByParent"
+  },
+  "apptBundleAggrPolicy": {
+    "sharingModel": "ControlledByParent"
+  },
+  "apptBundleConfig": {
+    "sharingModel": "Private"
+  },
+  "apptBundlePolicy": {
+    "sharingModel": "Private"
+  },
+  "apptBundlePolicySvcTerr": {
+    "sharingModel": "ControlledByParent"
+  },
+  "apptBundlePropagatePolicy": {
+    "sharingModel": "ControlledByParent"
+  },
+  "apptBundleRestrictPolicy": {
+    "sharingModel": "ControlledByParent"
+  },
+  "apptBundleSortPolicy": {
+    "sharingModel": "ControlledByParent"
+  },
+  "asset": {
+    "sharingModel": "ReadWrite"
+  },
+  "assetAccountParticipant": {
+    "sharingModel": "ControlledByParent"
+  },
+  "assetAction": {
+    "sharingModel": "ControlledByParent"
+  },
+  "assetActionSource": {
+    "sharingModel": "ControlledByParent"
+  },
+  "assetContactParticipant": {
+    "sharingModel": "ControlledByParent"
+  },
+  "assetDowntimePeriod": {
+    "sharingModel": "ControlledByParent"
+  },
+  "assetRelationship": {
+    "sharingModel": "ControlledByParent"
+  },
+  "assetStatePeriod": {
+    "sharingModel": "ControlledByParent"
+  },
+  "assetWarranty": {
+    "sharingModel": "ControlledByParent"
+  },
+  "assignedResource": {
+    "sharingModel": "ControlledByParent"
+  },
+  "associatedLocation": {
+    "sharingModel": "ControlledByParent"
+  },
+  "attributeDefinition": {
+    "sharingModel": "Private"
+  },
+  "attributePicklist": {
+    "sharingModel": "Private"
+  },
+  "attributePicklistValue": {
+    "sharingModel": "ControlledByParent"
+  },
+  "authorizationForm": {
+    "sharingModel": "Private"
+  },
+  "authorizationFormConsent": {
+    "sharingModel": "Private"
+  },
+  "authorizationFormDataUse": {
+    "sharingModel": "Private"
+  },
+  "authorizationFormText": {
+    "sharingModel": "ControlledByParent"
+  },
+  "businessBrand": {
+    "sharingModel": "Private"
+  },
+  "campaign": {
+    "sharingModel": "FullAccess"
+  },
+  "campaignMember": {
+    "sharingModel": "ControlledByCampaign"
+  },
+  "cardPaymentMethod": {
+    "sharingModel": "ReadWrite"
+  },
+  "case": {
+    "sharingModel": "ReadWriteTransfer"
+  },
+  "commSubscription": {
+    "sharingModel": "Private"
+  },
+  "commSubscriptionChannelType": {
+    "sharingModel": "Private"
+  },
+  "commSubscriptionConsent": {
+    "sharingModel": "Private"
+  },
+  "commSubscriptionTiming": {
+    "sharingModel": "ControlledByParent"
+  },
+  "consumptionRate": {
+    "sharingModel": "ControlledByParent"
+  },
+  "consumptionSchedule": {
+    "sharingModel": "Read"
+  },
+  "contact": {
+    "sharingModel": "ReadWrite"
+  },
+  "contactCleanInfo": {
+    "sharingModel": "ControlledByParent"
+  },
+  "contactPointAddress": {
+    "sharingModel": "ControlledByParent"
+  },
+  "contactPointConsent": {
+    "sharingModel": "Private"
+  },
+  "contactPointEmail": {
+    "sharingModel": "ControlledByParent"
+  },
+  "contactPointPhone": {
+    "sharingModel": "ControlledByParent"
+  },
+  "contactPointTypeConsent": {
+    "sharingModel": "Private"
+  },
+  "contactRequest": {
+    "sharingModel": "ReadWrite"
+  },
+  "contentVersion": {
+    "sharingModel": "Private"
+  },
+  "contract": {
+    "sharingModel": "ReadWrite"
+  },
+  "contractLineItem": {
+    "sharingModel": "ControlledByParent"
+  },
+  "contractLineOutcome": {
+    "sharingModel": "Private"
+  },
+  "contractLineOutcomeData": {
+    "sharingModel": "ControlledByParent"
+  },
+  "convEntryRelatedRecordCopy": {
+    "sharingModel": "Private"
+  },
+  "conversationEntryCopy": {
+    "sharingModel": "Private"
+  },
+  "creditMemo": {
+    "sharingModel": "ReadWrite"
+  },
+  "creditMemoInvApplication": {
+    "sharingModel": "ControlledByParent"
+  },
+  "creditMemoLine": {
+    "sharingModel": "ControlledByParent"
+  },
+  "customer": {
+    "sharingModel": "Private"
+  },
+  "dandBCompany": {
+    "sharingModel": "ReadWrite"
+  },
+  "dataMaskCustomValueLibrary": {
+    "sharingModel": "Private"
+  },
+  "dataUseLegalBasis": {
+    "sharingModel": "Private"
+  },
+  "dataUsePurpose": {
+    "sharingModel": "Private"
+  },
+  "devopsActivityLog": {
+    "sharingModel": "Private"
+  },
+  "digitalWallet": {
+    "sharingModel": "ReadWrite"
+  },
+  "duplicateRecordItem": {
+    "sharingModel": "ControlledByParent"
+  },
+  "duplicateRecordSet": {
+    "sharingModel": "ReadWrite"
+  },
+  "dynamicDataCapture": {
+    "sharingModel": "Private"
+  },
+  "emailMessage": {
+    "sharingModel": "ReadWrite"
+  },
+  "engagementChannelType": {
+    "sharingModel": "Private"
+  },
+  "entitlement": {
+    "sharingModel": "ControlledByParent"
+  },
+  "entityMilestone": {
+    "sharingModel": "ReadWrite"
+  },
+  "event": {
+    "sharingModel": "Private"
+  },
+  "expense": {
+    "sharingModel": "Private"
+  },
+  "expenseReport": {
+    "sharingModel": "Private"
+  },
+  "expenseReportEntry": {
+    "sharingModel": "ControlledByParent"
+  },
+  "financeBalanceSnapshot": {
+    "sharingModel": "Private"
+  },
+  "financeTransaction": {
+    "sharingModel": "Private"
+  },
+  "flowOrchestrationInstance": {
+    "sharingModel": "Private"
+  },
+  "flowOrchestrationLog": {
+    "sharingModel": "ControlledByParent"
+  },
+  "flowOrchestrationStageInstance": {
+    "sharingModel": "Private"
+  },
+  "flowOrchestrationStepInstance": {
+    "sharingModel": "Private"
+  },
+  "flowOrchestrationWorkItem": {
+    "sharingModel": "Private"
+  },
+  "geolocationBasedAction": {
+    "sharingModel": "Private"
+  },
+  "idea": {
+    "sharingModel": "ControlledByParent"
+  },
+  "image": {
+    "sharingModel": "Private"
+  },
+  "individual": {
+    "sharingModel": "ReadWrite"
+  },
+  "invoice": {
+    "sharingModel": "ReadWrite"
+  },
+  "invoiceLine": {
+    "sharingModel": "ControlledByParent"
+  },
+  "jobProfile": {
+    "sharingModel": "ReadWrite"
+  },
+  "lead": {
+    "sharingModel": "ReadWriteTransfer"
+  },
+  "leadCleanInfo": {
+    "sharingModel": "ReadWrite"
+  },
+  "legalEntity": {
+    "sharingModel": "Private"
+  },
+  "location": {
+    "sharingModel": "Private"
+  },
+  "locationGroup": {
+    "sharingModel": "ReadWrite"
+  },
+  "locationGroupAssignment": {
+    "sharingModel": "ControlledByParent"
+  },
+  "macro": {
+    "sharingModel": "Private"
+  },
+  "maintenanceAsset": {
+    "sharingModel": "ControlledByParent"
+  },
+  "maintenancePlan": {
+    "sharingModel": "ReadWrite"
+  },
+  "maintenanceWorkRule": {
+    "sharingModel": "Private"
+  },
+  "messagingEndUser": {
+    "sharingModel": "ReadWrite"
+  },
+  "messagingSession": {
+    "sharingModel": "ReadWrite"
+  },
+  "operatingHours": {
+    "sharingModel": "ReadWrite"
+  },
+  "operatingHoursHoliday": {
+    "sharingModel": "ControlledByParent"
+  },
+  "opportunity": {
+    "sharingModel": "ReadWrite"
+  },
+  "opportunityContactRole": {
+    "sharingModel": "ReadWrite"
+  },
+  "opportunityLineItem": {
+    "sharingModel": "ReadWrite"
+  },
+  "order": {
+    "sharingModel": "ReadWrite"
+  },
+  "orderItem": {
+    "sharingModel": "ReadWrite"
+  },
+  "partyConsent": {
+    "sharingModel": "Private"
+  },
+  "payment": {
+    "sharingModel": "ReadWrite"
+  },
+  "paymentAuthAdjustment": {
+    "sharingModel": "ControlledByParent"
+  },
+  "paymentAuthorization": {
+    "sharingModel": "ReadWrite"
+  },
+  "paymentGateway": {
+    "sharingModel": "ReadWrite"
+  },
+  "paymentGroup": {
+    "sharingModel": "ReadWrite"
+  },
+  "paymentLineInvoice": {
+    "sharingModel": "ControlledByParent"
+  },
+  "paymentMethod": {
+    "sharingModel": "ReadWrite"
+  },
+  "pricebook2": {
+    "sharingModel": "ReadSelect"
+  },
+  "pricebookEntry": {
+    "sharingModel": "ReadWrite"
+  },
+  "privacyRTBFRequest": {
+    "sharingModel": "Private"
+  },
+  "processException": {
+    "sharingModel": "Private"
+  },
+  "product2": {
+    "sharingModel": "ReadWrite"
+  },
+  "productConsumed": {
+    "sharingModel": "ControlledByParent"
+  },
+  "productConsumedState": {
+    "sharingModel": "ControlledByParent"
+  },
+  "productConsumptionSchedule": {
+    "sharingModel": "ReadWrite"
+  },
+  "productItem": {
+    "sharingModel": "ReadWrite"
+  },
+  "productItemTransaction": {
+    "sharingModel": "ControlledByParent"
+  },
+  "productRequest": {
+    "sharingModel": "ReadWrite"
+  },
+  "productRequestLineItem": {
+    "sharingModel": "ControlledByParent"
+  },
+  "productRequired": {
+    "sharingModel": "ControlledByParent"
+  },
+  "productServiceCampaign": {
+    "sharingModel": "Private"
+  },
+  "productServiceCampaignItem": {
+    "sharingModel": "ControlledByParent"
+  },
+  "productTransfer": {
+    "sharingModel": "ReadWrite"
+  },
+  "productTransferState": {
+    "sharingModel": "ControlledByParent"
+  },
+  "productWarrantyTerm": {
+    "sharingModel": "ControlledByParent"
+  },
+  "quickText": {
+    "sharingModel": "Private"
+  },
+  "recommendation": {
+    "sharingModel": "ReadWrite"
+  },
+  "recordAction": {
+    "sharingModel": "ReadWrite"
+  },
+  "recordsetFilterCriteria": {
+    "sharingModel": "Private"
+  },
+  "recordsetFilterCriteriaRule": {
+    "sharingModel": "ControlledByParent"
+  },
+  "recordsetFltrCritMonitor": {
+    "sharingModel": "ControlledByParent"
+  },
+  "refund": {
+    "sharingModel": "ReadWrite"
+  },
+  "refundLinePayment": {
+    "sharingModel": "ControlledByParent"
+  },
+  "resourceAbsence": {
+    "sharingModel": "ControlledByParent"
+  },
+  "resourcePreference": {
+    "sharingModel": "ControlledByParent"
+  },
+  "returnOrder": {
+    "sharingModel": "ReadWrite"
+  },
+  "returnOrderLineItem": {
+    "sharingModel": "ControlledByParent"
+  },
+  "schedulingConstraint": {
+    "sharingModel": "Private"
+  },
+  "schedulingWorkspace": {
+    "sharingModel": "Private"
+  },
+  "schedulingWorkspaceTerritory": {
+    "sharingModel": "ControlledByParent"
+  },
+  "scorecard": {
+    "sharingModel": "Private"
+  },
+  "scorecardAssociation": {
+    "sharingModel": "ControlledByParent"
+  },
+  "scorecardMetric": {
+    "sharingModel": "ControlledByParent"
+  },
+  "seller": {
+    "sharingModel": "Private"
+  },
+  "serializedProduct": {
+    "sharingModel": "Private"
+  },
+  "serializedProductTransaction": {
+    "sharingModel": "ControlledByParent"
+  },
+  "serviceAppointment": {
+    "sharingModel": "ReadWrite"
+  },
+  "serviceAppointmentCapacityUsage": {
+    "sharingModel": "ControlledByParent"
+  },
+  "serviceContract": {
+    "sharingModel": "Private"
+  },
+  "serviceCrew": {
+    "sharingModel": "ReadWrite"
+  },
+  "serviceCrewMember": {
+    "sharingModel": "ControlledByParent"
+  },
+  "serviceResource": {
+    "sharingModel": "ReadWrite"
+  },
+  "serviceResourceCapacity": {
+    "sharingModel": "ControlledByParent"
+  },
+  "serviceResourcePreference": {
+    "sharingModel": "Private"
+  },
+  "serviceResourceSkill": {
+    "sharingModel": "ControlledByParent"
+  },
+  "serviceTerritory": {
+    "sharingModel": "ReadWrite"
+  },
+  "serviceTerritoryLocation": {
+    "sharingModel": "ControlledByParent"
+  },
+  "serviceTerritoryMember": {
+    "sharingModel": "ControlledByParent"
+  },
+  "shift": {
+    "sharingModel": "ReadWrite"
+  },
+  "shiftPattern": {
+    "sharingModel": "Private"
+  },
+  "shiftPatternEntry": {
+    "sharingModel": "ControlledByParent"
+  },
+  "shiftSchedulingOperation": {
+    "sharingModel": "ReadWrite"
+  },
+  "shiftTemplate": {
+    "sharingModel": "Read"
+  },
+  "shipment": {
+    "sharingModel": "ReadWrite"
+  },
+  "shipmentItem": {
+    "sharingModel": "ControlledByParent"
+  },
+  "skillRequirement": {
+    "sharingModel": "ControlledByParent"
+  },
+  "socialPersona": {
+    "sharingModel": "ControlledByParent"
+  },
+  "solution": {
+    "sharingModel": "ReadWrite"
+  },
+  "swarm": {
+    "sharingModel": "ReadWrite"
+  },
+  "swarmMember": {
+    "sharingModel": "ReadWrite"
+  },
+  "task": {
+    "sharingModel": "Private"
+  },
+  "timeSheet": {
+    "sharingModel": "ReadWrite"
+  },
+  "timeSheetEntry": {
+    "sharingModel": "ControlledByParent"
+  },
+  "timeSlot": {
+    "sharingModel": "ControlledByParent"
+  },
+  "travelMode": {
+    "sharingModel": "Private"
+  },
+  "unitOfMeasure": {
+    "sharingModel": "Private"
+  },
+  "unstructuredStorageSpace": {
+    "sharingModel": "Private"
+  },
+  "user": {
+    "sharingModel": "Read"
+  },
+  "userProvisioningRequest": {
+    "sharingModel": "Private"
+  },
+  "warrantyTerm": {
+    "sharingModel": "Private"
+  },
+  "workBadge": {
+    "sharingModel": "ControlledByParent"
+  },
+  "workBadgeDefinition": {
+    "sharingModel": "Read"
+  },
+  "workOrder": {
+    "sharingModel": "ReadWrite"
+  },
+  "workOrderLineItem": {
+    "sharingModel": "ControlledByParent"
+  },
+  "workPlan": {
+    "sharingModel": "Private"
+  },
+  "workPlanSelectionRule": {
+    "sharingModel": "Private"
+  },
+  "workPlanTemplate": {
+    "sharingModel": "Private"
+  },
+  "workPlanTemplateEntry": {
+    "sharingModel": "ControlledByParent"
+  },
+  "workStep": {
+    "sharingModel": "ControlledByParent"
+  },
+  "workStepTemplate": {
+    "sharingModel": "Private"
+  },
+  "workThanks": {
+    "sharingModel": "Read"
+  },
+  "workType": {
+    "sharingModel": "ReadWrite"
+  },
+  "workTypeGroup": {
+    "sharingModel": "ReadWrite"
+  },
+  "workTypeGroupMember": {
+    "sharingModel": "ControlledByParent"
+  }
+}

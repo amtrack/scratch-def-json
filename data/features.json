@@ -1,0 +1,1898 @@
+[
+  {
+    "id": "so_accountinspection",
+    "name": "AccountInspection",
+    "summary": "Enables the Account Intelligence view. The Account Intelligence view is a consolidated dashboard showing account metrics, activities, and related opportunities and cases.",
+    "description": ""
+  },
+  {
+    "id": "so_accountingsubledgergrowthedition",
+    "name": "AccountingSubledgerGrowthEdition",
+    "summary": "Provides three permission sets that enable access to Accounting Subledger Growth features.",
+    "description": "Requires that you also include the DataProcessingEngine scratch org feature in your scratch org definition file. Requires that you enable Data Pipelines. Requires configuration using the Setup menu in the scratch org. See Accounting Subledger in Salesforce Help."
+  },
+  {
+    "id": "so_accountingsubledgerstarteredition",
+    "name": "AccountingSubledgerStarterEdition",
+    "summary": "Provides three permission sets that enable access to Accounting Subledger Starter features.",
+    "description": "Requires that you also include the DataProcessingEngine scratch org feature in your scratch org definition file. Requires that you enable Data Pipelines. Requires configuration using the Setup menu in the scratch org. See Accounting Subledger in Salesforce Help."
+  },
+  {
+    "id": "so_accountingsubledgeruser",
+    "name": "AccountingSubledgerUser",
+    "summary": "Enables organization-wide access to Accounting Subledger Growth features when the package is installed.",
+    "description": "Requires that you install the Accounting Subledger or Accounting Subledger for Industries managed package. If you install the Accounting Subledger package, also set up the Opportunity object. See Accounting Subledger Legacy Documentation in Salesforce Help."
+  },
+  {
+    "id": "so_addcustomapps",
+    "name": "AddCustomApps:<value>",
+    "summary": "Increases the maximum number of custom apps allowed in an org. Indicate a value from 1–30.",
+    "description": "1–30, Multiplier: 1"
+  },
+  {
+    "id": "so_addcustomobjects",
+    "name": "AddCustomObjects:<value>",
+    "summary": "Increases the maximum number of custom objects allowed in the org. Indicate a value from 1–30.",
+    "description": "1–30, Multiplier: 1"
+  },
+  {
+    "id": "so_addcustomrelationships",
+    "name": "AddCustomRelationships:<value>",
+    "summary": "Increases the maximum number of custom relationships allowed on an object. Indicate a value from 1–10.",
+    "description": "1–10, Multiplier: 5"
+  },
+  {
+    "id": "so_addcustomtabs",
+    "name": "AddCustomTabs:<value>",
+    "summary": "Increases the maximum number of custom tabs allowed in an org. Indicate a value from 1–30.",
+    "description": "1–30, Multiplier: 1"
+  },
+  {
+    "id": "so_adddatacomcrmrecordcredit",
+    "name": "AddDataComCRMRecordCredit:<value>",
+    "summary": "Increases record import credits assigned to a user in your scratch org. Indicate a value from 1–30.",
+    "description": "1–30, Multiplier: 1"
+  },
+  {
+    "id": "so_addinsightsquerylimit",
+    "name": "AddInsightsQueryLimit:<value>",
+    "summary": "Increases the size of your CRM Analytics query results. Indicate a value from 1–30 (multiplier is 10). Setting the quantity to 6 increases the query results to 60.",
+    "description": "1–30, Multiplier: 10"
+  },
+  {
+    "id": "so_additionalfieldhistory",
+    "name": "AdditionalFieldHistory:<value>",
+    "summary": "Increases the number of fields you can track history for beyond the default, which is 20 fields. Indicate a value between 1–40.",
+    "description": "1–40, Multiplier: 1Previous name: AddHistoryFieldsPerEntity."
+  },
+  {
+    "id": "so_admissionsconnectuser",
+    "name": "AdmissionsConnectUser",
+    "summary": "Enables the Admissions Connect components. Without this scratch org feature parameter, the custom Admissions Connect components render as blank.",
+    "description": "Next, install the Admissions Connect package in the scratch org. For installation instructions, see Install Admissions Connect in Salesforce Help."
+  },
+  {
+    "id": "so_advisorlinkfeature",
+    "name": "AdvisorLinkFeature",
+    "summary": "Enables the Student Success Hub components. Without this scratch org feature parameter, the custom Student Success Hub components render as blank.",
+    "description": "Next, install the Student Success Hub package in the scratch org. For setup instructions, see Install Student Success Hub in Salesforce Help."
+  },
+  {
+    "id": "so_advisorlinkpathwaysfeature",
+    "name": "AdvisorLinkPathwaysFeature",
+    "summary": "Enables the Pathways components. Without this scratch org feature parameter, the custom Pathways components render as blank.",
+    "description": "Next, install the Pathways package in the scratch org. For setup instructions, see Set Up Pathways in Salesforce Help."
+  },
+  {
+    "id": "so_aiattribution",
+    "name": "AIAttribution",
+    "summary": "Provides access to Einstein Attribution for Marketing Cloud Account Engagement. Einstein Attribution uses AI modeling to dynamically assign attribution percentages to multiple campaign touchpoints.",
+    "description": "Before enabling Einstein Attribution, make sure that enableAIAttribution and enableCampaignInfluence2 are set to true.This feature is available in Account Engagement Advanced and Premium editions.Optional configuration steps are accessible in Setup in the scratch org. For more information, see Salesforce Help: Einstein Attribution."
+  },
+  {
+    "id": "so_alluseridaccess",
+    "name": "AllUserIdServiceAccess",
+    "summary": "Enables all users to access all users’ information via the user ID service.",
+    "description": "The AllUserIdServiceAccess permission is off by default for all new and existing orgs. To turn on this feature, contact Salesforce Customer Support."
+  },
+  {
+    "id": "so_analyticsadminperms",
+    "name": "AnalyticsAdminPerms",
+    "summary": "Enables all permissions required to administer the CRM Analytics platform, including permissions to enable creating CRM Analytics templated apps and CRM Analytics Apps.",
+    "description": "See Set Up the CRM Analytics Platform in Salesforce Help for more information."
+  },
+  {
+    "id": "so_analyticsappembedded",
+    "name": "AnalyticsAppEmbedded",
+    "summary": "Provides one CRM Analytics Embedded App license for the CRM Analytics platform.",
+    "description": ""
+  },
+  {
+    "id": "so_apexgurucodeanalyzer",
+    "name": "ApexGuruCodeAnalyzer",
+    "summary": "Enables ApexGuru's generative AI-powered runtime insights in Salesforce Code Analyzer, which delivers Apex code quality recommendations directly in developer IDEs.",
+    "description": "To improve developer accuracy and speed, use ApexGuru in Salesforce Code Analyzer to detect antipatterns using both static analysis and generative AI.For more information about ApexGuru, see ApexGuru Insights in Salesforce Help."
+  },
+  {
+    "id": "so_api",
+    "name": "API",
+    "summary": "Even in the editions (Professional, Group) that don’t provide API access, REST API is enabled by default. Use this scratch org feature to access additional APIs (SOAP, Streaming, Bulk, Bulk 2.0).",
+    "description": "See Salesforce editions with API access for more information."
+  },
+  {
+    "id": "so_arcgraphcommunity",
+    "name": "ArcGraphCommunity",
+    "summary": "Lets you add Actionable Relationship Center (ARC) components to Experience Cloud pages so your users can view ARC Relationship Graphs.",
+    "description": "Provides 1 seat of the FinancialServicesEALoginAddon add-on license.Requires that you install Financial Services Cloud. See Customize Experience Cloud Templates using ARC Components in Financial Services Cloud Administrator Guide."
+  },
+  {
+    "id": "so_assessments",
+    "name": "Assessments",
+    "summary": "Enables dynamic Assessments features, which enables both Assessment Questions and Assessment Question Sets.",
+    "description": "Add these options to your scratch org feature definition file. For \"edition,\" you can indicate any of the supported scratch org feature editions.Add the Assessment to the page layout. See Page Layouts in Salesforce Help for more information."
+  },
+  {
+    "id": "so_assetscheduling",
+    "name": "AssetScheduling:<value>",
+    "summary": "Enables Asset Scheduling license. Asset Scheduling makes it easier to book rooms and equipments. Indicate a value between 1–10.",
+    "description": "1–10See Enable Asset Scheduling in Salesforce Scheduler in Salesforce Help for more information."
+  },
+  {
+    "id": "so_associationengine",
+    "name": "AssociationEngine",
+    "summary": "Enables the Association Engine, which automatically associates new accounts with the user’s current branch by creating branch unit customer records.",
+    "description": "Provides 11 seats of the FSCComprehensivePsl user license and 11 seats of the FSCComprehensiveAddOn add-on license.Requires that you install Financial Services Cloud. See AssociationEngineSettings in Metadata API Developer Guide."
+  },
+  {
+    "id": "so_authorapex",
+    "name": "AuthorApex",
+    "summary": "Enables you to access and modify Apex code in a scratch org. Enabled by default in Enterprise and Developer Editions.",
+    "description": "For Group and Professional Edition orgs, this feature is disabled by default. Enabling the AuthorApex feature lets you edit and test your Apex classes."
+  },
+  {
+    "id": "so_b2bcommerce",
+    "name": "B2BCommerce",
+    "summary": "Provides the B2B License. B2BCommerce enables business-to-business (B2B) commerce in your org. Create and update B2B stores. Create and manage buyer accounts. Sell products to other businesses.",
+    "description": "Requires that you also include the Communities scratch org feature in your scratch org definition file to create a store using B2B Commerce. Not available in Professional, Partner Professional, Group, or Partner Group Edition orgs."
+  },
+  {
+    "id": "so_b2bloyaltymanagement",
+    "name": "B2BLoyaltyManagement",
+    "summary": "Enables the B2B Loyalty Management license. Create loyalty programs and set up loyalty program-specific processes that allow you to recognize, rewards, and retain customers.",
+    "description": "See Loyalty Management in Salesforce Help for more information."
+  },
+  {
+    "id": "so_b2ccommercegmv",
+    "name": "B2CCommerceGMV",
+    "summary": "Provides the B2B2C Commerce License. B2B2C Commerce allows you to quickly stand up an ecommerce site to promote brands and sell products into multiple digital channels. You can create and update retail storefronts in your org, and create and manage person accounts.",
+    "description": "Also requires the Communities feature in your scratch org definition file.Not available in Professional, Partner Professional, Group, or Partner Group Edition orgs.For more information, see Salesforce Help at Salesforce B2B Commerce and B2B2C Commerce.."
+  },
+  {
+    "id": "so_b2cloyaltymanagement",
+    "name": "B2CLoyaltyManagement",
+    "summary": "Enables the Loyalty Management - Growth license. Create loyalty programs and set up loyalty program-specific processes that allow you to recognize, rewards, and retain customers.",
+    "description": "See Loyalty Management in Salesforce Help for more information."
+  },
+  {
+    "id": "so_b2cloyaltymanagementplus",
+    "name": "B2CLoyaltyManagementPlus",
+    "summary": "Enables the Loyalty Management - Advanced license. Create loyalty programs and set up loyalty program-specific processes that allow you to recognize, rewards, and retain customers.",
+    "description": "See Loyalty Management in Salesforce Help for more information."
+  },
+  {
+    "id": "so_batchmanagement",
+    "name": "BatchManagement",
+    "summary": "Enables the Batch Management license. Batch Management allows you to process a high volume of records in manageable batches.",
+    "description": "See Batch Management in Salesforce Help for more information."
+  },
+  {
+    "id": "so_benefitmanagement",
+    "name": "BenefitManagement",
+    "summary": "Enables the objects, features, and permissions for managing benefits programs, benefit disbursements, and benefit applicant tracking in Public Sector Solutions.",
+    "description": "To enable BenefitManagement, add these features and settings to your scratch org definition file."
+  },
+  {
+    "id": "so_bigobjectsbulkapi",
+    "name": "BigObjectsBulkAPI",
+    "summary": "Enables the scratch org to use BigObjects in the Bulk API.",
+    "description": "See Big Objects Implementation Guide for more information."
+  },
+  {
+    "id": "so_billingadvanced",
+    "name": "BillingAdvanced",
+    "summary": "Enables access to all the Billing features and objects that are available with the Revenue Cloud Billing license in the scratch org.",
+    "description": "To enable BillingAdvanced, add these settings to your scratch org definition file."
+  },
+  {
+    "id": "so_briefcase",
+    "name": "Briefcase",
+    "summary": "Enables the use of Briefcase Builder in a scratch org, which allows you to create offline briefcases that make selected records available for viewing offline.",
+    "description": ""
+  },
+  {
+    "id": "so_budgetmanagement",
+    "name": "BudgetManagement",
+    "summary": "Gives users access to budget management features and objects. To enable budget management, add this feature to your scratch org definition file.",
+    "description": "See Budget Management in Salesforce Help for more information."
+  },
+  {
+    "id": "so_businessrulesengine",
+    "name": "BusinessRulesEngine",
+    "summary": "Enables Business Rules Engine, which enables both expression sets and lookup tables.",
+    "description": "Provides 10 Business Rules Engine Designer and 10 Business Rules Engine Runtime licenses. For more information, see Business Rules Engine in Salesforce Help."
+  },
+  {
+    "id": "so_byoccaas",
+    "name": "BYOCCaaS",
+    "summary": "Enables you to set up and test a partner contact center that integrates with supported Contact Center as a Service (CCaaS) providers in your scratch org.",
+    "description": "This feature requires that you also include the ServiceCloud and Scrt2Conversation scratch org features in your scratch org definition file. You must also enable second-generation managed packaging to use this feature in a scratch org. Available in Salesforce Enterprise and Developer Editions.For setup and configuration steps, see Bring Your Own Channel for CCaaS in Salesforce Help."
+  },
+  {
+    "id": "so_byoott",
+    "name": "BYOOTT",
+    "summary": "Enables you to set up and test a Bring Your Own Channel for Messaging channel that integrates with supported Messaging providers in your scratch org.",
+    "description": "This feature requires that you also include the ServiceCloud and Scrt2Conversation scratch org features in your scratch org definition file. You must also enable second-generation managed packaging to use this feature in a scratch org. Available in Salesforce Enterprise and Developer Editions.For setup and configuration steps, see Bring Your Own Channel in Salesforce Help."
+  },
+  {
+    "id": "so_cacheonlykeys",
+    "name": "CacheOnlyKeys",
+    "summary": "Enables the cache-only keys service. This feature allows you to store your key material outside of Salesforce, and have the Cache-Only Key Service fetch your key on demand from a key service that you control.",
+    "description": "Requires enabling PlatformEncryption and configuration using the Setup menu in the scratch org. See Which User Permissions Does Shield Platform Encryption Require?, Generate a Tenant Secret with Salesforce, and Cache-Only Key Service in Salesforce Help."
+  },
+  {
+    "id": "so_calloutsizemb",
+    "name": "CalloutSizeMB:<value>",
+    "summary": "Increases the maximum size of an Apex callout. Indicate a value between 3–12.",
+    "description": "3–12, Multiplier: 1"
+  },
+  {
+    "id": "so_campaigninfluence2",
+    "name": "CampaignInfluence2",
+    "summary": "Provides access to Customizable Campaign Influence for Sales Cloud and Marketing Cloud Account Engagement. Customizable Campaign Influence can auto-associate or allow manual creation of relationships among campaigns and opportunities to track attribution.",
+    "description": "To enable Customizable Campaign Influence, set enableCampaignInfluence2 to true.This feature is available in Salesforce Enterprise, Performance, Unlimited, and Developer Editions.Optional configuration steps are accessible in Setup in the scratch org. For more information, see Salesforce Help: Customizable Campaign Influence."
+  },
+  {
+    "id": "so_cascadedelete",
+    "name": "CascadeDelete",
+    "summary": "Provides lookup relationships with the same cascading delete functionality previously only available to master-detail relationships. To prevent records from being accidentally deleted, cascade-delete is disabled by default.",
+    "description": ""
+  },
+  {
+    "id": "so_caseclassification",
+    "name": "CaseClassification",
+    "summary": "Enables Einstein Case Classification. Case Classification offers recommendations to your agents so they can select the best value. You can also automatically save the best recommendation and route the case to the right agent.",
+    "description": ""
+  },
+  {
+    "id": "so_casewrapup",
+    "name": "CaseWrapUp",
+    "summary": "Enables Einstein Case Wrap-Up. To help agents complete cases quickly, Einstein Case Wrap-Up recommends case field values based on past chat transcripts.",
+    "description": "Available in Enterprise Edition scratch orgs. Requires configuration using the Setup menu in the scratch org.See Set Up Einstein Classification Apps in Salesforce Help for more information."
+  },
+  {
+    "id": "so_cganalytics",
+    "name": "CGAnalytics",
+    "summary": "Enables the Consumer Goods Analytics org perm in scratch orgs.",
+    "description": "Provides 1 seat of the CGAnalyticsPlus add-on license."
+  },
+  {
+    "id": "so_changedatacapture",
+    "name": "ChangeDataCapture",
+    "summary": "Enables Change Data Capture, if the scratch org edition doesn't automatically enable it.",
+    "description": ""
+  },
+  {
+    "id": "so_chatbot",
+    "name": "Chatbot",
+    "summary": "Enables deployment of Bot metadata into a scratch org, and allows you to create and edit bots.",
+    "description": "To use this feature, turn on Enable Einstein Features in the Dev Hub org to accept the Terms of Service. See Einstein Bots in Salesforce Help for more information."
+  },
+  {
+    "id": "so_chatteremailfooterlogo",
+    "name": "ChatterEmailFooterLogo",
+    "summary": "ChatterEmailFooterLogo allows you to use the Document ID of a logo image, which you can use to customize chatter emails.",
+    "description": "See Add Your Custom Brand to Email Notifications in Salesforce Help for more information."
+  },
+  {
+    "id": "so_chatteremailfootertext",
+    "name": "ChatterEmailFooterText",
+    "summary": "ChatterEmailFooterText allows you to use footer text in customized Chatter emails.",
+    "description": "See Add Your Custom Brand to Email Notifications in Salesforce Help for more information."
+  },
+  {
+    "id": "so_chatteremailsendername",
+    "name": "ChatterEmailSenderName",
+    "summary": "ChatterEmailSenderName allows you to customize the name that appears as the sender’s name in the email notification. For example, your company’s name.",
+    "description": "See Chatter Email Settings and Branding in Salesforce Help for more information."
+  },
+  {
+    "id": "so_cloneapplication",
+    "name": "CloneApplication",
+    "summary": "CloneApplication allows you to clone an existing custom Lightning app and make required customizations to the new app. This way, you don’t have to start from scratch, especially when you want to create apps with simple variations.",
+    "description": "See Create Lightning Apps in Salesforce Help for more information."
+  },
+  {
+    "id": "so_cmsmaxconttype",
+    "name": "CMSMaxContType",
+    "summary": "Limits the number of distinct content types you can create within Salesforce CMS to 21.",
+    "description": ""
+  },
+  {
+    "id": "so_cmsmaxnodesperconttype",
+    "name": "CMSMaxNodesPerContType",
+    "summary": "Limits the maximum number of child nodes (fields) you can create for a particular content type to 15.",
+    "description": ""
+  },
+  {
+    "id": "so_cmsunlimiteduse",
+    "name": "CMSUnlimitedUse",
+    "summary": "Enables unlimited content records, content types, and bandwidth usage in Salesforce CMS.",
+    "description": ""
+  },
+  {
+    "id": "so_communities",
+    "name": "Communities",
+    "summary": "Allows the org to create an Experience Cloud site. Experience Cloud uses the term Communities in its configuration. To use Communities, you must also include communitiesSettings > enableNetworksEnabled in the settings section of your scratch org definition file.",
+    "description": "Available in Enterprise and Developer Edition scratch orgs."
+  },
+  {
+    "id": "so_comparereports",
+    "name": "CompareReportsOrgPerm",
+    "summary": "Enables the org permission to allow for comparison of Lightning Reports.",
+    "description": ""
+  },
+  {
+    "id": "so_conapppluginexecuteasuser",
+    "name": "ConAppPluginExecuteAsUser",
+    "summary": "Enables the pluginExecutionUser field in the ConnectedApp Metadata API object.",
+    "description": ""
+  },
+  {
+    "id": "so_concstreamingclients",
+    "name": "ConcStreamingClients:<value>",
+    "summary": "Increases the maximum number of concurrent clients (subscribers) across all channels and for all event types for API version 36.0 and earlier. Indicate a value between 20–4,000.",
+    "description": "20–4,000, Multiplier: 1"
+  },
+  {
+    "id": "so_connectedappcustomnotifsubscription",
+    "name": "ConnectedAppCustomNotifSubscription",
+    "summary": "Enables connected apps to subscribe to custom notification types, which are used to send custom desktop and mobile notifications.",
+    "description": "Sending custom notifications requires both CustomNotificationType to create notification types and ConnectedAppCustomNotifSubscription to subscribe to notification types. See Manage Your Notifications with Notification Builder in Salesforce Help for more information on custom notifications."
+  },
+  {
+    "id": "so_connectedapptoolingapi",
+    "name": "ConnectedAppToolingAPI",
+    "summary": "Enables the use of connected apps with the Tooling API.",
+    "description": ""
+  },
+  {
+    "id": "so_consenteventsstream",
+    "name": "ConsentEventStream",
+    "summary": "Enables the Consent Event Stream permission for the org.",
+    "description": "See Use the Consent Event Stream in Salesforce Help for more information."
+  },
+  {
+    "id": "so_consolepersistenceinterval",
+    "name": "ConsolePersistenceInterval:<value>",
+    "summary": "Increases how often console data is saved, in minutes. Indicate a value between 0–500. To disable auto save, set the value to 0.",
+    "description": "0–500, Multiplier: 1"
+  },
+  {
+    "id": "so_contactstomultipleaccounts",
+    "name": "ContactsToMultipleAccounts",
+    "summary": "Enables the contacts to multiple accounts feature. This feature lets you relate a contact to two or more accounts.",
+    "description": ""
+  },
+  {
+    "id": "so_contractapprovals",
+    "name": "ContractApprovals",
+    "summary": "Enables contract approvals, which allow you to track contracts through an approval process.",
+    "description": ""
+  },
+  {
+    "id": "so_contractmanagement",
+    "name": "ContractManagement",
+    "summary": "Enables the Contract Lifecycle (CLM) Management features in the org.",
+    "description": ""
+  },
+  {
+    "id": "so_contractmgmtind",
+    "name": "ContractMgmtInd",
+    "summary": "Enables the Contract Lifecycle Management (CLM) features for Industries.",
+    "description": ""
+  },
+  {
+    "id": "so_corecpq",
+    "name": "CoreCpq",
+    "summary": "Enables read-write access to Revenue Cloud features and objects. To use Revenue Cloud, you must also include revenueManagementSettings > enableCoreCPQ in the settings section of your scratch org definition file.",
+    "description": "Add these options to your scratch org definition file."
+  },
+  {
+    "id": "so_cpq",
+    "name": "CPQ",
+    "summary": "Enables the licensed features required to install the Salesforce CPQ managed package but doesn't install the package automatically.",
+    "description": "For additional information and configuration steps, see Manage Your Quotes with CPQ in Salesforce Help."
+  },
+  {
+    "id": "so_customerdataplatform",
+    "name": "CustomerDataPlatform",
+    "summary": "Enables the CustomerDataPlatform license in scratch orgs.",
+    "description": "To create scratch orgs that use Data Cloud, you must first log a case with Salesforce Partner Support. This feature can be enabled on your Partner Business Org (PBO) only. After it’s enabled, you can create scratch orgs with Data Cloud features. . See Salesforce Help: Feature Availability in Data Cloud and Customer Data Platform for a list of functionality available with the CustomerDataPlatform license."
+  },
+  {
+    "id": "so_customerdataplatformlite",
+    "name": "CustomerDataPlatformLite",
+    "summary": "Enables the Data Cloud license in scratch orgs. You must also include the CustomerDataPlatform feature and enableCustomerDataPlatform Metadata API setting in your scratch org definition.",
+    "description": "To create scratch orgs that use Data Cloud, you must first log a case with Salesforce Partner Support. This feature can be enabled on your Partner Business Org (PBO) only. After it’s enabled, you can create scratch orgs with Data Cloud features. See Salesforce Help: Feature Availability in Data Cloud and Customer Data Platform for a list of functionality available with the Data Cloud license."
+  },
+  {
+    "id": "so_customerexperienceanalytics",
+    "name": "CustomerExperienceAnalytics",
+    "summary": "Enables the Customer Lifecycle Analytics org perm in scratch orgs.",
+    "description": "Provides 1 seat of the CustomerExperienceAnalyticsPlus add-on license."
+  },
+  {
+    "id": "so_customfielddatatranslation",
+    "name": "CustomFieldDataTranslation",
+    "summary": "Enables translation of custom field data for Work Type Group, Service Territory, and Service Resource objects. You can enable data translation for custom fields with Text, Text Area, Text Area (Long), Text Area (Rich), and URL types.",
+    "description": "Requires that you also include the EntityTranslation scratch org feature in your scratch org definition file. Not available in Professional, Partner Professional, Group, or Partner Group Edition orgs."
+  },
+  {
+    "id": "so_customnotificationtype",
+    "name": "CustomNotificationType",
+    "summary": "Allows the org to create custom notification types, which are used to send custom desktop and mobile notifications.",
+    "description": "Sending custom notifications requires both CustomNotificationType to create notification types and ConnectedAppCustomNotifSubscription to subscribe to notification types. See Manage Your Notifications with Notification Builder in Salesforce Help for more information on custom notifications."
+  },
+  {
+    "id": "so_datacomdnbaccounts",
+    "name": "DataComDnbAccounts",
+    "summary": "Provides a license to Data.com account features.",
+    "description": ""
+  },
+  {
+    "id": "so_datacomfullclean",
+    "name": "DataComFullClean",
+    "summary": "Provides a license to Data.com cleaning features, and allows users to turn on auto fill clean settings for jobs.",
+    "description": ""
+  },
+  {
+    "id": "so_datamaskuser",
+    "name": "DataMaskUser",
+    "summary": "Provides 30 Data Mask permission set licenses. This permission set enables access to an installed Salesforce Data Mask package.",
+    "description": "For additional installation and configuration steps, see Install the Managed Package in Salesforce Help."
+  },
+  {
+    "id": "so_dataprocessingengine",
+    "name": "DataProcessingEngine",
+    "summary": "Enables the Data Processing Engine license. Data Processing Engine helps transform data that's available in your Salesforce org and write back the transformation results as new or updated records.",
+    "description": "See Data Processing Engine in Salesforce Help for more information."
+  },
+  {
+    "id": "so_debugapex",
+    "name": "DebugApex",
+    "summary": "Enables Apex Interactive Debugger. You can use it to debug Apex code by setting breakpoints and checkpoints, and inspecting your code to find bugs.",
+    "description": ""
+  },
+  {
+    "id": "so_decisiontable",
+    "name": "DecisionTable",
+    "summary": "Enables Decision Table license. Decision tables read business rules and decide the outcome for records in your Salesforce org or for the values that you specify.",
+    "description": "See Decision Table in Salesforce Help for more information."
+  },
+  {
+    "id": "so_defaultworkflowuser",
+    "name": "DefaultWorkflowUser",
+    "summary": "Sets the scratch org admin as the default workflow user.",
+    "description": ""
+  },
+  {
+    "id": "so_defersharingcalc",
+    "name": "DeferSharingCalc",
+    "summary": "Allows admins to suspend group membership and sharing rule calculations and to resume them later.",
+    "description": "Requires configuration using the Setup menu in the scratch org. See Defer Sharing Calculations in Salesforce Help."
+  },
+  {
+    "id": "so_developmentwave",
+    "name": "DevelopmentWave",
+    "summary": "Enables CRM Analytics development in a scratch org. It assigns five platform licenses and five CRM Analytics platform licenses to the org, along with assigning the permission set license to the admin user. It also enables the CRM Analytics Templates and Einstein Discovery features.",
+    "description": ""
+  },
+  {
+    "id": "so_devicetrackingenabled",
+    "name": "DeviceTrackingEnabled",
+    "summary": "Enables Device Tracking.",
+    "description": ""
+  },
+  {
+    "id": "so_devopscenter",
+    "name": "DevOpsCenter",
+    "summary": "Enables DevOps Center in scratch orgs so that partners can create second-generation managed packages that extend or enhance the functionality in the DevOps Center application (base) package.",
+    "description": "Ask a Salesforce admin to enable DevOps Center in the Dev Hub org. From Setup, enter DevOps Center in the Quick Find box, then select DevOps Center. You can create scratch orgs after the org preference is enabled.Add these options to your scratch org definition file:If you create a scratch org based on an org shape with DevOps Center enabled, we still require that you add the DevOps Center feature and setting to the scratch org definition for legal reasons as part of the DevOps Center terms and conditions.Salesforce Help: Build an Extension Package for DevOps Center"
+  },
+  {
+    "id": "so_disablemanageidconfapi",
+    "name": "DisableManageIdConfAPI",
+    "summary": "Limits access to the LoginIP and ClientBrowser API objects to allow view or delete only.",
+    "description": ""
+  },
+  {
+    "id": "so_disclosureframework",
+    "name": "DisclosureFramework",
+    "summary": "Provides the permission set licenses and permission sets required to configure Disclosure and Compliance Hub.",
+    "description": "Add these options to your scratch org definition file:For configuration steps, see Disclosure and Compliance Hub in the Set Up and Maintain Net Zero Cloud guide in Salesforce Help."
+  },
+  {
+    "id": "so_division",
+    "name": "Division",
+    "summary": "Turns on the Manage Divisions feature under Company Settings. Divisions let you segment your organization's data into logical sections, making searches, reports, and list views more meaningful to users. Divisions are useful for organizations with extremely large amounts of data.",
+    "description": ""
+  },
+  {
+    "id": "so_docgen",
+    "name": "DocGen",
+    "summary": "Enables the Document Generation Feature in the Org.",
+    "description": ""
+  },
+  {
+    "id": "so_docgendesigner",
+    "name": "DocGenDesigner",
+    "summary": "Enables the designers to create and configure document templates.",
+    "description": ""
+  },
+  {
+    "id": "so_docgenind",
+    "name": "DocGenInd",
+    "summary": "Enables the Industry Document Generation features in the org.",
+    "description": ""
+  },
+  {
+    "id": "so_documentchecklist",
+    "name": "DocumentChecklist",
+    "summary": "Enables Document Tracking and Approval features, and adds the Document Checklist permission set. Document tracking features let you define documents to upload and approve, which supports processes like loan applications or action plans.",
+    "description": "See Enable Document Tracking and Approvals in the Financial Services Cloud Administrator Guide for more information."
+  },
+  {
+    "id": "so_documentreaderpagelimit",
+    "name": "DocumentReaderPageLimit",
+    "summary": "Limits the number of pages sent for data extraction to 5.",
+    "description": "See Intelligent Form Reader in Salesforce Help for more information."
+  },
+  {
+    "id": "so_dsarportability",
+    "name": "DSARPortability",
+    "summary": "Enables an org to access the DSARPortability feature in Privacy Center. Also, provides one seat each of the PrivacyCenter and PrivacyCenterAddOn licenses.",
+    "description": "See Portability in the Salesforce REST API Developer Guide for more information."
+  },
+  {
+    "id": "so_durableclassicstreamingapi",
+    "name": "DurableClassicStreamingAPI",
+    "summary": "Enables Durable PushTopic Streaming API for API version 37.0 and later.",
+    "description": "Available in Enterprise and Developer Edition scratch orgs."
+  },
+  {
+    "id": "so_durablegenericstreamingapi",
+    "name": "DurableGenericStreamingAPI",
+    "summary": "Enables Durable Generic Streaming API for API version 37.0 and later.",
+    "description": "Available in Enterprise and Developer Edition scratch orgs."
+  },
+  {
+    "id": "so_dynamicclientcreationlimit",
+    "name": "DynamicClientCreationLimit",
+    "summary": "Allows the org to register up to 100 OAuth 2.0 connected apps through the dynamic client registration endpoint.",
+    "description": ""
+  },
+  {
+    "id": "so_eandudigitalsales",
+    "name": "EAndUDigitalSales",
+    "summary": "Enables the Energy and Utilities Digital Sales feature in the org.",
+    "description": ""
+  },
+  {
+    "id": "so_eanduselfserviceportal",
+    "name": "EAndUSelfServicePortal",
+    "summary": "Enables the Self Service Portal features for Digital Experience users in the org.",
+    "description": ""
+  },
+  {
+    "id": "so_eaoutputconnectors",
+    "name": "EAOutputConnectors",
+    "summary": "Enable CRM Analytics Output Connectors.",
+    "description": "This scratch org requires the Dev Hub to have the EAOutputConnectors permission. See Salesforce Output Connection in Salesforce Help for more details."
+  },
+  {
+    "id": "so_easyncout",
+    "name": "EASyncOut",
+    "summary": "Enable CRM Analytics SyncOut.",
+    "description": "This scratch org requires the Dev Hub to have the EASyncOut permission. See Sync Out for Snowflake in Salesforce Help for more details."
+  },
+  {
+    "id": "so_edpredictionm3threshold",
+    "name": "EdPredictionM3Threshold",
+    "summary": "Sets the number of records in the payload to 10, after which the Einstein Discovery prediction service uses M3.",
+    "description": ""
+  },
+  {
+    "id": "so_edpredictiontimeout",
+    "name": "EdPredictionTimeout",
+    "summary": "Sets the maximum duration of a single Einstein Discovery prediction to 100 milliseconds.",
+    "description": ""
+  },
+  {
+    "id": "so_edpredictiontimeoutbulk",
+    "name": "EdPredictionTimeoutBulk",
+    "summary": "Sets the maximum duration of a single Einstein Discovery prediction when it runs in bulk to 10 milliseconds.",
+    "description": ""
+  },
+  {
+    "id": "so_edpredictiontimeoutbyombulk",
+    "name": "EdPredictionTimeoutByomBulk",
+    "summary": "Sets the maximum duration of a single Bring Your Own Model (BYOM) Einstein Discovery prediction to 100 milliseconds.",
+    "description": ""
+  },
+  {
+    "id": "so_educationcloud",
+    "name": "EducationCloud: <value>",
+    "summary": "Enables use of Education Cloud.",
+    "description": "Maximum: 10; Multiplier: 1Standard set up steps are required after enabling this feature. See Set Up Education Cloud in Salesforce Help for more information."
+  },
+  {
+    "id": "so_einsteingenerativeai",
+    "name": "Einstein1AIPlatform",
+    "summary": "Provides access to Einstein generative AI features such as Agentforce, Prompt Builder, Model Builder, and the Models API. To use generative AI features, you must also include einsteinGptSettings > enableEinsteinGptPlatform in the settings section of your scratch org definition file.",
+    "description": "Add these options to your scratch org definition file:After you generate the scratch org, Prompt Builder isn’t available until you assign yourself the Manage Prompts permission in the scratch org.When packaging a prompt template in second-generation packages, add the EinsteinGPTPromptTemplateManager permission set to the sfdx-project.json file. See Considerations for Packaging Prompt Templates in Salesforce Help for details.Available in Developer and Enterprise Edition scratch orgs. Requires configuration using the Setup menu in the scratch org. Many generative AI features also require a Data Cloud license.See Einstein Generative AI in Salesforce Help for more information."
+  },
+  {
+    "id": "so_einsteinanalyticsplus",
+    "name": "EinsteinAnalyticsPlus",
+    "summary": "Provides one CRM Analytics Plus license for the CRM Analytics platform.",
+    "description": ""
+  },
+  {
+    "id": "so_einsteinarticlerecommendations",
+    "name": "EinsteinArticleRecommendations",
+    "summary": "Provides licenses for Einstein Article Recommendations. Einstein Article Recommendations uses data from past cases to identify Knowledge articles that are most likely to help your customer service agents address customer inquiries.",
+    "description": "Available in Enterprise Edition scratch orgs. Requires configuration using the Setup menu in the scratch org.See Set Up Einstein Article Recommendations in Salesforce Help for more information."
+  },
+  {
+    "id": "so_einsteinbuilderfree",
+    "name": "EinsteinBuilderFree",
+    "summary": "Provides a license that allows admins to create one enabled prediction with Einstein Prediction Builder. Einstein Prediction Builder is custom AI for admins",
+    "description": "For configuration steps, see Einstein Prediction Builder in Salesforce Help."
+  },
+  {
+    "id": "so_einsteindocreader",
+    "name": "EinsteinDocReader",
+    "summary": "Provides the license required to enable and use Intelligent Form Reader in a scratch org. Intelligent Form Reader uses optical character recognition to automatically extract data with Amazon Textract.",
+    "description": "To use this scratch org feature, the Dev Hub org requires the EinsteinDocReader and SalesforceManagedIFR permissions. For information about Intelligent Form Reader, see Intelligent Form Reader in Salesforce Help."
+  },
+  {
+    "id": "so_einsteinrecommendationbuilder",
+    "name": "EinsteinRecommendationBuilder",
+    "summary": "Provides a license to create recommendations with Einstein Recommendation Builder. Einstein Recommendation Builder lets you build custom AI recommendations.",
+    "description": "Enabled in Developer and Enterprise Editions. Requires configuration using the Setup menu in the scratch org. You also need the EinsteinRecommendationBuilderMetadata feature to use Einstein Recommendation Builder in scratch org."
+  },
+  {
+    "id": "so_einsteinsalesrepfdbk",
+    "name": "EinsteinSalesRepFdbk",
+    "summary": "Enables the Agentforce Sales Coach feature in an org. This scratch org feature also includes a large number of Einstein for Sales Generative AI features.",
+    "description": "The EinsteinSalesRepFdbk scratch org feature enables Agentforce for Sales standard actions, such as Create Close Plan, Get Product Pricing, Meeting Follow-Up Email, Send Meeting Request, Identify Contact Role, Identify Key Contacts, Find Similar Opportunities, Review My Day, and Find Contact Interactions. It also enables Einstein Generative AI features, such as Sales Call Summaries, Call Explorer, Generative Conversation Insights, and Automatic Contact Enhancement."
+  },
+  {
+    "id": "so_einsteinsearch",
+    "name": "EinsteinSearch",
+    "summary": "Provides the license required to use and enable Einstein Search features in a scratch org.",
+    "description": "Available in Professional and Enterprise Edition scratch orgs. Requires configuration using the Setup menu in the scratch org."
+  },
+  {
+    "id": "so_einsteinvisits",
+    "name": "EinsteinVisits",
+    "summary": "Enables Consumer Goods Cloud. With Consumer Goods cloud, transform the way you collaborate with your retail channel partners. Empower your sales managers to plan visits and analyze your business’s health across stores. Also, allow your field reps to track inventory, take orders, and capture visit details using the Retail Execution mobile app.",
+    "description": ""
+  },
+  {
+    "id": "so_einsteinvisitsed",
+    "name": "EinsteinVisitsED",
+    "summary": "Enables Einstein Discovery, which can be used to get store visit recommendations. With Einstein Visits ED, you can create a visit frequency strategy that allows Einstein to provide optimal store visit recommendations.",
+    "description": "See Create a Visit Frequency Next Best Action Strategy in Salesforce Help."
+  },
+  {
+    "id": "so_embeddedloginforie",
+    "name": "EmbeddedLoginForIE",
+    "summary": "Provides JavaScript files that support Embedded Login in IE11.",
+    "description": ""
+  },
+  {
+    "id": "so_emppublishratelimit",
+    "name": "EmpPublishRateLimit:<value>",
+    "summary": "Increases the maximum number of standard-volume platform event notifications published per hour. Indicate a value between 1,000–10,000.",
+    "description": "1,000–10,000, Multiplier: 1"
+  },
+  {
+    "id": "so_enableprm",
+    "name": "EnablePRM",
+    "summary": "Enables the partner relationship management permissions for the org.",
+    "description": ""
+  },
+  {
+    "id": "so_enablemanageidconfui",
+    "name": "EnableManageIdConfUI",
+    "summary": "Enables access to the LoginIP and ClientBrowser API objects to verify a user's identity in the UI.",
+    "description": ""
+  },
+  {
+    "id": "so_enablement",
+    "name": "Enablement",
+    "summary": "Enables features for creating, taking, and tracking sales programs with Enablement. Business operations experts and sales leaders identify the revenue outcomes they want sales reps to achieve, such as increased average deal sizes or shorter ramp times. Then, they create programs that help sales reps work towards those outcomes as part of their daily work.",
+    "description": "See Sales Programs and Partner Tracks with Enablement in Salesforce Help and see the Sales Programs and Partner Tracks with Enablement Developer Guide for more information."
+  },
+  {
+    "id": "so_enablesetpasswordinapi",
+    "name": "EnableSetPasswordInApi",
+    "summary": "Enables you to use sf org generate password to change a password without providing the old password.",
+    "description": ""
+  },
+  {
+    "id": "so_encryptionstatisticsinterval",
+    "name": "EncryptionStatisticsInterval:<value>",
+    "summary": "Defines the interval (in seconds) between encryption statistics gathering processes. The maximum value is 604,800 seconds (7 days). The default is once per 86,400 seconds (24 hours).",
+    "description": "0–60,4800, Multiplier: 1Requires enabling PlatformEncryption and some configuration using the Setup menu in the scratch org. See Which User Permissions Does Shield Platform Encryption Require?, and Generate a Tenant Secret with Salesforce in Salesforce Help."
+  },
+  {
+    "id": "so_encryptionsyncinterval",
+    "name": "EncryptionSyncInterval:<value>",
+    "summary": "Defines how frequently (in seconds) the org can synchronize data with the active key material. The default and maximum value is 604,800 seconds (7 days). To synchronize data more frequently, indicate a value, in seconds, equal to or larger than 0.",
+    "description": "0–604,800, Multiplier: 1Requires enabling PlatformEncryption and some configuration using the Setup menu in the scratch org. See Which User Permissions Does Shield Platform Encryption Require?, and Generate a Tenant Secret with Salesforce in Salesforce Help."
+  },
+  {
+    "id": "so_energyandutilitiescloud",
+    "name": "EnergyAndUtilitiesCloud",
+    "summary": "Enables the Energy and Utilities Cloud features in the org.",
+    "description": ""
+  },
+  {
+    "id": "so_entitlements",
+    "name": "Entitlements",
+    "summary": "Enables entitlements. Entitlements are units of customer support in Salesforce, such as phone support or web support that represent terms in service agreements.",
+    "description": ""
+  },
+  {
+    "id": "so_ermanalytics",
+    "name": "ERMAnalytics",
+    "summary": "Enables the ERM Analytics org perm in your scratch org.",
+    "description": "Provides 1 seat of the ERMAnalyticsPlus add-on license."
+  },
+  {
+    "id": "so_eventlogfile",
+    "name": "EventLogFile",
+    "summary": "Enables API access to your org's event log files. The event log files contain information about your org’s operational events that you can use to analyze usage trends and user behavior.",
+    "description": ""
+  },
+  {
+    "id": "so_entitytranslation",
+    "name": "EntityTranslation",
+    "summary": "Enables translation of field data for Work Type Group, Service Territory, and Service Resource objects.",
+    "description": "To translate custom field data, also include the CustomFieldDataTranslation scratch org feature in your scratch org definition file. Not available in Professional, Partner Professional, Group, or Partner Group Edition orgs."
+  },
+  {
+    "id": "so_excludesamlsessionindex",
+    "name": "ExcludeSAMLSessionIndex",
+    "summary": "Excludes Session Index in SAML sign-on (SSO) and single logout (SLO) flows.",
+    "description": "The ExcludeSAMLSessionIndex permission is off by default for all new and existing orgs. Enable this permission when Salesforce is the identity provider and you don’t want the session index to be sent during SAML SSO. Enable this permission when Salesforce is the service provider and you don’t want the session index to be sent during SLO. To turn on this feature, contact Salesforce Customer Support."
+  },
+  {
+    "id": "so_explainability",
+    "name": "Explainability",
+    "summary": "Enables an org to use Decision Explainer features.",
+    "description": "For more information, see Decision Explainer for Expression Set in Salesforce developer documentation."
+  },
+  {
+    "id": "so_expressionsetmaxexecperhour",
+    "name": "ExpressionSetMaxExecPerHour",
+    "summary": "Enables an org to run a maximum of 500,000 expression sets per hour by using Connect REST API.",
+    "description": "For more information, see Expression Set in Salesforce developer documentation."
+  },
+  {
+    "id": "so_externalidentitylogin",
+    "name": "ExternalIdentityLogin",
+    "summary": "Allows the scratch org to use Salesforce Customer Identity features associated with your External Identity license.",
+    "description": ""
+  },
+  {
+    "id": "so_fieldaudittrail",
+    "name": "FieldAuditTrail",
+    "summary": "Enables Field Audit Trail for the org and allows a total 60 tracked fields. By default, 20 fields are tracked for all orgs, and 40 more are tracked with Field Audit Trail.",
+    "description": "Previous name: RetainFieldHistory"
+  },
+  {
+    "id": "so_fieldservice",
+    "name": "FieldService:<value>",
+    "summary": "Provides the Field Service license. Indicate a value between 1–25.",
+    "description": "1–25, Multiplier: 1Available in Enterprise Edition. Enabled by default in Developer Edition. See Enable Field Service in Salesforce Help for more information."
+  },
+  {
+    "id": "so_fieldserviceappointmentassistantuser",
+    "name": "FieldServiceAppointmentAssistantUser:<value>",
+    "summary": "Adds the Field Service Appointment Assistant permission set license. Indicate a value between 1–25.",
+    "description": "1–25, Multiplier: 1See Setup Field Service Appointment Assistant and Assign Field Service Permissions in Salesforce Help for more information."
+  },
+  {
+    "id": "so_fieldservicedispatcheruser",
+    "name": "FieldServiceDispatcherUser:<value>",
+    "summary": "Adds the Field Service Dispatcher permission set license. Indicate a value between 1–25.",
+    "description": "1–25, Multiplier: 1See Assign Field Service Permissions in Salesforce Help for more information."
+  },
+  {
+    "id": "so_fieldservicelastmileuser",
+    "name": "FieldServiceLastMileUser:<value>",
+    "summary": "Adds the Field Service Last Mile permission set license. Indicate a value between 1–25.",
+    "description": "1–25, Multiplier: 1"
+  },
+  {
+    "id": "so_fieldservicemobileextension",
+    "name": "FieldServiceMobileExtension",
+    "summary": "Adds the Field Service Mobile Extension permission set license.",
+    "description": ""
+  },
+  {
+    "id": "so_fieldservicemobileuser",
+    "name": "FieldServiceMobileUser:<value>",
+    "summary": "Adds the Field Service Mobile permission set license. Indicate a value between 1–25.",
+    "description": "1–25, Multiplier: 1See Assign Field Service Permissions in Salesforce Help for more information."
+  },
+  {
+    "id": "so_fieldserviceschedulinguser",
+    "name": "FieldServiceSchedulingUser:<value>",
+    "summary": "Adds the Field Service Scheduling permission set license. Indicate a value between 1–25.",
+    "description": "1–25, Multiplier: 1See Assign Field Service Permissions in Salesforce Help for more information."
+  },
+  {
+    "id": "so_financelogging",
+    "name": "FinanceLogging",
+    "summary": "Adds Finance Logging objects to a scratch org. This feature is required for Finance Logging.",
+    "description": ""
+  },
+  {
+    "id": "so_financialservicescommunityuser",
+    "name": "FinancialServicesCommunityUser:<value>",
+    "summary": "Adds the Financial Services Insurance Community permission set license, and enables access to Financial Services insurance community components and objects. Indicate a value between 1–10.",
+    "description": "1–10, Multiplier: 1"
+  },
+  {
+    "id": "so_financialservicesinsuranceuser",
+    "name": "FinancialServicesInsuranceUser",
+    "summary": "Adds the Financial Services Insurance permission set license, and enables access to Financial Services insurance components and objects.",
+    "description": "See Get Started with Financial Services Cloud for Insurance in Salesforce Help."
+  },
+  {
+    "id": "so_financialservicesuser",
+    "name": "FinancialServicesUser:<value>",
+    "summary": "Adds the Financial Services Cloud Standard permission set license. This permission set enables access to Lightning components and the standard version of Financial Services Cloud. Also provides access to the standard Salesforce objects and custom Financial Services Cloud objects. Indicate a value between 1–10.",
+    "description": "1–10, Multiplier: 1"
+  },
+  {
+    "id": "so_flowsites",
+    "name": "FlowSites",
+    "summary": "Enables the use of flows in Salesforce Sites and customer portals.",
+    "description": ""
+  },
+  {
+    "id": "so_forcecomplatform",
+    "name": "ForceComPlatform",
+    "summary": "Adds one Salesforce Platform user license.",
+    "description": ""
+  },
+  {
+    "id": "so_forecastenablecustomfield",
+    "name": "ForecastEnableCustomField",
+    "summary": "Enables custom currency and customer number fields for use as measures in forecasts based on opportunities.",
+    "description": "Available in Enterprise Edition and Unlimited Edition scratch orgs, and requires enabling Salesforce Forecasting in Setup. See Salesforce Forecasting in Salesforce Help for more information."
+  },
+  {
+    "id": "so_fscalertframework",
+    "name": "FSCAlertFramework",
+    "summary": "Makes Financial Services Cloud Record Alert entities accessible in the scratch org.",
+    "description": "Provides 11 seats of the FSCComprehensivePsl user license and 11 seats of the FSCComprehensiveAddOn add-on license.Requires that you install Financial Services Cloud and OmniStudio. See Record Alerts in Financial Services Cloud Administrator Guide."
+  },
+  {
+    "id": "so_fscserviceprocess",
+    "name": "FSCServiceProcess",
+    "summary": "Enables the Service Process Studio feature of Financial Service Cloud. Provides 10 seats each of the IndustriesServiceExcellenceAddOn and FinancialServicesCloudStardardAddOn licenses. To enable the feature, you must also turn on the StandardServiceProcess setting in Setup and grant users the AccessToServiceProcess permission.",
+    "description": ""
+  },
+  {
+    "id": "so_fundraising",
+    "name": "Fundraising",
+    "summary": "Gives users access to Nonprofit Cloud for Fundraising features and objects in Salesforce.",
+    "description": "See Nonprofit Cloud for Fundraising in Salesforce Help for more information. To enable Fundraising, add these settings to your scratch org definition file.The Fundraising licenses are assigned when the Fundraising feature is enabled in the scratch org."
+  },
+  {
+    "id": "so_genericstreaming",
+    "name": "GenericStreaming",
+    "summary": "Enables Generic Streaming API for API version 36.0 and earlier.",
+    "description": "Available in Enterprise and Developer Edition scratch orgs."
+  },
+  {
+    "id": "so_genstreamingeventsperday",
+    "name": "GenStreamingEventsPerDay:<value>",
+    "summary": "Increases the maximum number of delivered event notifications within a 24-hour period, shared by all CometD clients, with generic streaming for API version 36.0 and earlier. Indicate a value between 10,000–50,000.",
+    "description": "10,000–50,000, Multiplier: 1"
+  },
+  {
+    "id": "so_grantmaking",
+    "name": "Grantmaking",
+    "summary": "Gives users access to Grantmaking features and objects in Salesforce and Experience Cloud.",
+    "description": "See Grantmaking in Salesforce Help for more information. To enable Grantmaking, add these settings to your scratch org definition file."
+  },
+  {
+    "id": "so_guidancehuballowed",
+    "name": "GuidanceHubAllowed",
+    "summary": "Enables the Guidance Center panel in Lightning Experience. The Guidance Center shows suggested and assigned content in the user’s flow of work. Suggested content is related to the app or page where the user is working. Assigned content includes guidance sets for Salesforce admins, links or Trailhead modules assigned to users with Learning Paths, and Enablement programs for sales reps.",
+    "description": "Not available in Group Edition scratch orgs.To use this scratch org feature, the Dev Hub org requires the GuidanceHubAllowed permission. If this permission isn't enabled in the Dev Hub, contact Salesforce Customer Support.See Guidance Center in Salesforce Help for more information."
+  },
+  {
+    "id": "so_healthcloudaddon",
+    "name": "HealthCloudAddOn",
+    "summary": "Enables use of Health Cloud.",
+    "description": "See Administer Health Cloud in Salesforce Help for more information."
+  },
+  {
+    "id": "so_healthcloudeoloverride",
+    "name": "HealthCloudEOLOverride",
+    "summary": "Salesforce retired the Health Cloud CandidatePatient object in Spring ‘22 to focus on the more robust Lead object. This scratch org feature allows you to override that retirement and access the object.",
+    "description": "To use this scratch org feature, the Dev Hub org requires the HealthCloudEOLOverride permission. See Candidate Patient Data Entity Retirement in Salesforce Help for more information."
+  },
+  {
+    "id": "so_healthcloudforcmty",
+    "name": "HealthCloudForCmty",
+    "summary": "Enables use of Health Cloud for Experience Cloud Sites.",
+    "description": "See Experience Cloud Sites in Salesforce Help for more information."
+  },
+  {
+    "id": "so_healthcloudmedicationreconciliation",
+    "name": "HealthCloudMedicationReconciliation",
+    "summary": "Allows Medication Management to support Medication Reconciliation.",
+    "description": "See Enable Medication Management to Perform Medication Reconciliation in Salesforce Help for more information."
+  },
+  {
+    "id": "so_healthcloudpnmaddon",
+    "name": "HealthCloudPNMAddOn",
+    "summary": "Enables use of Provider Network Management.",
+    "description": "See Provider Network Management in Salesforce Help for more information."
+  },
+  {
+    "id": "so_healthclouduser",
+    "name": "HealthCloudUser",
+    "summary": "This enables the scratch org to use the Health Cloud objects and features equivalent to the Health Cloud permission set license for one user.",
+    "description": "See Assign Health Cloud Permission Sets and Permission Set Licenses in Salesforce Help for more information."
+  },
+  {
+    "id": "so_highvelocitysales",
+    "name": "HighVelocitySales",
+    "summary": "Provides Sales Engagement licenses and enables Salesforce Inbox. Sales Engagement optimizes the inside sales process with a high-productivity workspace. Sales managers can create custom sales processes that guide reps through handling different types of prospects. And sales reps can rapidly handle prospects with a prioritized list and other productivity-boosting features. The Sales Engagement feature can be deployed in scratch orgs, but the settings for the feature can’t be updated through the scratch org definition file. Instead, configure settings directly in the Sales Engagement app.",
+    "description": ""
+  },
+  {
+    "id": "so_highvolumeplatformeventaddon",
+    "name": "HighVolumePlatformEventAddOn",
+    "summary": "Increases the daily delivery allocation of high-volume platform events or change data capture events by 100,000 events. This scratch org feature simulates the purchase of an add-on. If the org has the HighVolumePlatformEventAddOn, the daily allocation is flexible and isn’t enforced strictly to allow for usage peaks.",
+    "description": "See Platform Event Allocations in the Platform Events Developer Guide."
+  },
+  {
+    "id": "so_hlsanalytics",
+    "name": "HLSAnalytics",
+    "summary": "Enables the HLS Analytics org perm in scratch orgs.",
+    "description": "Provides 1 seat of the HealthCareAnalyticsPlus add-on license."
+  },
+  {
+    "id": "so_hoursbetweencoveragejob",
+    "name": "HoursBetweenCoverageJob:<value>",
+    "summary": "The frequency in hours when the sharing inheritance coverage report can be run for an object. Indicate a value between 1–24.",
+    "description": "1–24, Multiplier: 1"
+  },
+  {
+    "id": "so_identityprovisioningfeatures",
+    "name": "IdentityProvisioningFeatures",
+    "summary": "Enables use of Salesforce Identity User Provisioning.",
+    "description": ""
+  },
+  {
+    "id": "so_ignorequeryparamwhitelist",
+    "name": "IgnoreQueryParamWhitelist",
+    "summary": "Ignores allowlisting rules for query parameter filter rules. If enabled, you can add any query parameter to the URL.",
+    "description": "Where possible, we changed noninclusive terms to align with our company value of Equality. We maintained certain terms to avoid any effect on customer implementations."
+  },
+  {
+    "id": "so_industriesactionplan",
+    "name": "IndustriesActionPlan",
+    "summary": "Provides a license for Action Plans. Action Plans allow you to define the tasks or document checklist items for completing a business process.",
+    "description": "Previous name: ActionPlan. For more information and configuration steps, see Enable Actions Plans in Salesforce Help."
+  },
+  {
+    "id": "so_industriesbranchmanagement",
+    "name": "IndustriesBranchManagement",
+    "summary": "Branch Management lets branch managers and administrators track the work output of branches, employees, and customer segments in Financial Services Cloud.",
+    "description": "Provides the Branch Management add-on license and user permissions, plus 11 seats of the FSCComprehensivePsl user license and 11 seats of the FSCComprehensiveAddOn add-on license.Requires that you install Financial Services Cloud. See Branch Management in Financial Services Cloud Administrator Guide."
+  },
+  {
+    "id": "so_industriescompliantdatasharing",
+    "name": "IndustriesCompliantDataSharing",
+    "summary": "Grants users access to participant management and advanced configuration for data sharing to improve compliance with regulations and company policies.",
+    "description": "Provides 1 seat of the FinancialServicesCloudStandardAddOn add-on license.Requires that you install Financial Services Cloud. See Compliant Data Sharing in Financial Services Cloud Administrator Guide."
+  },
+  {
+    "id": "so_industriesmfgadvncdaccfrcs",
+    "name": "IndustriesMfgAdvncdAccFrcs",
+    "summary": "Enables Advanced Account Forecasting. With Advanced Account Forecasting, generate comprehensive, multi-horizon forecasts for sales, operations, inventory, service, and other aspects of your business. Tailor your forecasting configurations to your objectives to generate accurate, relevant forecasts.",
+    "description": "See Create Holistic, Multi-Enterprise Forecasts with Advanced Account Forecasting in Salesforce Help for more information."
+  },
+  {
+    "id": "so_industriesmfgpartnervisitmgmt",
+    "name": "IndustriesMfgPartnerVisitMgmt",
+    "summary": "Enables Partner Visit Management. Partner Visit Management helps sales managers in your company schedule visits to partner and distributor locations. Sales managers can use those visits to monitor performance, arrange for periodic check-ins, conduct trainings, upsell and cross-sell products, and follow up on sales agreement renewals and warranty expiration.",
+    "description": "See Partner Visit Management in Manufacturing Cloud in Salesforce Help for more information."
+  },
+  {
+    "id": "so_industriesmfgprogram",
+    "name": "IndustriesMfgProgram",
+    "summary": "Enables Program Based Business. With Program Based Business, program managers can manage the end-to-end lifecycle of a program where they derive forecasts based on their customers’ forecasts, transform these forecasts into business opportunities, and convert those opportunities into run-rate business. Program based business is common across multiple industries such as process, aerospace, defense, automotive, engineer-to-order, and make-to-order environments.",
+    "description": "See Learn About Program Based Business in Salesforce Help for more information."
+  },
+  {
+    "id": "so_industriesmfgrebates",
+    "name": "IndustriesMfgRebates",
+    "summary": "Enables Rebate Management. Manage incentive programs, track rebate attainment, automate payouts, and gain insights into sales performance and program effectiveness.",
+    "description": "See Rebate Management in Salesforce Help for more information."
+  },
+  {
+    "id": "so_industriesmanufacturing",
+    "name": "IndustriesMfgTargets",
+    "summary": "Enables Sales Agreements. With Sales Agreements, you can negotiate purchase and sale of products over a continued period. You can also get insights into products, prices, discounts, and quantities. And you can track your planned and actual quantities and revenues with real-time updates from orders and contracts.",
+    "description": "See Track Sales Compliance with Sales Agreements in Salesforce Help for more information."
+  },
+  {
+    "id": "so_industriesmanufacturingcmty",
+    "name": "IndustriesManufacturingCmty",
+    "summary": "Provides the Manufacturing Sales Agreement for the Community permission set license, which is intended for the usage of partner community users. It also provides access to the Manufacturing community template for admins users to create communities.",
+    "description": "See Improve Partner Collaboration with Communities in Salesforce Help for more information."
+  },
+  {
+    "id": "so_industriesmfgaccountforecast",
+    "name": "IndustriesMfgAccountForecast",
+    "summary": "Enables Account Forecast. With Account Forecast, you can generate forecasts for your accounts based on orders, opportunities, and sales agreements. You can also create formulas to calculate your forecasts per the requirements of your company.",
+    "description": "See Create Account Forecasts to Enhance Your Planning in Salesforce Help for more information."
+  },
+  {
+    "id": "so_insightsplatform",
+    "name": "InsightsPlatform",
+    "summary": "Enables the CRM Analytics Plus license for CRM Analytics.",
+    "description": ""
+  },
+  {
+    "id": "so_insurancecalculationuser",
+    "name": "InsuranceCalculationUser",
+    "summary": "Enables the calculation feature of Insurance. Provides 10 seats each of the BRERuntimeAddOn and OmniStudioRuntime licenses. Also, provides one seat each of the OmniStudio and BREPlatformAccess licenses.",
+    "description": ""
+  },
+  {
+    "id": "so_insuranceclaimmgmt",
+    "name": "InsuranceClaimMgmt",
+    "summary": "Enables claim management features. Provides one seat of the InsuranceClaimMgmtAddOn license.",
+    "description": "See Manage Claims in Salesforce Help for more information."
+  },
+  {
+    "id": "so_insurancepolicyadmin",
+    "name": "InsurancePolicyAdmin",
+    "summary": "Enables policy administration features. Provides one seat of the InsurancePolicyAdministrationAddOn license.",
+    "description": "See Manage Insurance Policies in Salesforce Help for more information."
+  },
+  {
+    "id": "so_intelligentdocumentreader",
+    "name": "IntelligentDocumentReader",
+    "summary": "Provides the license required to enable and use Intelligent Document Reader in a scratch org. Intelligent Document Reader uses optical character recognition to automatically extract data with Amazon Textract by using your AWS account.",
+    "description": "To use this scratch org feature, the Dev Hub org requires the EinsteinDocReader and BYOAForIFR permissions. For information about Intelligent Document Reader, see Intelligent Document Reader in Salesforce Help."
+  },
+  {
+    "id": "so_investigativecasemanagement",
+    "name": "InvestigativeCaseManagement",
+    "summary": "Enables the objects, features, and permissions for managing investigative cases, including evidence management and case proceedings, in Public Sector Solutions.",
+    "description": "To enable InvestigativeCaseManagement, add these features and settings to your scratch org definition file."
+  },
+  {
+    "id": "so_invoicemanagement",
+    "name": "InvoiceManagement",
+    "summary": "Enables access to all the Billing features and objects that are available with the Revenue Cloud Advanced license in the scratch org.",
+    "description": "To enable InvoiceManagement, add these settings to your scratch org definition file."
+  },
+  {
+    "id": "so_interaction",
+    "name": "Interaction",
+    "summary": "Enables flows. A flow is the part of Salesforce Flow that collects data and performs actions in your Salesforce org or an external system. Salesforce Flow provides two types of flows: screen flows and autolaunched flows.",
+    "description": "Requires configuration in the Setup menu of the scratch org."
+  },
+  {
+    "id": "so_iot",
+    "name": "IoT",
+    "summary": "Enables IoT so the scratch org can consume platform events to perform business and service workflows using orchestrations and contexts.",
+    "description": "Also requires Metadata API Settings in the scratch org definition file."
+  },
+  {
+    "id": "so_jigsawuser",
+    "name": "JigsawUser",
+    "summary": "Provides one license to Jigsaw features.",
+    "description": ""
+  },
+  {
+    "id": "so_knowledge",
+    "name": "Knowledge",
+    "summary": "Enables Salesforce Knowledge and gives your website visitors, clients, partners, and service agents the ultimate support tool. Create and manage a knowledge base with your company information, and securely share it when and where it's needed. Build a knowledge base of articles that can include information on process, like how to reset your product to its defaults, or frequently asked questions.",
+    "description": "See Salesforce Knowledge in Salesforce Help for more information."
+  },
+  {
+    "id": "so_legacyliveagentrouting",
+    "name": "LegacyLiveAgentRouting",
+    "summary": "Enables legacy Live Agent routing for Chat. Use Live Agent routing to chat in Salesforce Classic. Chats in Lightning Experience must be routed using Omni-Channel.",
+    "description": ""
+  },
+  {
+    "id": "so_lightningsalesconsole",
+    "name": "LightningSalesConsole",
+    "summary": "Adds one Lighting Sales Console user license.",
+    "description": ""
+  },
+  {
+    "id": "so_lightningscheduler",
+    "name": "LightningScheduler",
+    "summary": "Enables Lightning Scheduler. Lightning Scheduler gives you tools to simplify appointment scheduling in Salesforce. Create a personalized experience by scheduling customer appointments—in person, by phone, or by video—with the right person at the right place and time.",
+    "description": "See Manage Appointments with Lightning Scheduler in Salesforce Help for more information."
+  },
+  {
+    "id": "so_lightningserviceconsole",
+    "name": "LightningServiceConsole",
+    "summary": "Assigns the Lightning Service Console License to your scratch org so you can use the Lightning Service Console and access features that help manage cases faster.",
+    "description": "See Lightning Service Console in Salesforce Help for more information."
+  },
+  {
+    "id": "so_liveagent",
+    "name": "LiveAgent",
+    "summary": "Enables Chat for Service Cloud. Use web-based chat to quickly connect customers to agents for real-time support.",
+    "description": ""
+  },
+  {
+    "id": "so_livemessage",
+    "name": "LiveMessage",
+    "summary": "Enables Messaging for Service Cloud. Use Messaging to quickly support customers using apps such as SMS text messaging and Facebook Messenger.",
+    "description": ""
+  },
+  {
+    "id": "so_longlayoutsectiontitles",
+    "name": "LongLayoutSectionTitles",
+    "summary": "Allows page layout section titles to be up to 80 characters.",
+    "description": "To turn on this feature, contact Salesforce Customer Support."
+  },
+  {
+    "id": "so_loyaltyanalytics",
+    "name": "LoyaltyAnalytics",
+    "summary": "Enables Analytics for Loyalty license. The Analytics for Loyalty app gives you actionable insights into your loyalty programs.",
+    "description": "See Analytics for Loyalty in Salesforce Help for more information."
+  },
+  {
+    "id": "so_loyaltyengine",
+    "name": "LoyaltyEngine",
+    "summary": "Enables Loyalty Management Promotion Setup license. Promotion setup allows loyalty program managers to create loyalty program processes. Loyalty program processes help you decide how incoming and new Accrual and Redemption-type transactions are processed.",
+    "description": "See Create Processes with Promotion Setup in Salesforce Help for more information."
+  },
+  {
+    "id": "so_loyaltymanagementstarter",
+    "name": "LoyaltyManagementStarter",
+    "summary": "Enables the Loyalty Management - Starter license. Create loyalty programs and set up loyalty program-specific processes that allow you to recognize, rewards, and retain customers.",
+    "description": "See Loyalty Management in Salesforce Help for more information."
+  },
+  {
+    "id": "so_loyaltymaximumpartners",
+    "name": "LoyaltyMaximumPartners:<value>",
+    "summary": "Increases the number of loyalty program partners that can be associated with a loyalty program in an org where the Loyalty Management - Starter license is enabled. The default and maximum value is 1.",
+    "description": "0–1, Multiplier: 1"
+  },
+  {
+    "id": "so_loyaltymaximumprograms",
+    "name": "LoyaltyMaximumPrograms:<value>",
+    "summary": "Increases the number of loyalty programs that can be created in an org where the Loyalty Management - Starter license is enabled. The default and maximum value is 1.",
+    "description": "0–1, Multiplier: 1"
+  },
+  {
+    "id": "so_loyaltymaxorderlineperhour",
+    "name": "LoyaltyMaxOrderLinePerHour:<value>",
+    "summary": "Increases the number of order lines that can be cumulatively processed per hour by loyalty program processes. Indicate a value between 1–3,500,000.",
+    "description": "1–3,500,000, Multiplier: 1"
+  },
+  {
+    "id": "so_loyaltymaxprocexecperhour",
+    "name": "LoyaltyMaxProcExecPerHour:<value>",
+    "summary": "Increases the number of transaction journals that can be processed by loyalty program processes per hour. Indicate a value between 1–500,000.",
+    "description": "1–500,000, Multiplier: 1"
+  },
+  {
+    "id": "so_loyaltymaxtransactions",
+    "name": "LoyaltyMaxTransactions:<value>",
+    "summary": "Increases the number of Transaction Journal records that can be processed. Indicate a value between 1–50,000,000.",
+    "description": "1–50,000,000, Multiplier: 1"
+  },
+  {
+    "id": "so_loyaltymaxtrxnjournals",
+    "name": "LoyaltyMaxTrxnJournals:<value>",
+    "summary": "Increases the number of Transaction Journal records that can be stored in an org that has the Loyalty Management - Start license enabled.",
+    "description": "1–25,000,000, Multiplier: 1See Transaction Journal Limits in Salesforce Help for more information."
+  },
+  {
+    "id": "so_macros",
+    "name": "Macros",
+    "summary": "Enables macros in your scratch org. After enabling macros, add the macro browser to the Lightning Console so you can configure predefined instructions for commonly used actions and apply them to multiple posts at the same time.",
+    "description": "See Set Up and Use Macros in Salesforce Help for more information."
+  },
+  {
+    "id": "so_marketingcloud",
+    "name": "MarketingCloud",
+    "summary": "Provides licenses for Marketing Cloud Growth edition. These licenses provide access to campaigns, flows, emails, forms, landing pages, and consent management features. You can send up to 20 emails per day from a scratch org.",
+    "description": "Marketing Cloud Growth edition uses Data Cloud to store engagement events, create segments, personalize messages, process decisions in flows, and generate analytics. Salesforce ISVs that develop applications for Marketing Cloud Growth edition must have the Data Cloud Scratch Org permission enabled in their Partner Business Orgs.You can enable Data Cloud in your scratch org by creating a case with Salesforce Partner Support. Use this template as a guide when you submit your request, replacing {your_org_id_here} with the ID of your Partner Business Org:After Salesforce Partner Support completes your request, add the CustomerDataPlatform and CustomerDataPlatformLite features to your scratch org definition file."
+  },
+  {
+    "id": "so_marketinguser",
+    "name": "MarketingUser",
+    "summary": "Provides access to the Campaigns object. Without this setting, Campaigns are read-only.",
+    "description": ""
+  },
+  {
+    "id": "so_materialityassessment",
+    "name": "MaterialityAssessment",
+    "summary": "Provides the permission set licenses and permission sets required to configure materiality assessment in Net Zero Cloud.",
+    "description": "Add these options to your scratch org definition file:For configuration steps, see Configure Net Zero Cloud and Enable the Disclosure and Compliance Hub in the Set Up and Maintain Net Zero Cloud guide in Salesforce Help."
+  },
+  {
+    "id": "so_maxactivedpedefs",
+    "name": "MaxActiveDPEDefs:<value>",
+    "summary": "Increases the number of Data Processing Engine definitions that can be activated in the org. Indicate a value between 1–50.",
+    "description": "1–50, Multiplier: 1"
+  },
+  {
+    "id": "so_maxapexcodesize",
+    "name": "MaxApexCodeSize:<value>",
+    "summary": "Limits the non-test, unmanaged Apex code size (in MB). To use a value greater than the default value of 10, contact Salesforce Customer Support.",
+    "description": ""
+  },
+  {
+    "id": "so_maxaudtypecriterionperaud",
+    "name": "MaxAudTypeCriterionPerAud",
+    "summary": "Limits the number of audience type criteria available per audience. The default value is 10.",
+    "description": ""
+  },
+  {
+    "id": "so_maxcustomlabels",
+    "name": "MaxCustomLabels:<value>",
+    "summary": "Limits the number of custom labels (measured in thousands). Setting the limit to 10 enables the scratch org to have 10,000 custom labels. Indicate a value between 1–15.",
+    "description": "1–15, Multiplier: 1,000"
+  },
+  {
+    "id": "so_maxdatasetlinksperdt",
+    "name": "MaxDatasetLinksPerDT:<value>",
+    "summary": "Increases the number of dataset links that can be associated with a decision table. Indicate a value between 1–3.",
+    "description": "1–3, Multiplier: 1"
+  },
+  {
+    "id": "so_maxdatasourcesperdpe",
+    "name": "MaxDataSourcesPerDPE:<value>",
+    "summary": "Increases the number of Source Object nodes a Data Processing Engine definition can contain. Indicate a value between 1–50.",
+    "description": "1–50, Multiplier: 1"
+  },
+  {
+    "id": "so_maxdecisiontableallowed",
+    "name": "MaxDecisionTableAllowed:<value>",
+    "summary": "Increases the number of decision tables rules that can be created in the org. Indicate a value between 1–30.",
+    "description": "1–30, Multiplier: 1"
+  },
+  {
+    "id": "so_maxfavoritesallowed",
+    "name": "MaxFavoritesAllowed:<value>",
+    "summary": "Increases the number of Favorites allowed. Favorites allow users to create a shortcut to a Salesforce Page. Users can view their Favorites by clicking the Favorites list dropdown in the header. Indicate a value between 0–200.",
+    "description": "0–200, Multiplier: 1"
+  },
+  {
+    "id": "so_maxfieldspernode",
+    "name": "MaxFieldsPerNode:<value>",
+    "summary": "Increases the number of fields a node in a Data Processing Engine definition can contain. Indicate a value between 1–500.",
+    "description": "1–500, Multiplier: 1"
+  },
+  {
+    "id": "so_maxinputcolumnsperdt",
+    "name": "MaxInputColumnsPerDT:<value>",
+    "summary": "Increases the number of input fields a decision table can contain. Indicate a value between 1–10.",
+    "description": "1–10, Multiplier: 1"
+  },
+  {
+    "id": "so_maxloyaltyprocessrules",
+    "name": "MaxLoyaltyProcessRules:<value>",
+    "summary": "Increases the number of loyalty program process rules that can be created in the org. Indicate a value between 1–20.",
+    "description": "1–20, Multiplier: 1"
+  },
+  {
+    "id": "so_maxnodesperdpe",
+    "name": "MaxNodesPerDPE:<value>",
+    "summary": "Increases the number of nodes that a Data Processing Engine definition can contain. Indicate a value between 1–500.",
+    "description": "1–500, Multiplier: 1"
+  },
+  {
+    "id": "so_maxnooflexthemesallowed",
+    "name": "MaxNoOfLexThemesAllowed:<value>",
+    "summary": "Increases the number of Themes allowed. Themes allow users to configure colors, fonts, images, sizes, and more. Access the list of Themes in Setup, under Themes and Branding. Indicate a value between 0–300.",
+    "description": "0–300, Multiplier: 1"
+  },
+  {
+    "id": "so_maxoutputcolumnsperdt",
+    "name": "MaxOutputColumnsPerDT:<value>",
+    "summary": "Increases the number of output fields a decision table can contain. Indicate a value between 1–5.",
+    "description": "1–5, Multiplier: 1"
+  },
+  {
+    "id": "so_maxsourceobjectperdsl",
+    "name": "MaxSourceObjectPerDSL:<value>",
+    "summary": "Increases the number of source objects that can be selected in a dataset link of a decision table. Indicate a value between 1–5.",
+    "description": "1–5, Multiplier: 1"
+  },
+  {
+    "id": "so_maxstreamingtopics",
+    "name": "MaxStreamingTopics:<value>",
+    "summary": "Increases the maximum number of delivered PushTopic event notifications within a 24-hour period, shared by all CometD clients. Indicate a value between 40–100.",
+    "description": "40–100, Multiplier: 1"
+  },
+  {
+    "id": "so_maxusernavitemsallowed",
+    "name": "MaxUserNavItemsAllowed:<value>",
+    "summary": "Increases the number of navigation items a user can add to the navigation bar. Indicate a value between 0–500.",
+    "description": "0–500, Multiplier: 1"
+  },
+  {
+    "id": "so_maxuserstreamingchannels",
+    "name": "MaxUserStreamingChannels:<value>",
+    "summary": "Increases the maximum number of user-defined channels for generic streaming. Indicate a value between 20–1,000.",
+    "description": "20–1,000, Multiplier: 1"
+  },
+  {
+    "id": "so_maxwishlistsitemsperwishlist",
+    "name": "MaxWishlistsItemsPerWishlist",
+    "summary": "Limits the number of wishlist items per wishlist. The default value is 500.",
+    "description": "For more information, see Salesforce Help at Salesforce B2B Commerce and D2C Commerce"
+  },
+  {
+    "id": "so_maxwishlistsperstoreaccusr",
+    "name": "MaxWishlistsPerStoreAccUsr",
+    "summary": "Limits the number of wishlists allowed per store, account, and user. The default value is 100.",
+    "description": "For example, if User1 is associated with Store1 and Store2, and has access to Account1 and Account2, then the wishlist limit is the same for the combinations of User1 with Store1 and Account1, User1 with Store2 and Account2, and User1 with Store1 and Account2.For more information, see Salesforce Help at Salesforce B2B Commerce and D2C Commerce."
+  },
+  {
+    "id": "so_maxwritebacksperdpe",
+    "name": "MaxWritebacksPerDPE:<value>",
+    "summary": "Increases the number of Writeback Object nodes a Data Processing Engine definition can contain. Indicate a value between 1–50.",
+    "description": "1–10, Multiplier: 1"
+  },
+  {
+    "id": "so_medvisdescriptorlimit",
+    "name": "MedVisDescriptorLimit:<value>",
+    "summary": "Increases the number of sharing definitions allowed per record for sharing inheritance to be applied to an object. Indicate a value between 150–1,600.",
+    "description": "150–1,600, Multiplier: 1"
+  },
+  {
+    "id": "so_minkeyrotationinterval",
+    "name": "MinKeyRotationInterval",
+    "summary": "Sets the encryption key material rotation interval at once per 60 seconds. If this feature isn't specified, the rotation interval defaults to once per 604,800 seconds (7 days) for Search Index key material, and once per 86,400 seconds (24 hours) for all other key material.",
+    "description": "Requires enabling PlatformEncryption and some configuration using the Setup menu in the scratch org. See Which User Permissions Does Shield Platform Encryption Require? and Generate a Tenant Secret with Salesforce in Salesforce Help."
+  },
+  {
+    "id": "so_mobileextmaxfilesizemb",
+    "name": "MobileExtMaxFileSizeMB:<value>",
+    "summary": "Increases the file size (in megabytes) for Field Service Mobile extensions. Indicate a value between 1–2,000.",
+    "description": "1–2,000, Multiplier: 1"
+  },
+  {
+    "id": "so_mobilesecurity",
+    "name": "MobileSecurity",
+    "summary": "Enables Enhanced Mobile Security. With Enhanced Mobile Security, you can control a range of policies to create a security solution tailored to your org’s needs. You can limit user access based on operating system versions, app versions, and device and network security. You can also specify the severity of a violation.",
+    "description": ""
+  },
+  {
+    "id": "so_mobilevoiceandllm",
+    "name": "MobileVoiceAndLLM",
+    "summary": "Allows mobile apps to download large language models (LLMs) and voice models for offline use from the model store service. Normally, mobile apps have access to the model store service when Einstein is enabled, but the MobileVoiceAndLLM scratch org feature enables offline voice without requiring orgs to fully enable Einstein.",
+    "description": "This sample scratch org definition file enables MobileVoiceAndLLM. Additionally, the sample scratch org definition configures lightningExperienceSettings and mobileSettings."
+  },
+  {
+    "id": "so_multilevelmasterdetail",
+    "name": "MultiLevelMasterDetail",
+    "summary": "Allows the creation a special type of parent-child relationship between one object, the child, or detail, and another object, the parent, or master.",
+    "description": ""
+  },
+  {
+    "id": "so_mutualauthentication",
+    "name": "MutualAuthentication",
+    "summary": "Requires client certificates to verify inbound requests for mutual authentication.",
+    "description": ""
+  },
+  {
+    "id": "so_mytrailhead",
+    "name": "MyTrailhead",
+    "summary": "Enables access to a myTrailhead enablement site in a scratch org.",
+    "description": "Add these options to your scratch org definition file:Salesforce Help: Enablement Sites (myTrailhead)"
+  },
+  {
+    "id": "so_nonprofitcloudcasemanagementuser",
+    "name": "NonprofitCloudCaseManagementUser",
+    "summary": "Provides the permission set license required to use and configure the Salesforce.org Nonprofit Cloud Case Management managed package. You can then install the package in the scratch org.",
+    "description": "For installation and configuration steps, see Salesforce.org Nonprofit Cloud Case Management."
+  },
+  {
+    "id": "so_numplatformevents",
+    "name": "NumPlatformEvents:<value>",
+    "summary": "Increases the maximum number of platform event definitions that can be created. Indicate a value between 5–20.",
+    "description": "5–20, Multiplier: 1"
+  },
+  {
+    "id": "so_objectlinking",
+    "name": "ObjectLinking",
+    "summary": "Create rules to quickly link channel interactions to objects such as contacts, leads, or person accounts for customers (Beta).",
+    "description": ""
+  },
+  {
+    "id": "so_omnistudiometadata",
+    "name": "OmnistudioMetadata",
+    "summary": "Enables Omnistudio metadata API. Using this API, customers can deploy and retrieve Omnistudio components programmatically.",
+    "description": "For more information, see Enable OmniStudio Metadata API Support."
+  },
+  {
+    "id": "so_omnistudioruntime",
+    "name": "OmnistudioRuntime",
+    "summary": "Enables business users to execute OmniScripts, DataMappers, FlexCards, and so on in the employee facing applications.",
+    "description": ""
+  },
+  {
+    "id": "so_omnistudiodesigner",
+    "name": "OmnistudioDesigner",
+    "summary": "Enables administrator or developer to create new OmniScripts/ DataMappers / Integration Procedures instances.",
+    "description": ""
+  },
+  {
+    "id": "so_ordermanagement",
+    "name": "OrderManagement",
+    "summary": "Provides the Salesforce Order Management license. Order Management is your central hub for handling all aspects of the order lifecycle, including order capture, fulfillment, shipping, payment processing, and servicing.",
+    "description": "Available in Enterprise and Developer Edition scratch orgs.If you want to configure Order Management to use any of these features, enable it in your scratch org:Requires configuration using the Setup menu in the scratch org. For installation and configuration steps, see Salesforce Help: Salesforce Order Management.The implementation process includes turning on several Order and Order Management feature toggles in Setup. In a scratch org, you can turn them on by including metadata settings in your scratch org definition file. For details about these settings, see OrderSettings and OrderManagementSettings in the Metadata API Developer Guide."
+  },
+  {
+    "id": "so_ordersavelogicenabled",
+    "name": "OrderSaveLogicEnabled",
+    "summary": "Enables scratch org support for New Order Save Behavior. OrderSaveLogicEnabled supports only New Order Save Behavior. If your scratch org needs both Old and New Order Save Behavior, use OrderSaveBehaviorBoth.",
+    "description": "To enable OrderSaveLogicEnabled, update your scratch org definitions file."
+  },
+  {
+    "id": "so_ordersavebehaviorboth",
+    "name": "OrderSaveBehaviorBoth",
+    "summary": "Enables scratch org support for both New Order Save Behavior and Old Order Save Behavior.",
+    "description": "To enable OrderSaveLogicEnabled, update your scratch org definitions file."
+  },
+  {
+    "id": "so_outboundmessagehttpsession",
+    "name": "OutboundMessageHTTPSession",
+    "summary": "Enables using HTTP endpoint URLs in outbound message definitions that have the Send Session ID option selected.",
+    "description": ""
+  },
+  {
+    "id": "so_outcome_management",
+    "name": "OutcomeManagement",
+    "summary": "Gives users access to Outcome Management features and objects in Salesforce and Experience Cloud.",
+    "description": "See Outcome Management in Salesforce Help for more information. To enable Outcome Management, add these settings to your scratch org definition file."
+  },
+  {
+    "id": "so_pardotscfeaturescampaigninfluence",
+    "name": "PardotScFeaturesCampaignInfluence",
+    "summary": "Enables additional campaign influence models, first touch, last touch, and even distribution for Pardot users.",
+    "description": ""
+  },
+  {
+    "id": "so_personaccounts",
+    "name": "PersonAccounts",
+    "summary": "Enables person accounts in your scratch org.",
+    "description": "Available in Enterprise and Developer Edition scratch orgs."
+  },
+  {
+    "id": "so_pipelineinspection",
+    "name": "PipelineInspection",
+    "summary": "Enables Pipeline Inspection. Pipeline Inspection is a consolidated pipeline view with metrics, opportunities, and highlights of recent changes.",
+    "description": "Available in Enterprise Edition scratch orgs. To enable Pipeline Inspection in your scratch org, add this setting in your scratch org definition file."
+  },
+  {
+    "id": "so_platformcache",
+    "name": "PlatformCache",
+    "summary": "Enables Platform Cache and allocates a 3 MB cache. The Lightning Platform Cache layer provides faster performance and better reliability when caching Salesforce session and org data.",
+    "description": "See Platform Cache in the Apex Developer Guide for more information."
+  },
+  {
+    "id": "so_platformconnect",
+    "name": "PlatformConnect:<value>",
+    "summary": "Enables Salesforce Connect and allows your users to view, search, and modify data that's stored outside your Salesforce org. Indicate a value from 1–5.",
+    "description": "1–5, Multiplier: 1"
+  },
+  {
+    "id": "so_platformencryption",
+    "name": "PlatformEncryption",
+    "summary": "Shield Platform Encryption encrypts data at rest. You can manage key material and encrypt fields, files, and other data.",
+    "description": ""
+  },
+  {
+    "id": "so_platformeventsperday",
+    "name": "PlatformEventsPerDay:<value>",
+    "summary": "Increases the maximum number of delivered standard-volume platform event notifications within a 24-hour period, shared by all CometD clients. Indicate a value between 10,000–50,000.",
+    "description": "10,000–50,000, Multiplier: 1"
+  },
+  {
+    "id": "so_processbuilder",
+    "name": "ProcessBuilder",
+    "summary": "Enables Process Builder, a Salesforce Flow tool that helps you automate your business processes.",
+    "description": "Requires configuration in the Setup menu of the scratch org.See Process Builder in Salesforce Help for more information."
+  },
+  {
+    "id": "so_productsandschedules",
+    "name": "ProductsAndSchedules",
+    "summary": "Enables product schedules in your scratch org. Enabling this feature lets you create default product schedules on products. Users can also create schedules for individual products on opportunities.",
+    "description": ""
+  },
+  {
+    "id": "so_productcatalogmanagementaddon",
+    "name": "ProductCatalogManagementAddOn",
+    "summary": "Enables read-write access to Product Catalog Management features and objects.",
+    "description": "Available in Developer and Enterprise scratch org editions. Provides 1 Product Catalog Management add-on license."
+  },
+  {
+    "id": "so_productcatalogmanagementvieweraddon",
+    "name": "ProductCatalogManagementViewerAddOn",
+    "summary": "Enables read access to Product Catalog Management features and objects.",
+    "description": "Available in Developer and Enterprise scratch org editions. Provides 1 Product Catalog Management Viewer add-on license."
+  },
+  {
+    "id": "so_productcatalogmanagementpcaddon",
+    "name": "ProductCatalogManagementPCAddOn",
+    "summary": "Enables read access to Product Catalog Management features and objects for Partner Community Users in scratch orgs.",
+    "description": ""
+  },
+  {
+    "id": "so_programmanagement",
+    "name": "ProgramManagement",
+    "summary": "Enables access to all Program Management and Case Management features and objects.",
+    "description": "To enable ProgramManagement, add these settings to your scratch org definition file.Alternatively, enable the settings in the org manually. See Enable Program Management in Salesforce Help."
+  },
+  {
+    "id": "so_providerfreeplatformcache",
+    "name": "ProviderFreePlatformCache",
+    "summary": "Provides 3 MB of free Platform Cache capacity for security-reviewed managed packages. This feature is made available through a capacity type called Provider Free capacity and is automatically enabled in Developer Edition orgs. Allocate the Provider Free capacity to a Platform Cache partition and add it to your managed package.",
+    "description": "See Set Up a Platform Cache Partition with Provider Free Capacity in Salesforce Help for more information."
+  },
+  {
+    "id": "so_providermanagement",
+    "name": "ProviderManagement",
+    "summary": "Enables the objects, features, and permissions for managing provider networks, care plans, and service delivery in Public Sector Solutions.",
+    "description": "To enable ProviderManagement, add these features and settings to your scratch org definition file."
+  },
+  {
+    "id": "so_assetmanagement",
+    "name": "PSSAssetManagement",
+    "summary": "Enables the objects, features, and permissions for managing assets in Public Sector Solutions.",
+    "description": "To enable PSSAssetManagement, add these features and settings to your scratch org definition file."
+  },
+  {
+    "id": "so_publicsectoraccess",
+    "name": "PublicSectorAccess",
+    "summary": "Enables access to all Public Sector features and objects.",
+    "description": ""
+  },
+  {
+    "id": "so_applicationusagecredits",
+    "name": "PublicSectorApplicationUsageCreditsAddOn",
+    "summary": "Enables additional usage of Public Sector applications based on their pricing.",
+    "description": ""
+  },
+  {
+    "id": "so_psssitetemplate",
+    "name": "PublicSectorSiteTemplate",
+    "summary": "Allows Public Sector users access to build an Experience Cloud site from the templates available.",
+    "description": ""
+  },
+  {
+    "id": "so_ratemanagement",
+    "name": "RateManagement",
+    "summary": "Enables Rate Management that allows you to set, manage, and optimize rates for usage-based products.",
+    "description": "See Configure Rate Pricing Calculations in Revenue Cloud in Salesforce Help for more information."
+  },
+  {
+    "id": "so_recordtypes",
+    "name": "RecordTypes",
+    "summary": "Enables Record Type functionality. Record Types let you offer different business processes, picklist values, and page layouts to different users.",
+    "description": ""
+  },
+  {
+    "id": "so_refreshoninvalidsession",
+    "name": "RefreshOnInvalidSession",
+    "summary": "Enables automatic refreshes of Lightning pages when the user's session is invalid. If, however, the page detects a new token, it tries to set that token and continue without a refresh.",
+    "description": ""
+  },
+  {
+    "id": "so_revsubscriptionmanagement",
+    "name": "RevSubscriptionManagement",
+    "summary": "Enables Subscription Management. Subscription Management is an API-first, product-to-cash solution for B2B subscriptions and one-time sales.",
+    "description": "Available in Enterprise and Developer scratch orgs. To enable Subscription Management in your scratch org, add this setting in your scratch org definition file.For more information about Subscription Management, see https://developer.salesforce.com/docs/revenue/subscription-management/overview."
+  },
+  {
+    "id": "so_s1clientcomponentcachesize",
+    "name": "S1ClientComponentCacheSize",
+    "summary": "Allows the org to have up to 5 pages of caching for Lightning Components.",
+    "description": ""
+  },
+  {
+    "id": "so_salescloudeinstein",
+    "name": "SalesCloudEinstein",
+    "summary": "Enables Sales Cloud Einstein features and Salesforce Inbox. Sales Cloud Einstein brings AI to every step of the sales process.",
+    "description": "Available in Enterprise Edition scratch orgs.See Sales Cloud Einstein in Salesforce Help for more information."
+  },
+  {
+    "id": "so_salesforcecontentuser",
+    "name": "SalesforceContentUser",
+    "summary": "Enables access to Salesforce content features.",
+    "description": ""
+  },
+  {
+    "id": "so_salesforcefeedbackmanagementstarter",
+    "name": "SalesforceFeedbackManagementStarter",
+    "summary": "Provides a license to use the Salesforce Feedback Management - Starter features.",
+    "description": "Available in Enterprise and Developer edition scratch orgs. To use the Salesforce Feedback Management - Starter features, enable Surveys and assign the Salesforce Advanced Features Starter user permission to the scratch org user. For additional information on how to enable Surveys and configuration steps, see Enable Surveys and Configure Survey Settings and Assign User Permissions in Salesforce Help."
+  },
+  {
+    "id": "so_salesforcehostedmcp",
+    "name": "SalesforceHostedMCP",
+    "summary": "Enables hosted MCP servers on the scratch org. With this scratch org feature parameter, MCP clients can connect to available hosted MCP servers.",
+    "description": "Use of Salesforce hosted MCP servers requires setup of external clients. See Salesforce Hosted MCP Severs in Salesforce Help."
+  },
+  {
+    "id": "so_salesforceidentityforcommunities",
+    "name": "SalesforceIdentityForCommunities",
+    "summary": "Adds Salesforce Identity components, including login and self-registration, to Experience Builder. This feature is required for Aura components.",
+    "description": ""
+  },
+  {
+    "id": "so_salesforcepricing",
+    "name": "SalesforcePricing",
+    "summary": "Enables Salesforce Pricing, which allows you to set, manage, and optimize prices across your entire product portfolio",
+    "description": "Provides 5 Salesforce Pricing Design Time AddOn, 5 Salesforce Pricing Run Time AddOn licenses. For more information, see Salesforce Pricing in Salesforce Help."
+  },
+  {
+    "id": "so_salesuser",
+    "name": "SalesUser",
+    "summary": "Provides a license for Sales Cloud features.",
+    "description": ""
+  },
+  {
+    "id": "so_saml20singlelogout",
+    "name": "SAML20SingleLogout",
+    "summary": "Enables usage of SAML 2.0 single logout.",
+    "description": ""
+  },
+  {
+    "id": "so_scimprotocol",
+    "name": "SCIMProtocol",
+    "summary": "Enables access support for the SCIM protocol base API.",
+    "description": ""
+  },
+  {
+    "id": "so_scvmultipartyandconsult",
+    "name": "ScvMultipartyAndConsult",
+    "summary": "Enables you to set up and test multiparty calls and consult calls for Service Cloud Voice with Partner Telephony.",
+    "description": "This feature requires that you also include the ServiceCloudVoicePartnerTelephony scratch org feature in your scratch org definition file. Available in Salesforce Enterprise, Unlimited, and Developer Editions.For setup and configuration steps, see Manage Multiparty Calls and Consult Calls in the Service Cloud Voice for Partner Telephony Developer Guide."
+  },
+  {
+    "id": "so_securityeventenabled",
+    "name": "SecurityEventEnabled",
+    "summary": "Enables access to security events in Event Monitoring.",
+    "description": ""
+  },
+  {
+    "id": "so_sentimentinsightsfeature",
+    "name": "SentimentInsightsFeature",
+    "summary": "Provides the license required to enable and use Sentiment Insights in a scratch org. Use Sentiment Insights to analyze the sentiment of your customers and get actionable insights to improve it.",
+    "description": "To use this scratch org feature, the Dev Hub org requires the IESentimentAnalysis, AwsSentimentAnalysis, BYOAForSentiment, and IESentimentAnalysisEnabled permissions. For information about Sentiment Insights, see Sentiment Insights in Salesforce Help."
+  },
+  {
+    "id": "so_servicecatalog",
+    "name": "ServiceCatalog",
+    "summary": "Enables Employee Service Catalog so you can create a catalog of products and services for your employees. It can also turn your employees' requests for these products and services into approved and documented orders.",
+    "description": "To use this scratch org feature, the Dev Hub org requires the ServiceCatalog permission. To learn more, see Employee Service Catalog."
+  },
+  {
+    "id": "so_servicecloud",
+    "name": "ServiceCloud",
+    "summary": "Assigns the Service Cloud license to your scratch org, so you can choose how your customers can reach you, such as by email, phone, social media, online communities, chat, and text.",
+    "description": ""
+  },
+  {
+    "id": "so_servicecloudvoicepartnertelephony",
+    "name": "ServiceCloudVoicePartnerTelephony",
+    "summary": "Assigns the Service Cloud Voice with Partner Telephony add-on license to your scratch org, so you can set up a Service Cloud Voice contact center that integrates with supported telephony providers. Indicate a value from 1–50.",
+    "description": "1–50, Multiplier: 1For setup and configuration steps, see Service Cloud Voice with Partner Telephony in Salesforce Help."
+  },
+  {
+    "id": "so_serviceuser",
+    "name": "ServiceUser",
+    "summary": "Adds one Service Cloud User license, and allows access to Service Cloud features.",
+    "description": ""
+  },
+  {
+    "id": "so_sessionidinlogenabled",
+    "name": "SessionIdInLogEnabled",
+    "summary": "Enables Apex debug logs to include session IDs. If disabled, session IDs are replaced with \"SESSION_ID_REMOVED\" in debug logs.",
+    "description": ""
+  },
+  {
+    "id": "so_sfdoinsightsdataintegrityuser",
+    "name": "SFDOInsightsDataIntegrityUser",
+    "summary": "Provides a license to Salesforce.org Insights Platform Data Integrity managed package. You can then install the package in the scratch org.",
+    "description": "For installation and configuration steps, see the Salesforce.org Insights Platform Data Integrity help."
+  },
+  {
+    "id": "so_sharedactivities",
+    "name": "SharedActivities",
+    "summary": "Allow users to relate multiple contacts to tasks and events.",
+    "description": "For additional installation and configuration steps, see Considerations for Enabling Shared Activities in Salesforce Help."
+  },
+  {
+    "id": "so_sites",
+    "name": "Sites",
+    "summary": "Enables Salesforce Sites, which allows you to create public websites and applications that are directly integrated with your Salesforce org. Users aren’t required to log in with a username and password.",
+    "description": "You can create sites and communities in a scratch org, but custom domains, such as www.example.com, aren't supported."
+  },
+  {
+    "id": "so_socialcustomerservice",
+    "name": "SocialCustomerService",
+    "summary": "Enables Social Customer Service, sets post defaults, and either activates the Starter Pack or signs into your Social Studio account.",
+    "description": ""
+  },
+  {
+    "id": "so_stateandcountrypicklist",
+    "name": "StateAndCountryPicklist",
+    "summary": "Enables state and country/territory picklists. State and country/territory picklists let users select states and countries from predefined, standardized lists, instead of entering state, country, and territory data into text fields.",
+    "description": ""
+  },
+  {
+    "id": "so_streamingapi",
+    "name": "StreamingAPI",
+    "summary": "Enables Streaming API.",
+    "description": "Available in Enterprise and Developer Edition scratch orgs."
+  },
+  {
+    "id": "so_streamingeventsperday",
+    "name": "StreamingEventsPerDay:<value>",
+    "summary": "Increases the maximum number of delivered PushTopic event notifications within a 24-hour period, shared by all CometD clients (API version 36.0 and earlier). Indicate a value between 10,000–50,000.",
+    "description": "10,000–50,000, Multiplier: 1"
+  },
+  {
+    "id": "so_subperstreamingchannel",
+    "name": "SubPerStreamingChannel:<value>",
+    "summary": "Increases the maximum number of concurrent clients (subscribers) per generic streaming channel (API version 36.0 and earlier). Indicate a value between 20–4,000.",
+    "description": "20–4,000, Multiplier: 1"
+  },
+  {
+    "id": "so_subperstreamingtopic",
+    "name": "SubPerStreamingTopic:<value>",
+    "summary": "Increases the maximum number of concurrent clients (subscribers) per PushTopic streaming channel (API version 36.0 and earlier). Indicate a value between 20–4,000.",
+    "description": "20–4,000, Multiplier: 1"
+  },
+  {
+    "id": "so_surveyadvancedfeatures",
+    "name": "SurveyAdvancedFeatures",
+    "summary": "Enables a license for the features available with the Salesforce Feedback Management - Growth license.",
+    "description": "Available in Enterprise and Developer edition scratch orgs. To use the Salesforce Feedback Management - Growth features, enable Surveys and assign the Salesforce Surveys Advanced Features user permission to the scratch org user. For additional information on how to enable Surveys and configuration steps, see Enable Surveys and Configure Survey Settings and Assign User Permissions in Salesforce Help."
+  },
+  {
+    "id": "so_sustainabilitycloud",
+    "name": "SustainabilityCloud",
+    "summary": "Provides the permission set licenses and permission sets required to install and configure Sustainability Cloud. To enable or use CRM Analytics and CRM Analytics templates, include the DevelopmentWave scratch org feature.",
+    "description": "For installation and configuration steps, see Sustainability Cloud Legacy Documentation in the Set Up and Maintain Net Zero Cloud guide in Salesforce Help."
+  },
+  {
+    "id": "so_sustainabilityapp",
+    "name": "SustainabilityApp",
+    "summary": "Provides the permission set licenses and permission sets required to configure Net Zero Cloud. To enable or use Tableau CRM and Tableau CRM templates, include the DevelopmentWave scratch org feature.",
+    "description": "Add these options to your scratch org definition file:For configuration steps, see Configure Net Zero Cloud in the Set Up and Maintain Net Zero Cloud guide in Salesforce Help."
+  },
+  {
+    "id": "so_talentrecruitmentmanagement",
+    "name": "TalentRecruitmentManagement",
+    "summary": "Enables the objects, features, and permissions for managing the talent recruitment and hiring process in Public Sector Solutions.",
+    "description": "To enable TalentRecruitmentManagement, add these features and settings to your scratch org definition file."
+  },
+  {
+    "id": "so_tcrmforsustainability",
+    "name": "TCRMforSustainability",
+    "summary": "Enables all permissions required to manage the Net Zero Analytics app by enabling Tableau CRM. You can create and share the analytics app for your users to bring your environmental accounting in line with your financial accounting.",
+    "description": "For more information, see Deploy Net Zero Analytics in the Set Up and Maintain Net Zero Cloud guide in Salesforce Help."
+  },
+  {
+    "id": "so_timelineconditionslimit",
+    "name": "TimelineConditionsLimit",
+    "summary": "Limits the number of timeline record display conditions per event type to 3.",
+    "description": "See Provide Holistic Patient Care with Enhanced Timeline in Salesforce Help for more information."
+  },
+  {
+    "id": "so_timelineeventlimit",
+    "name": "TimelineEventLimit",
+    "summary": "Limits the number of event types displayed on a timeline to 5.",
+    "description": "See Provide Holistic Patient Care with Enhanced Timeline in Salesforce Help for more information."
+  },
+  {
+    "id": "so_timelinerecordtypelimit",
+    "name": "TimelineRecordTypeLimit",
+    "summary": "Limits the number of related object record types per event type to 3.",
+    "description": "See Provide Holistic Patient Care with Enhanced Timeline in Salesforce Help for more information."
+  },
+  {
+    "id": "so_timesheettemplatesettings",
+    "name": "TimeSheetTemplateSettings",
+    "summary": "Time Sheet Templates let you configure settings to create time sheets automatically. For example, you can create a template that sets start and end dates. Assign templates to user profiles so that time sheets are created for the right users.",
+    "description": "For configuration steps, see Create Time Sheet Templates in Salesforce Help."
+  },
+  {
+    "id": "so_transactionfinalizers",
+    "name": "TransactionFinalizers",
+    "summary": "Enables you to implement and attach Apex Finalizers to Queueable Apex jobs.",
+    "description": "This functionality is currently in open pilot and subject to restrictions.See the Transaction Finalizers (Pilot) in Apex Developer Guide for more information."
+  },
+  {
+    "id": "so_usagemanagement",
+    "name": "UsageManagement",
+    "summary": "Enables Usage Management. Using Usage Management, you can setup, track, and manage the consumption of usage-based products.",
+    "description": "See Usage Management in Salesforce Help for more information."
+  },
+  {
+    "id": "so_volunteer_management",
+    "name": "VolunteerManagement",
+    "summary": "Gives users access to Volunteer Management features and objects in Salesforce.",
+    "description": "See Nonprofit Cloud for Volunteer Management in Salesforce Help for more information. To enable Volunteer Management, add these settings to your scratch org definition file.Volunteer Management licenses are assigned when the Volunteer Management feature is enabled in the scratch org."
+  },
+  {
+    "id": "so_wavemaxcurrency",
+    "name": "WaveMaxCurrency",
+    "summary": "Increases the maximum number of supported currencies for CRM Analytics. Indicate a value between 1–5.",
+    "description": ""
+  },
+  {
+    "id": "so_waveplatform",
+    "name": "WavePlatform",
+    "summary": "Enables the Wave Platform license.",
+    "description": ""
+  },
+  {
+    "id": "so_workflow",
+    "name": "Workflow",
+    "summary": "Enables Workflow so you can automate standard internal procedures and processes.",
+    "description": "Requires configuration in the Setup menu of the scratch org."
+  },
+  {
+    "id": "so_workflowflowactionfeature",
+    "name": "WorkflowFlowActionFeature",
+    "summary": "Allows you to launch a flow from a workflow action.",
+    "description": "This setting is supported only if you enabled the pilot program in your org for flow trigger workflow actions. If you enabled the pilot, you can continue to create and edit flow trigger workflow actions.If you didn't enable the pilot, use the Flows action in the ProcessBuilder scratch org feature instead."
+  },
+  {
+    "id": "so_workplacecommandcenteruser",
+    "name": "WorkplaceCommandCenterUser",
+    "summary": "Enables access to Workplace Command Center features including access to objects such as Employee, Crisis, and EmployeeCrisisAssessment.",
+    "description": "For additional installation and configuration steps, see Set Up Your Work.com Development Org in the Workplace Command Center for Work.com Developer Guide."
+  },
+  {
+    "id": "so_workthankspref",
+    "name": "WorkThanksPref",
+    "summary": "Enables the give thanks feature in Chatter.",
+    "description": ""
+  }
+]

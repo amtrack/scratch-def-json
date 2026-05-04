@@ -1,0 +1,18 @@
+{
+  "orgName": "ACME Inc.",
+  "edition": "developer",
+  "language": "en_US",
+  "features": [
+    "Communities",
+    "ContactsToMultipleAccounts",
+    "CPQ",
+    "Knowledge",
+    "LightningServiceConsole",
+    "PersonAccounts",
+    "ServiceCloud",
+    "SharedActivities",
+    "Sites",
+    "SocialCustomerService",
+    "StateAndCountryPicklist"
+  ]
+}

@@ -1,0 +1,4245 @@
+{
+  "account": {
+    "fullName": "AccountSettings",
+    "enableAccountHistoryTracking": false,
+    "enableAccountInsightsInMobile": false,
+    "enableAccountOwnerReport": false,
+    "enableAccountTeams": false,
+    "enableContactHistoryTracking": false,
+    "enableRelateContactToMultipleAccounts": false,
+    "showViewHierarchyLink": true
+  },
+  "accountIntelligence": {
+    "fullName": "AccountIntelligenceSettings",
+    "enableAccountLogos": "false",
+    "enableAutomatedAccountFields": "false",
+    "enableNewsStories": "false"
+  },
+  "actions": {
+    "fullName": "ActionsSettings",
+    "enableDefaultQuickActionsOn": true,
+    "enableMdpEnabled": true,
+    "enableOfflineWebLinks": "false",
+    "enableThirdPartyActions": true
+  },
+  "activities": {
+    "fullName": "ActivitiesSettings",
+    "allowUsersToRelateMultipleContactsToTasksAndEvents": false,
+    "autoRelateEventAttendees": false,
+    "enableActivityReminders": true,
+    "enableCalendarHomeLWC": "true",
+    "enableClickCreateEvents": false,
+    "enableDragAndDropScheduling": true,
+    "enableEmailTracking": true,
+    "enableFlowTaskNotifsViaApex": "false",
+    "enableGroupTasks": true,
+    "enableHideChildEventsPreference": "false",
+    "enableListViewScheduling": false,
+    "enableLogNote": false,
+    "enableMLSingleClientProfile": "false",
+    "enableMultidayEvents": true,
+    "enableRecurringEvents": true,
+    "enableRecurringTasks": true,
+    "enableRollUpActivToContactsAcct": true,
+    "enableSidebarCalendarShortcut": false,
+    "enableSimpleTaskCreateUI": true,
+    "enableUNSTaskDelegatedToNotifications": true,
+    "enableUserListViewCalendars": false,
+    "showCustomLogoMeetingRequests": false,
+    "showEventDetailsMultiUserCalendar": false,
+    "showHomePageHoverLinksForEvents": true,
+    "showMyTasksHoverLinks": true
+  },
+  "address": {
+    "countriesAndStates": {
+      "countries": []
+    }
+  },
+  "agentforceForDevelopers": {
+    "fullName": "AgentforceForDevelopersSettings",
+    "agentforceForDevelopersOptOut": "false"
+  },
+  "ai4m": {
+    "fullName": "Ai4mSettings"
+  },
+  "analytics": {
+    "fullName": "AnalyticsSettings",
+    "alwaysGenPreviews": false,
+    "analyticsAdoptionMetadata": false,
+    "autoInstallApps": "false",
+    "bundleCachingOptOut": "false",
+    "canAccessAnalyticsViaAPI": false,
+    "canAnnotateDashboards": false,
+    "canEnableSavedView": true,
+    "canExploreDataConversationally": false,
+    "canShareAppsWithCommunities": false,
+    "canViewThumbnailAssets": false,
+    "cdpQueryCachingOptIn": "false",
+    "concurrencyLimitSharing": "false",
+    "disableIncrementalDatasetCreation": "false",
+    "enableAmazonRedshiftOutputConnector": "false",
+    "enableAnalyticsSharingEnable": "true",
+    "enableAutoCompleteCombo": true,
+    "enableAzureDLGen2OutputConnector": "false",
+    "enableCreateLegacyDataflows": "true",
+    "enableCrtSetupLightningUiPref": "true",
+    "enableDashboardComponentSnapshot": false,
+    "enableDashboardFlexiTable": true,
+    "enableDashboardSubOrgEmailPref": "false",
+    "enableDataCloudReportingPref": "true",
+    "enableEmailReportsToPortalUsers": false,
+    "enableFirebirdEditor": "false",
+    "enableFloatingReportHeaders": true,
+    "enableIncludeDisclaimerMessage": "false",
+    "enableIncrementalUpsert": "false",
+    "enableInsights": true,
+    "enableLightningReportBuilder": false,
+    "enableLotusNotesImages": false,
+    "enableMassEnableReportBuilder": true,
+    "enableNewChartsEngine": true,
+    "enableNullDimension": "false",
+    "enableOrgCanSeeLivePreviews": "false",
+    "enableOrgCanViewTableau": "false",
+    "enableOrgCanViewThumbnailForOA": "true",
+    "enableOrgHasMobileOfflineEnabled": "true",
+    "enableOrgHasWatchlistEnabled": "true",
+    "enableOrgWideEmailNotification": "false",
+    "enablePupparazziForNotifications": "false",
+    "enableQueryLiveConnectors": "true",
+    "enableRemoveFooterForRepDisplay": false,
+    "enableRemoveFooterFromRepExp": false,
+    "enableReportCdnPref": "false",
+    "enableReportCustomTextExportPref": "false",
+    "enableReportEscapeCharsPref": "false",
+    "enableReportHideXlsExportPref": "false",
+    "enableReportInlineEditPref": "true",
+    "enableReportInterfacePref": "false",
+    "enableReportNotificationsEnable": "true",
+    "enableReportSubOrgEmailPref": "false",
+    "enableReportingOnSDMPref": "false",
+    "enableRequestPrioritySchdl": "false",
+    "enableS1AnalyticsEclairEnable": "true",
+    "enableS3OutputConnector": "false",
+    "enableSFXJoinedReportsEnable": false,
+    "enableSalesforceOutputConnector": "false",
+    "enableSecureImageSharing": "false",
+    "enableShowHighContrastChart": "false",
+    "enableSnowflakeOutputConnector": "false",
+    "enableSummaryFilterOrgPref": "false",
+    "enableTableauHyperOutputConnector": "false",
+    "enableUseOldChartsLookAndFeel": false,
+    "enableWaveAssetsNewDateVersion": "false",
+    "enableWaveIndexMVDim": "true",
+    "enableWaveIndexMVDimV2": "false",
+    "enableWaveRecordNavigation": "false",
+    "enableWaveReplication": false,
+    "enableWaveSharingInheritance": false,
+    "enableWaveSqlCFIndexing": "false",
+    "enableWaveTrendedDatasetCleanup": true,
+    "enableWriteToDataCloud": "false",
+    "isDiscoveryOptimizationEnabled": "false",
+    "isHighVolumePushbackEnabled": "false",
+    "maxHoursAppInProgress": "48",
+    "queryCachingOptOut": "false",
+    "recipeDirectDataPref": "true",
+    "recipePreCachingOptOut": "false",
+    "recipeStagedDataPref": "false",
+    "replaceBlankMeasuresWithNulls": "false",
+    "turnOnTimeZones": "false"
+  },
+  "apex": {
+    "fullName": "ApexSettings",
+    "enableAggregateCodeCoverageOnly": false,
+    "enableApexAccessRightsPref": false,
+    "enableApexApprovalLockUnlock": false,
+    "enableApexCtrlImplicitWithSharingPref": false,
+    "enableApexPropertyGetterPref": false,
+    "enableAuraApexCtrlAuthUserAccessCheckPref": false,
+    "enableAuraApexCtrlGuestUserAccessCheckPref": false,
+    "enableCompileOnDeploy": false,
+    "enableDebugLogsDuringDeployment": "false",
+    "enableDisableParallelApexTesting": false,
+    "enableGaplessTestAutoNum": false,
+    "enableMngdCtrlActionAccessPref": false,
+    "enableNonCertifiedApexMdCrud": false,
+    "enableRestrictCommunityExecAnon": "false",
+    "enableSecureNoArgConstructorPref": "false",
+    "enableTestSetupSkipTestResults": "false"
+  },
+  "appAnalytics": {
+    "fullName": "AppAnalyticsSettings",
+    "enableAppAnalyticsOptOut": "false",
+    "enableSimulationMode": "false"
+  },
+  "appExperience": {
+    "fullName": "AppExperienceSettings",
+    "doesHideAllAppsInAppLauncher": false
+  },
+  "blockchain": {
+    "fullName": "BlockchainSettings",
+    "enableBcp": false,
+    "enableEtpNft": "false"
+  },
+  "businessHours": {
+    "fullName": "BusinessHoursSettings",
+    "businessHours": [
+      {
+        "active": true,
+        "default": true,
+        "fridayEndTime": "00:00:00.000Z",
+        "fridayStartTime": "00:00:00.000Z",
+        "mondayEndTime": "00:00:00.000Z",
+        "mondayStartTime": "00:00:00.000Z",
+        "name": "Default",
+        "saturdayEndTime": "00:00:00.000Z",
+        "saturdayStartTime": "00:00:00.000Z",
+        "sundayEndTime": "00:00:00.000Z",
+        "sundayStartTime": "00:00:00.000Z",
+        "thursdayEndTime": "00:00:00.000Z",
+        "thursdayStartTime": "00:00:00.000Z",
+        "timeZoneId": "America/Los_Angeles",
+        "tuesdayEndTime": "00:00:00.000Z",
+        "tuesdayStartTime": "00:00:00.000Z",
+        "wednesdayEndTime": "00:00:00.000Z",
+        "wednesdayStartTime": "00:00:00.000Z"
+      }
+    ],
+    "holidays": []
+  },
+  "campaign": {
+    "fullName": "CampaignSettings",
+    "aiAttributionTimeframe": "6",
+    "enableAccountsAsCM": "false",
+    "enableAutoCampInfluenceDisabled": false,
+    "enableCampaignHistoryTrackEnabled": false,
+    "enableCampaignInfluence2": false,
+    "enableCampaignMemberTWCF": true
+  },
+  "case": {
+    "fullName": "CaseSettings",
+    "caseAutoProcUser": false,
+    "caseFeedItemSettings": [
+      {
+        "characterLimit": 400,
+        "displayFormat": "Default",
+        "feedItemType": "EmailMessageEvent"
+      }
+    ],
+    "caseFeedReadUnreadLtng": false,
+    "caseMergeInLightning": false,
+    "closeCaseThroughStatusChange": false,
+    "defaultCaseFeedLayoutOn": false,
+    "defaultCaseOwner": "test-t7rhjysnwuk2@example.com",
+    "defaultCaseOwnerType": "User",
+    "defaultCaseUser": "test-t7rhjysnwuk2@example.com",
+    "emailToCase": {
+      "enableE2CAttachmentAsFile": false,
+      "enableE2CDeduplicateAttachments": "false",
+      "enableE2CExternalServer": "false",
+      "enableE2CSourceTracking": true,
+      "enableEmailToCase": true,
+      "enableHtmlEmail": false,
+      "enableNewToReadTriggers": "false",
+      "enableOnDemandEmailToCase": true,
+      "enableThreadTokenInBody": "false",
+      "enableThreadTokenInSubject": "false",
+      "movingEmailEnabled": "false",
+      "notifyOwnerOnNewCaseEmail": false,
+      "notifySenderE2CError": "false",
+      "overEmailLimitAction": "Bounce",
+      "preQuoteSignature": false,
+      "replyWithNewContentOnly": "false",
+      "unauthorizedSenderAction": "Discard",
+      "useEmailHeadersForThreading": "true",
+      "routingAddresses": []
+    },
+    "enableCaseFeed": true,
+    "enableCollapseEmailThread": false,
+    "enableDraftEmails": true,
+    "enableEarlyEscalationRuleTriggers": false,
+    "enableEmailActionDefaultsHandler": false,
+    "enableEscalateQfiToCaseInternal": "false",
+    "enableMultiLangSolnSrchCSS": "false",
+    "enableMultiLangSolnSrchPKB": "false",
+    "enableMultiLangSolution": "false",
+    "enableSolutionCategory": "false",
+    "enableSolutionInlineCategory": "true",
+    "enableSolutionShortSummary": "true",
+    "enableSuggestedArticlesApplication": false,
+    "enableSuggestedArticlesCustomerPortal": false,
+    "enableSuggestedArticlesPartnerPortal": false,
+    "enableSuggestedSolutions": false,
+    "escalateCaseBefore": false,
+    "hidePublicInCaseComment": "false",
+    "notifyContactOnCaseComment": false,
+    "notifyDefaultCaseOwner": false,
+    "notifyOwnerOnCaseComment": false,
+    "notifyOwnerOnCaseOwnerChange": false,
+    "rtaCaseComment": "false",
+    "rtaCaseDescription": "false",
+    "showEmailAttachmentsInCaseAttachmentsRL": true,
+    "useSystemEmailAddress": true,
+    "useSystemUserAsDefaultCaseUser": false,
+    "visibleInCssCheckbox": "false",
+    "webToCase": {
+      "enableWebToCase": false
+    }
+  },
+  "chatter": {
+    "fullName": "ChatterSettings",
+    "allowChatterGroupArchiving": true,
+    "allowRecordsInChatterGroup": true,
+    "enableCaseFeedRelativeTimestamps": "true",
+    "enableChatter": true,
+    "enableChatterEmoticons": false,
+    "enableFeedEdit": true,
+    "enableFeedPinning": true,
+    "enableFeedsDraftPosts": true,
+    "enableFeedsRichText": true,
+    "enableInviteCsnUsers": true,
+    "enableOutOfOfficeEnabledPref": false,
+    "enableRichLinkPreviewsInFeed": true,
+    "enableTodayRecsInFeed": true,
+    "unlistedGroupsEnabled": false
+  },
+  "chatterEmailsMD": {
+    "fullName": "ChatterEmailsMDSettings",
+    "enableChatterDigestEmailsApiOnly": false,
+    "enableCollaborationEmail": true,
+    "enableDisplayAppDownloadBadges": true,
+    "enableEmailReplyToChatter": true,
+    "enableEmailToChatter": false
+  },
+  "codeBuilder": {
+    "fullName": "CodeBuilderSettings",
+    "enableCodeBuilder": "false"
+  },
+  "commerce": {
+    "fullName": "CommerceSettings",
+    "commerceDiscoveryExpansion": "false",
+    "extendCommerceContext": "false"
+  },
+  "communities": {
+    "fullName": "CommunitiesSettings",
+    "applyLoginPageTypeToEmbeddedLogin": "false",
+    "blockEmbeddedLoginUnknownURLRedirect": "false",
+    "enableCspContactVisibilityPref": false,
+    "enableEnablePRM": false,
+    "enableExternalAccHierPref": false,
+    "enableGuestPermDisOptOutCruc": "false",
+    "enableGuestSecurityOptOutCruc": "false",
+    "enableInviteChatterGuestEnabled": true,
+    "enableNetworksEnabled": false,
+    "enableOotbProfExtUserOpsEnable": false,
+    "enablePRMAccRelPref": false,
+    "enableRelaxPartnerAccountFieldPref": false
+  },
+  "company": {
+    "fullName": "CompanySettings",
+    "enableCustomFiscalYear": false,
+    "fiscalYear": {
+      "fiscalYearNameBasedOn": "endingMonth",
+      "startMonth": "January"
+    }
+  },
+  "connectedApp": {
+    "fullName": "ConnectedAppSettings",
+    "enableSkipUserProvisioningWizardWelcomePage": false
+  },
+  "content": {
+    "fullName": "ContentSettings",
+    "enableCMSC2CConnections": "true",
+    "enableChatterFileLink": true,
+    "enableContent": false,
+    "enableContentAutoAssign": false,
+    "enableContentDistForPortalUsers": false,
+    "enableContentDistPwOptionsBit1": true,
+    "enableContentDistPwOptionsBit2": true,
+    "enableContentDistribution": true,
+    "enableContentSupportMultiLanguage": false,
+    "enableContentWorkspaceAccess": true,
+    "enableDeleteFileInContentPacks": "false",
+    "enableFileIngestToDataCloud": "true",
+    "enableFileShareSetByRecord": false,
+    "enableFilesUsrShareNetRestricted": false,
+    "enableJPGPreviews": false,
+    "enableLWCFileUpload": "true",
+    "enableLWCFileUploadInFlows": "false",
+    "enableLibraryManagedFiles": false,
+    "enableSiteGuestUserToUploadFiles": false,
+    "enableUploadFilesOnAttachments": false,
+    "setValidContentTypeForAtchDocDownload": "false",
+    "skipContentAssetTriggers": false,
+    "skipContentAssetTriggersOnDeploy": true
+  },
+  "contract": {
+    "fullName": "ContractSettings",
+    "autoCalculateEndDate": true,
+    "enableContractHistoryTracking": false,
+    "notifyOwnersOnContractExpiration": false
+  },
+  "conversationalIntelligence": {
+    "fullName": "ConversationalIntelligenceSettings"
+  },
+  "conversationServiceIntegration": {
+    "fullName": "ConversationServiceIntegrationSettings"
+  },
+  "currency": {
+    "fullName": "CurrencySettings",
+    "enableMultiCurrency": false,
+    "isMultiCurrencyActivationAllowed": false
+  },
+  "customAddressField": {
+    "fullName": "CustomAddressFieldSettings",
+    "enableCustomAddressField": "false"
+  },
+  "customerDataPlatform": {
+    "fullName": "CustomerDataPlatformSettings"
+  },
+  "customizablePropensityScoring": {
+    "fullName": "CustomizablePropensityScoringSettings"
+  },
+  "dataImportManagement": {
+    "fullName": "DataImportManagementSettings",
+    "enableEasyImport": "true"
+  },
+  "deployment": {
+    "fullName": "DeploymentSettings",
+    "doesSkipAsyncApexValidation": false
+  },
+  "devHub": {
+    "fullName": "DevHubSettings",
+    "enableALMDevopsCorePref": "false",
+    "enableALMSimpleDeployDataPref": "false",
+    "enableALMSimpleDeployPref": "false",
+    "enableDevOpsCenter": "false",
+    "enableDevOpsCenterGA": "false",
+    "enableShapeExportPref": false
+  },
+  "discovery": {
+    "fullName": "DiscoverySettings"
+  },
+  "documentChecklist": {
+    "fullName": "DocumentChecklistSettings"
+  },
+  "dxGlobalTerms": {
+    "fullName": "DxGlobalTermsSettings",
+    "dxGlobalTermsAccepted": "false"
+  },
+  "dynamicForms": {
+    "fullName": "DynamicFormsSettings",
+    "enableFormsOnMobile": "true"
+  },
+  "eAC": {
+    "fullName": "EACSettings",
+    "autoPopulateGoogleMeetLinks": "false",
+    "enableInsightsInTimeline": true,
+    "enableInsightsInTimelineEacStd": false,
+    "relationshipGraphPref": "true",
+    "s2XSvcAccEmail": "false",
+    "syncInternalEvents": "true"
+  },
+  "einsteinDocumentCapture": {
+    "fullName": "EinsteinDocumentCaptureSettings"
+  },
+  "emailAdministration": {
+    "fullName": "EmailAdministrationSettings",
+    "enableComplianceBcc": false,
+    "enableEmailConsentManagement": false,
+    "enableEmailSenderIdCompliance": false,
+    "enableEmailSpfCompliance": true,
+    "enableEmailToSalesforce": false,
+    "enableEmailTrackingIPBlocklist": "false",
+    "enableEmailWorkflowApproval": false,
+    "enableEnhancedEmailEnabled": false,
+    "enableHandleBouncedEmails": true,
+    "enableHtmlEmail": false,
+    "enableInternationalEmailAddresses": "false",
+    "enableListEmailLogActivities": true,
+    "enableResendBouncedEmails": false,
+    "enableRestrictTlsToDomains": false,
+    "enableSendViaExchangePref": false,
+    "enableSendViaGmailPref": false,
+    "enableUseOrgFootersForExtTrans": false,
+    "enableVerifyEmailDomainByDkim": "false",
+    "sendEmailsEvenWhenAutomationUpdatesSameRecord": false,
+    "sendMassEmailNotification": true,
+    "sendTextOnlySystemEmails": false
+  },
+  "emailAuthorization": {
+    "fullName": "EmailAuthorizationSettings",
+    "enableSubstituteFromAddress": "false"
+  },
+  "emailIntegration": {
+    "fullName": "EmailIntegrationSettings",
+    "doesEmailLogAsEmailMessageInOutlook": true,
+    "doesGmailStayConnectedToSalesforce": true,
+    "enableContactAndEventSync": false,
+    "enableContextualEverywhere": "true",
+    "enableEngageForOutlook": false,
+    "enableExtensionHostUnrestricted": "true",
+    "enableGmailIntegration": true,
+    "enableOutlookIntegration": false,
+    "isLayoutCustomizationAllowed": false,
+    "orgIsSyncingEventsOutbound": "false",
+    "shouldUseTrustedDomainsList": true
+  },
+  "emailTemplate": {
+    "fullName": "EmailTemplateSettings",
+    "enableTemplateEnhancedFolderPref": false
+  },
+  "employeeFieldAccess": {
+    "fullName": "EmployeeFieldAccessSettings"
+  },
+  "employeeUser": {
+    "fullName": "EmployeeUserSettings",
+    "emailEncoding": {
+      "$": {
+        "xsi:nil": "true"
+      }
+    },
+    "profile": {
+      "$": {
+        "xsi:nil": "true"
+      }
+    }
+  },
+  "encryptionKey": {
+    "fullName": "EncryptionKeySettings"
+  },
+  "enhancedNotes": {
+    "fullName": "EnhancedNotesSettings",
+    "enableEnhancedNotes": false,
+    "enableTasksOnEnhancedNotes": true
+  },
+  "entitlement": {
+    "fullName": "EntitlementSettings",
+    "assetLookupLimitedToActiveEntitlementsOnAccount": false,
+    "assetLookupLimitedToActiveEntitlementsOnContact": false,
+    "assetLookupLimitedToSameAccount": false,
+    "assetLookupLimitedToSameContact": false,
+    "enableEntitlementVersioning": false,
+    "enableEntitlements": true,
+    "enableMilestoneFeedItem": false,
+    "enableMilestoneStoppedTime": false,
+    "entitlementLookupLimitedToActiveStatus": false,
+    "entitlementLookupLimitedToSameAccount": false,
+    "entitlementLookupLimitedToSameAsset": false,
+    "entitlementLookupLimitedToSameContact": false,
+    "ignoreMilestoneBusinessHours": false
+  },
+  "essentials": {
+    "fullName": "EssentialsSettings"
+  },
+  "event": {
+    "fullName": "EventSettings",
+    "enableDeleteMonitoringData": false,
+    "enableDynamicStreamingChannel": false,
+    "enableEventLogGeneration": "false",
+    "enableStreamingApi": true,
+    "eventLogRetentionDuration": "0"
+  },
+  "experienceBundle": {
+    "fullName": "ExperienceBundleSettings"
+  },
+  "externalClientApp": {
+    "fullName": "ExternalClientAppSettings",
+    "enableClientSecretInRestApiAccess": "false",
+    "enablePackageEcaOauthFromDevOrg": "false"
+  },
+  "filesConnect": {
+    "fullName": "FilesConnectSettings",
+    "enableContentHubAllowed": true,
+    "enableContentHubCvtLinksAllowed": true,
+    "enableContentHubEOSearchLayout": false
+  },
+  "fileUploadAndDownloadSecurity": {
+    "fullName": "FileUploadAndDownloadSecuritySettings",
+    "dispositions": [
+      {
+        "behavior": "HYBRID",
+        "fileType": "AVI",
+        "securityRiskFileType": false
+      },
+      {
+        "behavior": "HYBRID",
+        "fileType": "WORD",
+        "securityRiskFileType": false
+      },
+      {
+        "behavior": "HYBRID",
+        "fileType": "WORD_X",
+        "securityRiskFileType": false
+      },
+      {
+        "behavior": "DOWNLOAD",
+        "fileType": "EXE",
+        "securityRiskFileType": true
+      },
+      {
+        "behavior": "DOWNLOAD",
+        "fileType": "HTML",
+        "securityRiskFileType": true
+      },
+      {
+        "behavior": "DOWNLOAD",
+        "fileType": "WEBVIEW",
+        "securityRiskFileType": true
+      },
+      {
+        "behavior": "DOWNLOAD",
+        "fileType": "JSON",
+        "securityRiskFileType": false
+      },
+      {
+        "behavior": "DOWNLOAD",
+        "fileType": "RFC822",
+        "securityRiskFileType": true
+      },
+      {
+        "behavior": "HYBRID",
+        "fileType": "MOV",
+        "securityRiskFileType": false
+      },
+      {
+        "behavior": "HYBRID",
+        "fileType": "MP3",
+        "securityRiskFileType": false
+      },
+      {
+        "behavior": "HYBRID",
+        "fileType": "MP4",
+        "securityRiskFileType": false
+      },
+      {
+        "behavior": "HYBRID",
+        "fileType": "MPEG",
+        "securityRiskFileType": false
+      },
+      {
+        "behavior": "HYBRID",
+        "fileType": "PDF",
+        "securityRiskFileType": false
+      },
+      {
+        "behavior": "HYBRID",
+        "fileType": "POWER_POINT",
+        "securityRiskFileType": false
+      },
+      {
+        "behavior": "HYBRID",
+        "fileType": "POWER_POINT_X",
+        "securityRiskFileType": false
+      },
+      {
+        "behavior": "DOWNLOAD",
+        "fileType": "SVG",
+        "securityRiskFileType": true
+      },
+      {
+        "behavior": "DOWNLOAD",
+        "fileType": "FLASH",
+        "securityRiskFileType": true
+      },
+      {
+        "behavior": "DOWNLOAD",
+        "fileType": "TXML",
+        "securityRiskFileType": true
+      },
+      {
+        "behavior": "DOWNLOAD",
+        "fileType": "UNKNOWN",
+        "securityRiskFileType": true
+      },
+      {
+        "behavior": "HYBRID",
+        "fileType": "WAV",
+        "securityRiskFileType": false
+      },
+      {
+        "behavior": "HYBRID",
+        "fileType": "WMA",
+        "securityRiskFileType": false
+      },
+      {
+        "behavior": "HYBRID",
+        "fileType": "WMV",
+        "securityRiskFileType": false
+      },
+      {
+        "behavior": "DOWNLOAD",
+        "fileType": "XHTML",
+        "securityRiskFileType": true
+      },
+      {
+        "behavior": "HYBRID",
+        "fileType": "EXCEL",
+        "securityRiskFileType": false
+      },
+      {
+        "behavior": "HYBRID",
+        "fileType": "EXCEL_X",
+        "securityRiskFileType": false
+      },
+      {
+        "behavior": "DOWNLOAD",
+        "fileType": "XML",
+        "securityRiskFileType": true
+      }
+    ],
+    "noHtmlUploadAsAttachment": false
+  },
+  "flow": {
+    "fullName": "FlowSettings",
+    "canDebugFlowAsAnotherUser": "false",
+    "doesEnforceApexCpuTimeLimit": "true",
+    "doesFormulaEnforceDataAccess": "false",
+    "doesFormulaGenerateHtmlOutput": "false",
+    "enableEmailSimpleRespectProfiles": "true",
+    "enableEmailsimpleSecureProfiles": "false",
+    "enableFlowBREncodedFixEnabled": true,
+    "enableFlowCustomPropertyEditor": "false",
+    "enableFlowDeployAsActiveEnabled": false,
+    "enableFlowFieldFilterEnabled": true,
+    "enableFlowFormulasFixEnabled": true,
+    "enableFlowInterviewSharingEnabled": true,
+    "enableFlowNullPreviousValueFix": false,
+    "enableFlowPauseEnabled": false,
+    "enableFlowReactiveChoiceOptions": "false",
+    "enableFlowReactiveScreens": "false",
+    "enableFlowUseApexExceptionEmail": false,
+    "enableFlowViaRestUsesUserCtxt": "true",
+    "enableLightningRuntimeEnabled": true,
+    "isApexPluginAccessModifierRespected": "true",
+    "isEnhancedFlowListViewVisible": true,
+    "isFlowBlockAccessToSessionIDEnabled": "true",
+    "isManageFlowRequiredForAutomationCharts": false,
+    "isSupportRollbackOnErrorForApexInvocableActionsEnabled": "true"
+  },
+  "forecasting": {
+    "fullName": "ForecastingSettings",
+    "defaultToPersonalCurrency": false,
+    "enableForecasts": false,
+    "forecastingCategoryMappings": [
+      {
+        "forecastingItemCategoryApiName": "commitonly",
+        "weightedSourceCategories": [
+          {
+            "sourceCategoryApiName": "commit",
+            "weight": 1
+          }
+        ]
+      },
+      {
+        "forecastingItemCategoryApiName": "closedonly",
+        "weightedSourceCategories": [
+          {
+            "sourceCategoryApiName": "closed",
+            "weight": 1
+          }
+        ]
+      },
+      {
+        "forecastingItemCategoryApiName": "openpipeline",
+        "weightedSourceCategories": [
+          {
+            "sourceCategoryApiName": "pipeline",
+            "weight": 1
+          },
+          {
+            "sourceCategoryApiName": "commit",
+            "weight": 1
+          },
+          {
+            "sourceCategoryApiName": "best case",
+            "weight": 1
+          }
+        ]
+      },
+      {
+        "forecastingItemCategoryApiName": "omittedonly",
+        "weightedSourceCategories": [
+          {
+            "sourceCategoryApiName": "omitted",
+            "weight": 1
+          }
+        ]
+      },
+      {
+        "forecastingItemCategoryApiName": "bestcaseforecast",
+        "weightedSourceCategories": [
+          {
+            "sourceCategoryApiName": "closed",
+            "weight": 1
+          },
+          {
+            "sourceCategoryApiName": "commit",
+            "weight": 1
+          },
+          {
+            "sourceCategoryApiName": "best case",
+            "weight": 1
+          }
+        ]
+      },
+      {
+        "forecastingItemCategoryApiName": "pipelineonly",
+        "weightedSourceCategories": [
+          {
+            "sourceCategoryApiName": "pipeline",
+            "weight": 1
+          }
+        ]
+      },
+      {
+        "forecastingItemCategoryApiName": "customcategory",
+        "weightedSourceCategories": [
+          {
+            "sourceCategoryApiName": "custom category",
+            "weight": 1
+          }
+        ]
+      },
+      {
+        "forecastingItemCategoryApiName": "commitforecast",
+        "weightedSourceCategories": [
+          {
+            "sourceCategoryApiName": "closed",
+            "weight": 1
+          },
+          {
+            "sourceCategoryApiName": "commit",
+            "weight": 1
+          }
+        ]
+      },
+      {
+        "forecastingItemCategoryApiName": "bestcaseonly",
+        "weightedSourceCategories": [
+          {
+            "sourceCategoryApiName": "best case",
+            "weight": 1
+          }
+        ]
+      }
+    ],
+    "forecastingSubmissionSettings": {
+      "allowForecastingSubmissions": "false"
+    },
+    "forecastingTypeSettings": [
+      {
+        "active": true,
+        "displayedCategoryApiNames": [
+          "closedonly",
+          "commitonly",
+          "bestcaseonly",
+          "pipelineonly"
+        ],
+        "forecastedCategoryApiNames": [
+          "commitonly",
+          "closedonly",
+          "pipelineonly",
+          "customcategory",
+          "bestcaseonly"
+        ],
+        "forecastingDateType": "OpportunityCloseDate",
+        "hasProductFamily": false,
+        "isAmount": true,
+        "isAvailable": true,
+        "isQuantity": false,
+        "masterLabel": "Opportunities",
+        "name": "OpportunityRevenue",
+        "opportunityListFieldsLabelMappings": [
+          {
+            "field": "OPPORTUNITY.NAME",
+            "label": "Opportunity Name"
+          },
+          {
+            "field": "ACCOUNT.NAME",
+            "label": "Account Name"
+          },
+          {
+            "field": "OPPORTUNITY.AMOUNT",
+            "label": "Amount"
+          },
+          {
+            "field": "OPPORTUNITY.CLOSE_DATE",
+            "label": "Close Date"
+          },
+          {
+            "field": "OPPORTUNITY.STAGE_NAME",
+            "label": "Stage"
+          },
+          {
+            "field": "OPPORTUNITY.PROBABILITY",
+            "label": "Probability (%)"
+          },
+          {
+            "field": "FORECAST_CATEGORY",
+            "label": "Forecast Category"
+          },
+          {
+            "field": "FULL_NAME",
+            "label": "Owner Full Name"
+          },
+          {
+            "field": "CORE.USERS.ALIAS",
+            "label": "Opportunity Owner Alias"
+          },
+          {
+            "field": "CORE.USERS.FIRST_NAME",
+            "label": "Owner First Name"
+          },
+          {
+            "field": "CORE.USERS.LAST_NAME",
+            "label": "Owner Last Name"
+          },
+          {
+            "field": "DESCRIPTION",
+            "label": "Description"
+          },
+          {
+            "field": "OPPORTUNITY.LEAD_SOURCE",
+            "label": "Lead Source"
+          },
+          {
+            "field": "OPPORTUNITY.NEXT_STEP",
+            "label": "Next Step"
+          },
+          {
+            "field": "OPPORTUNITY.TYPE",
+            "label": "Type"
+          },
+          {
+            "field": "UPDATEDBY_USER.ALIAS",
+            "label": "Last Modified By Alias"
+          },
+          {
+            "field": "CREATEDBY_USER.ALIAS",
+            "label": "Created By Alias"
+          },
+          {
+            "field": "OPPORTUNITY.CLOSED",
+            "label": "Closed"
+          },
+          {
+            "field": "OPPORTUNITY.WON",
+            "label": "Won"
+          },
+          {
+            "field": "OPPORTUNITY.FISCAL_YEAR",
+            "label": "Fiscal Year"
+          },
+          {
+            "field": "OPPORTUNITY.FISCAL_QUARTER",
+            "label": "Fiscal Quarter"
+          },
+          {
+            "field": "OPPORTUNITY.FISCAL_PERIOD",
+            "label": "Fiscal Period"
+          },
+          {
+            "field": "OPPORTUNITY.LAST_ACTIVITY",
+            "label": "Last Activity"
+          },
+          {
+            "field": "OPPORTUNITY.CREATED_DATE",
+            "label": "Created Date"
+          },
+          {
+            "field": "OPPORTUNITY.LAST_UPDATE",
+            "label": "Last Modified Date"
+          },
+          {
+            "field": "OPPORTUNITY.LAST_STAGE_CHANGE",
+            "label": "Last Stage Change Date"
+          },
+          {
+            "field": "OPPORTUNITY.PUSH_COUNT",
+            "label": "Push Count"
+          }
+        ],
+        "opportunityListFieldsSelectedSettings": {
+          "field": [
+            "OPPORTUNITY.NAME",
+            "ACCOUNT.NAME",
+            "OPPORTUNITY.AMOUNT",
+            "OPPORTUNITY.CLOSE_DATE",
+            "OPPORTUNITY.STAGE_NAME",
+            "OPPORTUNITY.PROBABILITY",
+            "FORECAST_CATEGORY",
+            "FULL_NAME"
+          ]
+        },
+        "opportunityListFieldsUnselectedSettings": {
+          "field": [
+            "CORE.USERS.ALIAS",
+            "CORE.USERS.FIRST_NAME",
+            "CORE.USERS.LAST_NAME",
+            "DESCRIPTION",
+            "OPPORTUNITY.LEAD_SOURCE",
+            "OPPORTUNITY.NEXT_STEP",
+            "OPPORTUNITY.TYPE",
+            "UPDATEDBY_USER.ALIAS",
+            "CREATEDBY_USER.ALIAS",
+            "OPPORTUNITY.CLOSED",
+            "OPPORTUNITY.WON",
+            "OPPORTUNITY.FISCAL_YEAR",
+            "OPPORTUNITY.FISCAL_QUARTER",
+            "OPPORTUNITY.FISCAL_PERIOD",
+            "OPPORTUNITY.LAST_ACTIVITY",
+            "OPPORTUNITY.CREATED_DATE",
+            "OPPORTUNITY.LAST_UPDATE",
+            "OPPORTUNITY.LAST_STAGE_CHANGE",
+            "OPPORTUNITY.PUSH_COUNT"
+          ]
+        },
+        "adjustmentsSettings": {
+          "enableAdjustments": false,
+          "enableOwnerAdjustments": false
+        },
+        "forecastRangeSettings": {
+          "beginning": 0,
+          "displaying": 0,
+          "periodType": ""
+        },
+        "managerAdjustableCategoryApiNames": [],
+        "ownerAdjustableCategoryApiNames": [],
+        "quotasSettings": {
+          "showQuotas": false
+        }
+      },
+      {
+        "active": false,
+        "displayedCategoryApiNames": [
+          "closedonly",
+          "commitonly",
+          "bestcaseonly",
+          "pipelineonly"
+        ],
+        "forecastedCategoryApiNames": [
+          "commitonly",
+          "closedonly",
+          "pipelineonly",
+          "customcategory",
+          "bestcaseonly"
+        ],
+        "forecastingDateType": "OpportunityCloseDate",
+        "hasProductFamily": false,
+        "isAmount": false,
+        "isAvailable": true,
+        "isQuantity": true,
+        "masterLabel": "Opportunities",
+        "name": "OpportunityQuantity",
+        "opportunityListFieldsLabelMappings": [
+          {
+            "field": "OPPORTUNITY.NAME",
+            "label": "Opportunity Name"
+          },
+          {
+            "field": "ACCOUNT.NAME",
+            "label": "Account Name"
+          },
+          {
+            "field": "OPPORTUNITY.CLOSE_DATE",
+            "label": "Close Date"
+          },
+          {
+            "field": "OPPORTUNITY.STAGE_NAME",
+            "label": "Stage"
+          },
+          {
+            "field": "OPPORTUNITY.PROBABILITY",
+            "label": "Probability (%)"
+          },
+          {
+            "field": "FORECAST_CATEGORY",
+            "label": "Forecast Category"
+          },
+          {
+            "field": "FULL_NAME",
+            "label": "Owner Full Name"
+          },
+          {
+            "field": "OPPORTUNITY.AMOUNT",
+            "label": "Amount"
+          },
+          {
+            "field": "CORE.USERS.ALIAS",
+            "label": "Opportunity Owner Alias"
+          },
+          {
+            "field": "CORE.USERS.FIRST_NAME",
+            "label": "Owner First Name"
+          },
+          {
+            "field": "CORE.USERS.LAST_NAME",
+            "label": "Owner Last Name"
+          },
+          {
+            "field": "DESCRIPTION",
+            "label": "Description"
+          },
+          {
+            "field": "OPPORTUNITY.LEAD_SOURCE",
+            "label": "Lead Source"
+          },
+          {
+            "field": "OPPORTUNITY.NEXT_STEP",
+            "label": "Next Step"
+          },
+          {
+            "field": "OPPORTUNITY.TYPE",
+            "label": "Type"
+          },
+          {
+            "field": "UPDATEDBY_USER.ALIAS",
+            "label": "Last Modified By Alias"
+          },
+          {
+            "field": "CREATEDBY_USER.ALIAS",
+            "label": "Created By Alias"
+          },
+          {
+            "field": "OPPORTUNITY.CLOSED",
+            "label": "Closed"
+          },
+          {
+            "field": "OPPORTUNITY.WON",
+            "label": "Won"
+          },
+          {
+            "field": "OPPORTUNITY.FISCAL_YEAR",
+            "label": "Fiscal Year"
+          },
+          {
+            "field": "OPPORTUNITY.FISCAL_QUARTER",
+            "label": "Fiscal Quarter"
+          },
+          {
+            "field": "OPPORTUNITY.FISCAL_PERIOD",
+            "label": "Fiscal Period"
+          },
+          {
+            "field": "OPPORTUNITY.LAST_ACTIVITY",
+            "label": "Last Activity"
+          },
+          {
+            "field": "OPPORTUNITY.CREATED_DATE",
+            "label": "Created Date"
+          },
+          {
+            "field": "OPPORTUNITY.LAST_UPDATE",
+            "label": "Last Modified Date"
+          },
+          {
+            "field": "OPPORTUNITY.LAST_STAGE_CHANGE",
+            "label": "Last Stage Change Date"
+          },
+          {
+            "field": "OPPORTUNITY.PUSH_COUNT",
+            "label": "Push Count"
+          }
+        ],
+        "opportunityListFieldsSelectedSettings": {
+          "field": [
+            "OPPORTUNITY.NAME",
+            "ACCOUNT.NAME",
+            "OPPORTUNITY.CLOSE_DATE",
+            "OPPORTUNITY.STAGE_NAME",
+            "OPPORTUNITY.PROBABILITY",
+            "FORECAST_CATEGORY",
+            "FULL_NAME"
+          ]
+        },
+        "opportunityListFieldsUnselectedSettings": {
+          "field": [
+            "OPPORTUNITY.AMOUNT",
+            "CORE.USERS.ALIAS",
+            "CORE.USERS.FIRST_NAME",
+            "CORE.USERS.LAST_NAME",
+            "DESCRIPTION",
+            "OPPORTUNITY.LEAD_SOURCE",
+            "OPPORTUNITY.NEXT_STEP",
+            "OPPORTUNITY.TYPE",
+            "UPDATEDBY_USER.ALIAS",
+            "CREATEDBY_USER.ALIAS",
+            "OPPORTUNITY.CLOSED",
+            "OPPORTUNITY.WON",
+            "OPPORTUNITY.FISCAL_YEAR",
+            "OPPORTUNITY.FISCAL_QUARTER",
+            "OPPORTUNITY.FISCAL_PERIOD",
+            "OPPORTUNITY.LAST_ACTIVITY",
+            "OPPORTUNITY.CREATED_DATE",
+            "OPPORTUNITY.LAST_UPDATE",
+            "OPPORTUNITY.LAST_STAGE_CHANGE",
+            "OPPORTUNITY.PUSH_COUNT"
+          ]
+        },
+        "adjustmentsSettings": {
+          "enableAdjustments": false,
+          "enableOwnerAdjustments": false
+        },
+        "forecastRangeSettings": {
+          "beginning": 0,
+          "displaying": 0,
+          "periodType": ""
+        },
+        "managerAdjustableCategoryApiNames": [],
+        "ownerAdjustableCategoryApiNames": [],
+        "quotasSettings": {
+          "showQuotas": false
+        }
+      },
+      {
+        "active": false,
+        "displayedCategoryApiNames": [
+          "closedonly",
+          "commitonly",
+          "bestcaseonly",
+          "pipelineonly"
+        ],
+        "forecastedCategoryApiNames": [
+          "commitonly",
+          "closedonly",
+          "pipelineonly",
+          "customcategory",
+          "bestcaseonly"
+        ],
+        "forecastingDateType": "OpportunityCloseDate",
+        "hasProductFamily": true,
+        "isAmount": true,
+        "isAvailable": true,
+        "isQuantity": false,
+        "masterLabel": "Product Families",
+        "name": "OpportunityLineItemRevenue",
+        "opportunityListFieldsLabelMappings": [
+          {
+            "field": "OPPORTUNITY.NAME",
+            "label": "Opportunity Name"
+          },
+          {
+            "field": "ACCOUNT.NAME",
+            "label": "Account Name"
+          },
+          {
+            "field": "SPLITAMOUNT",
+            "label": "Forecasted Amount"
+          },
+          {
+            "field": "OPPORTUNITY.CLOSE_DATE",
+            "label": "Close Date"
+          },
+          {
+            "field": "OPPORTUNITY.STAGE_NAME",
+            "label": "Stage"
+          },
+          {
+            "field": "OPPORTUNITY.PROBABILITY",
+            "label": "Probability (%)"
+          },
+          {
+            "field": "FORECAST_CATEGORY",
+            "label": "Forecast Category"
+          },
+          {
+            "field": "FULL_NAME",
+            "label": "Owner Full Name"
+          },
+          {
+            "field": "OPPORTUNITY.AMOUNT",
+            "label": "Amount"
+          },
+          {
+            "field": "CORE.USERS.ALIAS",
+            "label": "Opportunity Owner Alias"
+          },
+          {
+            "field": "CORE.USERS.FIRST_NAME",
+            "label": "Owner First Name"
+          },
+          {
+            "field": "CORE.USERS.LAST_NAME",
+            "label": "Owner Last Name"
+          },
+          {
+            "field": "DESCRIPTION",
+            "label": "Description"
+          },
+          {
+            "field": "OPPORTUNITY.LEAD_SOURCE",
+            "label": "Lead Source"
+          },
+          {
+            "field": "OPPORTUNITY.NEXT_STEP",
+            "label": "Next Step"
+          },
+          {
+            "field": "OPPORTUNITY.TYPE",
+            "label": "Type"
+          },
+          {
+            "field": "UPDATEDBY_USER.ALIAS",
+            "label": "Last Modified By Alias"
+          },
+          {
+            "field": "CREATEDBY_USER.ALIAS",
+            "label": "Created By Alias"
+          },
+          {
+            "field": "OPPORTUNITY.CLOSED",
+            "label": "Closed"
+          },
+          {
+            "field": "OPPORTUNITY.WON",
+            "label": "Won"
+          },
+          {
+            "field": "OPPORTUNITY.FISCAL_YEAR",
+            "label": "Fiscal Year"
+          },
+          {
+            "field": "OPPORTUNITY.FISCAL_QUARTER",
+            "label": "Fiscal Quarter"
+          },
+          {
+            "field": "OPPORTUNITY.FISCAL_PERIOD",
+            "label": "Fiscal Period"
+          },
+          {
+            "field": "OPPORTUNITY.LAST_ACTIVITY",
+            "label": "Last Activity"
+          },
+          {
+            "field": "OPPORTUNITY.CREATED_DATE",
+            "label": "Created Date"
+          },
+          {
+            "field": "OPPORTUNITY.LAST_UPDATE",
+            "label": "Last Modified Date"
+          },
+          {
+            "field": "OPPORTUNITY.LAST_STAGE_CHANGE",
+            "label": "Last Stage Change Date"
+          },
+          {
+            "field": "OPPORTUNITY.PUSH_COUNT",
+            "label": "Push Count"
+          }
+        ],
+        "opportunityListFieldsSelectedSettings": {
+          "field": [
+            "OPPORTUNITY.NAME",
+            "ACCOUNT.NAME",
+            "SPLITAMOUNT",
+            "OPPORTUNITY.CLOSE_DATE",
+            "OPPORTUNITY.STAGE_NAME",
+            "OPPORTUNITY.PROBABILITY",
+            "FORECAST_CATEGORY",
+            "FULL_NAME"
+          ]
+        },
+        "opportunityListFieldsUnselectedSettings": {
+          "field": [
+            "OPPORTUNITY.AMOUNT",
+            "CORE.USERS.ALIAS",
+            "CORE.USERS.FIRST_NAME",
+            "CORE.USERS.LAST_NAME",
+            "DESCRIPTION",
+            "OPPORTUNITY.LEAD_SOURCE",
+            "OPPORTUNITY.NEXT_STEP",
+            "OPPORTUNITY.TYPE",
+            "UPDATEDBY_USER.ALIAS",
+            "CREATEDBY_USER.ALIAS",
+            "OPPORTUNITY.CLOSED",
+            "OPPORTUNITY.WON",
+            "OPPORTUNITY.FISCAL_YEAR",
+            "OPPORTUNITY.FISCAL_QUARTER",
+            "OPPORTUNITY.FISCAL_PERIOD",
+            "OPPORTUNITY.LAST_ACTIVITY",
+            "OPPORTUNITY.CREATED_DATE",
+            "OPPORTUNITY.LAST_UPDATE",
+            "OPPORTUNITY.LAST_STAGE_CHANGE",
+            "OPPORTUNITY.PUSH_COUNT"
+          ]
+        },
+        "adjustmentsSettings": {
+          "enableAdjustments": false,
+          "enableOwnerAdjustments": false
+        },
+        "forecastRangeSettings": {
+          "beginning": 0,
+          "displaying": 0,
+          "periodType": ""
+        },
+        "managerAdjustableCategoryApiNames": [],
+        "ownerAdjustableCategoryApiNames": [],
+        "quotasSettings": {
+          "showQuotas": false
+        }
+      },
+      {
+        "active": false,
+        "displayedCategoryApiNames": [
+          "closedonly",
+          "commitonly",
+          "bestcaseonly",
+          "pipelineonly"
+        ],
+        "forecastedCategoryApiNames": [
+          "commitonly",
+          "closedonly",
+          "pipelineonly",
+          "customcategory",
+          "bestcaseonly"
+        ],
+        "forecastingDateType": "OpportunityCloseDate",
+        "hasProductFamily": true,
+        "isAmount": false,
+        "isAvailable": true,
+        "isQuantity": true,
+        "masterLabel": "Product Families",
+        "name": "OpportunityLineItemQuantity",
+        "opportunityListFieldsLabelMappings": [
+          {
+            "field": "OPPORTUNITY.NAME",
+            "label": "Opportunity Name"
+          },
+          {
+            "field": "ACCOUNT.NAME",
+            "label": "Account Name"
+          },
+          {
+            "field": "OPPORTUNITY.CLOSE_DATE",
+            "label": "Close Date"
+          },
+          {
+            "field": "OPPORTUNITY.STAGE_NAME",
+            "label": "Stage"
+          },
+          {
+            "field": "OPPORTUNITY.PROBABILITY",
+            "label": "Probability (%)"
+          },
+          {
+            "field": "FORECAST_CATEGORY",
+            "label": "Forecast Category"
+          },
+          {
+            "field": "FULL_NAME",
+            "label": "Owner Full Name"
+          },
+          {
+            "field": "OPPORTUNITY.AMOUNT",
+            "label": "Amount"
+          },
+          {
+            "field": "CORE.USERS.ALIAS",
+            "label": "Opportunity Owner Alias"
+          },
+          {
+            "field": "CORE.USERS.FIRST_NAME",
+            "label": "Owner First Name"
+          },
+          {
+            "field": "CORE.USERS.LAST_NAME",
+            "label": "Owner Last Name"
+          },
+          {
+            "field": "DESCRIPTION",
+            "label": "Description"
+          },
+          {
+            "field": "OPPORTUNITY.LEAD_SOURCE",
+            "label": "Lead Source"
+          },
+          {
+            "field": "OPPORTUNITY.NEXT_STEP",
+            "label": "Next Step"
+          },
+          {
+            "field": "OPPORTUNITY.TYPE",
+            "label": "Type"
+          },
+          {
+            "field": "UPDATEDBY_USER.ALIAS",
+            "label": "Last Modified By Alias"
+          },
+          {
+            "field": "CREATEDBY_USER.ALIAS",
+            "label": "Created By Alias"
+          },
+          {
+            "field": "OPPORTUNITY.CLOSED",
+            "label": "Closed"
+          },
+          {
+            "field": "OPPORTUNITY.WON",
+            "label": "Won"
+          },
+          {
+            "field": "OPPORTUNITY.FISCAL_YEAR",
+            "label": "Fiscal Year"
+          },
+          {
+            "field": "OPPORTUNITY.FISCAL_QUARTER",
+            "label": "Fiscal Quarter"
+          },
+          {
+            "field": "OPPORTUNITY.FISCAL_PERIOD",
+            "label": "Fiscal Period"
+          },
+          {
+            "field": "OPPORTUNITY.LAST_ACTIVITY",
+            "label": "Last Activity"
+          },
+          {
+            "field": "OPPORTUNITY.CREATED_DATE",
+            "label": "Created Date"
+          },
+          {
+            "field": "OPPORTUNITY.LAST_UPDATE",
+            "label": "Last Modified Date"
+          },
+          {
+            "field": "OPPORTUNITY.LAST_STAGE_CHANGE",
+            "label": "Last Stage Change Date"
+          },
+          {
+            "field": "OPPORTUNITY.PUSH_COUNT",
+            "label": "Push Count"
+          }
+        ],
+        "opportunityListFieldsSelectedSettings": {
+          "field": [
+            "OPPORTUNITY.NAME",
+            "ACCOUNT.NAME",
+            "OPPORTUNITY.CLOSE_DATE",
+            "OPPORTUNITY.STAGE_NAME",
+            "OPPORTUNITY.PROBABILITY",
+            "FORECAST_CATEGORY",
+            "FULL_NAME"
+          ]
+        },
+        "opportunityListFieldsUnselectedSettings": {
+          "field": [
+            "OPPORTUNITY.AMOUNT",
+            "CORE.USERS.ALIAS",
+            "CORE.USERS.FIRST_NAME",
+            "CORE.USERS.LAST_NAME",
+            "DESCRIPTION",
+            "OPPORTUNITY.LEAD_SOURCE",
+            "OPPORTUNITY.NEXT_STEP",
+            "OPPORTUNITY.TYPE",
+            "UPDATEDBY_USER.ALIAS",
+            "CREATEDBY_USER.ALIAS",
+            "OPPORTUNITY.CLOSED",
+            "OPPORTUNITY.WON",
+            "OPPORTUNITY.FISCAL_YEAR",
+            "OPPORTUNITY.FISCAL_QUARTER",
+            "OPPORTUNITY.FISCAL_PERIOD",
+            "OPPORTUNITY.LAST_ACTIVITY",
+            "OPPORTUNITY.CREATED_DATE",
+            "OPPORTUNITY.LAST_UPDATE",
+            "OPPORTUNITY.LAST_STAGE_CHANGE",
+            "OPPORTUNITY.PUSH_COUNT"
+          ]
+        },
+        "adjustmentsSettings": {
+          "enableAdjustments": false,
+          "enableOwnerAdjustments": false
+        },
+        "forecastRangeSettings": {
+          "beginning": 0,
+          "displaying": 0,
+          "periodType": ""
+        },
+        "managerAdjustableCategoryApiNames": [],
+        "ownerAdjustableCategoryApiNames": [],
+        "quotasSettings": {
+          "showQuotas": false
+        }
+      },
+      {
+        "active": false,
+        "displayedCategoryApiNames": [
+          "closedonly",
+          "commitonly",
+          "bestcaseonly",
+          "pipelineonly"
+        ],
+        "forecastedCategoryApiNames": [
+          "commitonly",
+          "closedonly",
+          "pipelineonly",
+          "customcategory",
+          "bestcaseonly"
+        ],
+        "forecastingDateType": "ProductDate",
+        "hasProductFamily": false,
+        "isAmount": true,
+        "isAvailable": true,
+        "isQuantity": false,
+        "masterLabel": "Opportunity Revenue Product Date",
+        "name": "OpportunityRevenueProductDate",
+        "opportunityListFieldsLabelMappings": [
+          {
+            "field": "OPPORTUNITY.NAME",
+            "label": "Opportunity Name"
+          },
+          {
+            "field": "ACCOUNT.NAME",
+            "label": "Account Name"
+          },
+          {
+            "field": "SPLITAMOUNT",
+            "label": "Forecasted Amount"
+          },
+          {
+            "field": "OPPORTUNITY.CLOSE_DATE",
+            "label": "Close Date"
+          },
+          {
+            "field": "OPPORTUNITY.STAGE_NAME",
+            "label": "Stage"
+          },
+          {
+            "field": "OPPORTUNITY.PROBABILITY",
+            "label": "Probability (%)"
+          },
+          {
+            "field": "FORECAST_CATEGORY",
+            "label": "Forecast Category"
+          },
+          {
+            "field": "FULL_NAME",
+            "label": "Owner Full Name"
+          },
+          {
+            "field": "OPPORTUNITY.AMOUNT",
+            "label": "Amount"
+          },
+          {
+            "field": "CORE.USERS.ALIAS",
+            "label": "Opportunity Owner Alias"
+          },
+          {
+            "field": "CORE.USERS.FIRST_NAME",
+            "label": "Owner First Name"
+          },
+          {
+            "field": "CORE.USERS.LAST_NAME",
+            "label": "Owner Last Name"
+          },
+          {
+            "field": "DESCRIPTION",
+            "label": "Description"
+          },
+          {
+            "field": "OPPORTUNITY.LEAD_SOURCE",
+            "label": "Lead Source"
+          },
+          {
+            "field": "OPPORTUNITY.NEXT_STEP",
+            "label": "Next Step"
+          },
+          {
+            "field": "OPPORTUNITY.TYPE",
+            "label": "Type"
+          },
+          {
+            "field": "UPDATEDBY_USER.ALIAS",
+            "label": "Last Modified By Alias"
+          },
+          {
+            "field": "CREATEDBY_USER.ALIAS",
+            "label": "Created By Alias"
+          },
+          {
+            "field": "OPPORTUNITY.CLOSED",
+            "label": "Closed"
+          },
+          {
+            "field": "OPPORTUNITY.WON",
+            "label": "Won"
+          },
+          {
+            "field": "OPPORTUNITY.FISCAL_YEAR",
+            "label": "Fiscal Year"
+          },
+          {
+            "field": "OPPORTUNITY.FISCAL_QUARTER",
+            "label": "Fiscal Quarter"
+          },
+          {
+            "field": "OPPORTUNITY.FISCAL_PERIOD",
+            "label": "Fiscal Period"
+          },
+          {
+            "field": "OPPORTUNITY.LAST_ACTIVITY",
+            "label": "Last Activity"
+          },
+          {
+            "field": "OPPORTUNITY.CREATED_DATE",
+            "label": "Created Date"
+          },
+          {
+            "field": "OPPORTUNITY.LAST_UPDATE",
+            "label": "Last Modified Date"
+          },
+          {
+            "field": "OPPORTUNITY.LAST_STAGE_CHANGE",
+            "label": "Last Stage Change Date"
+          },
+          {
+            "field": "OPPORTUNITY.PUSH_COUNT",
+            "label": "Push Count"
+          }
+        ],
+        "opportunityListFieldsSelectedSettings": {
+          "field": [
+            "OPPORTUNITY.NAME",
+            "ACCOUNT.NAME",
+            "SPLITAMOUNT",
+            "OPPORTUNITY.CLOSE_DATE",
+            "OPPORTUNITY.STAGE_NAME",
+            "OPPORTUNITY.PROBABILITY",
+            "FORECAST_CATEGORY",
+            "FULL_NAME"
+          ]
+        },
+        "opportunityListFieldsUnselectedSettings": {
+          "field": [
+            "OPPORTUNITY.AMOUNT",
+            "CORE.USERS.ALIAS",
+            "CORE.USERS.FIRST_NAME",
+            "CORE.USERS.LAST_NAME",
+            "DESCRIPTION",
+            "OPPORTUNITY.LEAD_SOURCE",
+            "OPPORTUNITY.NEXT_STEP",
+            "OPPORTUNITY.TYPE",
+            "UPDATEDBY_USER.ALIAS",
+            "CREATEDBY_USER.ALIAS",
+            "OPPORTUNITY.CLOSED",
+            "OPPORTUNITY.WON",
+            "OPPORTUNITY.FISCAL_YEAR",
+            "OPPORTUNITY.FISCAL_QUARTER",
+            "OPPORTUNITY.FISCAL_PERIOD",
+            "OPPORTUNITY.LAST_ACTIVITY",
+            "OPPORTUNITY.CREATED_DATE",
+            "OPPORTUNITY.LAST_UPDATE",
+            "OPPORTUNITY.LAST_STAGE_CHANGE",
+            "OPPORTUNITY.PUSH_COUNT"
+          ]
+        },
+        "adjustmentsSettings": {
+          "enableAdjustments": false,
+          "enableOwnerAdjustments": false
+        },
+        "forecastRangeSettings": {
+          "beginning": 0,
+          "displaying": 0,
+          "periodType": ""
+        },
+        "managerAdjustableCategoryApiNames": [],
+        "ownerAdjustableCategoryApiNames": [],
+        "quotasSettings": {
+          "showQuotas": false
+        }
+      },
+      {
+        "active": false,
+        "displayedCategoryApiNames": [
+          "closedonly",
+          "commitonly",
+          "bestcaseonly",
+          "pipelineonly"
+        ],
+        "forecastedCategoryApiNames": [
+          "commitonly",
+          "closedonly",
+          "pipelineonly",
+          "customcategory",
+          "bestcaseonly"
+        ],
+        "forecastingDateType": "ProductDate",
+        "hasProductFamily": false,
+        "isAmount": false,
+        "isAvailable": true,
+        "isQuantity": true,
+        "masterLabel": "Opportunity Quantity Product Date",
+        "name": "OpportunityQuantityProductDate",
+        "opportunityListFieldsLabelMappings": [
+          {
+            "field": "OPPORTUNITY.NAME",
+            "label": "Opportunity Name"
+          },
+          {
+            "field": "ACCOUNT.NAME",
+            "label": "Account Name"
+          },
+          {
+            "field": "OPPORTUNITY.CLOSE_DATE",
+            "label": "Close Date"
+          },
+          {
+            "field": "OPPORTUNITY.STAGE_NAME",
+            "label": "Stage"
+          },
+          {
+            "field": "OPPORTUNITY.PROBABILITY",
+            "label": "Probability (%)"
+          },
+          {
+            "field": "FORECAST_CATEGORY",
+            "label": "Forecast Category"
+          },
+          {
+            "field": "FULL_NAME",
+            "label": "Owner Full Name"
+          },
+          {
+            "field": "OPPORTUNITY.AMOUNT",
+            "label": "Amount"
+          },
+          {
+            "field": "CORE.USERS.ALIAS",
+            "label": "Opportunity Owner Alias"
+          },
+          {
+            "field": "CORE.USERS.FIRST_NAME",
+            "label": "Owner First Name"
+          },
+          {
+            "field": "CORE.USERS.LAST_NAME",
+            "label": "Owner Last Name"
+          },
+          {
+            "field": "DESCRIPTION",
+            "label": "Description"
+          },
+          {
+            "field": "OPPORTUNITY.LEAD_SOURCE",
+            "label": "Lead Source"
+          },
+          {
+            "field": "OPPORTUNITY.NEXT_STEP",
+            "label": "Next Step"
+          },
+          {
+            "field": "OPPORTUNITY.TYPE",
+            "label": "Type"
+          },
+          {
+            "field": "UPDATEDBY_USER.ALIAS",
+            "label": "Last Modified By Alias"
+          },
+          {
+            "field": "CREATEDBY_USER.ALIAS",
+            "label": "Created By Alias"
+          },
+          {
+            "field": "OPPORTUNITY.CLOSED",
+            "label": "Closed"
+          },
+          {
+            "field": "OPPORTUNITY.WON",
+            "label": "Won"
+          },
+          {
+            "field": "OPPORTUNITY.FISCAL_YEAR",
+            "label": "Fiscal Year"
+          },
+          {
+            "field": "OPPORTUNITY.FISCAL_QUARTER",
+            "label": "Fiscal Quarter"
+          },
+          {
+            "field": "OPPORTUNITY.FISCAL_PERIOD",
+            "label": "Fiscal Period"
+          },
+          {
+            "field": "OPPORTUNITY.LAST_ACTIVITY",
+            "label": "Last Activity"
+          },
+          {
+            "field": "OPPORTUNITY.CREATED_DATE",
+            "label": "Created Date"
+          },
+          {
+            "field": "OPPORTUNITY.LAST_UPDATE",
+            "label": "Last Modified Date"
+          },
+          {
+            "field": "OPPORTUNITY.LAST_STAGE_CHANGE",
+            "label": "Last Stage Change Date"
+          },
+          {
+            "field": "OPPORTUNITY.PUSH_COUNT",
+            "label": "Push Count"
+          }
+        ],
+        "opportunityListFieldsSelectedSettings": {
+          "field": [
+            "OPPORTUNITY.NAME",
+            "ACCOUNT.NAME",
+            "OPPORTUNITY.CLOSE_DATE",
+            "OPPORTUNITY.STAGE_NAME",
+            "OPPORTUNITY.PROBABILITY",
+            "FORECAST_CATEGORY",
+            "FULL_NAME"
+          ]
+        },
+        "opportunityListFieldsUnselectedSettings": {
+          "field": [
+            "OPPORTUNITY.AMOUNT",
+            "CORE.USERS.ALIAS",
+            "CORE.USERS.FIRST_NAME",
+            "CORE.USERS.LAST_NAME",
+            "DESCRIPTION",
+            "OPPORTUNITY.LEAD_SOURCE",
+            "OPPORTUNITY.NEXT_STEP",
+            "OPPORTUNITY.TYPE",
+            "UPDATEDBY_USER.ALIAS",
+            "CREATEDBY_USER.ALIAS",
+            "OPPORTUNITY.CLOSED",
+            "OPPORTUNITY.WON",
+            "OPPORTUNITY.FISCAL_YEAR",
+            "OPPORTUNITY.FISCAL_QUARTER",
+            "OPPORTUNITY.FISCAL_PERIOD",
+            "OPPORTUNITY.LAST_ACTIVITY",
+            "OPPORTUNITY.CREATED_DATE",
+            "OPPORTUNITY.LAST_UPDATE",
+            "OPPORTUNITY.LAST_STAGE_CHANGE",
+            "OPPORTUNITY.PUSH_COUNT"
+          ]
+        },
+        "adjustmentsSettings": {
+          "enableAdjustments": false,
+          "enableOwnerAdjustments": false
+        },
+        "forecastRangeSettings": {
+          "beginning": 0,
+          "displaying": 0,
+          "periodType": ""
+        },
+        "managerAdjustableCategoryApiNames": [],
+        "ownerAdjustableCategoryApiNames": [],
+        "quotasSettings": {
+          "showQuotas": false
+        }
+      },
+      {
+        "active": false,
+        "displayedCategoryApiNames": [
+          "closedonly",
+          "commitonly",
+          "bestcaseonly",
+          "pipelineonly"
+        ],
+        "forecastedCategoryApiNames": [
+          "commitonly",
+          "closedonly",
+          "pipelineonly",
+          "customcategory",
+          "bestcaseonly"
+        ],
+        "forecastingDateType": "ProductDate",
+        "hasProductFamily": true,
+        "isAmount": true,
+        "isAvailable": true,
+        "isQuantity": false,
+        "masterLabel": "Line Item Revenue Product Date",
+        "name": "LineItemRevenueProductDate",
+        "opportunityListFieldsLabelMappings": [
+          {
+            "field": "OPPORTUNITY.NAME",
+            "label": "Opportunity Name"
+          },
+          {
+            "field": "ACCOUNT.NAME",
+            "label": "Account Name"
+          },
+          {
+            "field": "SPLITAMOUNT",
+            "label": "Forecasted Amount"
+          },
+          {
+            "field": "OPPORTUNITY.CLOSE_DATE",
+            "label": "Close Date"
+          },
+          {
+            "field": "OPPORTUNITY.STAGE_NAME",
+            "label": "Stage"
+          },
+          {
+            "field": "OPPORTUNITY.PROBABILITY",
+            "label": "Probability (%)"
+          },
+          {
+            "field": "FORECAST_CATEGORY",
+            "label": "Forecast Category"
+          },
+          {
+            "field": "FULL_NAME",
+            "label": "Owner Full Name"
+          },
+          {
+            "field": "OPPORTUNITY.AMOUNT",
+            "label": "Amount"
+          },
+          {
+            "field": "CORE.USERS.ALIAS",
+            "label": "Opportunity Owner Alias"
+          },
+          {
+            "field": "CORE.USERS.FIRST_NAME",
+            "label": "Owner First Name"
+          },
+          {
+            "field": "CORE.USERS.LAST_NAME",
+            "label": "Owner Last Name"
+          },
+          {
+            "field": "DESCRIPTION",
+            "label": "Description"
+          },
+          {
+            "field": "OPPORTUNITY.LEAD_SOURCE",
+            "label": "Lead Source"
+          },
+          {
+            "field": "OPPORTUNITY.NEXT_STEP",
+            "label": "Next Step"
+          },
+          {
+            "field": "OPPORTUNITY.TYPE",
+            "label": "Type"
+          },
+          {
+            "field": "UPDATEDBY_USER.ALIAS",
+            "label": "Last Modified By Alias"
+          },
+          {
+            "field": "CREATEDBY_USER.ALIAS",
+            "label": "Created By Alias"
+          },
+          {
+            "field": "OPPORTUNITY.CLOSED",
+            "label": "Closed"
+          },
+          {
+            "field": "OPPORTUNITY.WON",
+            "label": "Won"
+          },
+          {
+            "field": "OPPORTUNITY.FISCAL_YEAR",
+            "label": "Fiscal Year"
+          },
+          {
+            "field": "OPPORTUNITY.FISCAL_QUARTER",
+            "label": "Fiscal Quarter"
+          },
+          {
+            "field": "OPPORTUNITY.FISCAL_PERIOD",
+            "label": "Fiscal Period"
+          },
+          {
+            "field": "OPPORTUNITY.LAST_ACTIVITY",
+            "label": "Last Activity"
+          },
+          {
+            "field": "OPPORTUNITY.CREATED_DATE",
+            "label": "Created Date"
+          },
+          {
+            "field": "OPPORTUNITY.LAST_UPDATE",
+            "label": "Last Modified Date"
+          },
+          {
+            "field": "OPPORTUNITY.LAST_STAGE_CHANGE",
+            "label": "Last Stage Change Date"
+          },
+          {
+            "field": "OPPORTUNITY.PUSH_COUNT",
+            "label": "Push Count"
+          }
+        ],
+        "opportunityListFieldsSelectedSettings": {
+          "field": [
+            "OPPORTUNITY.NAME",
+            "ACCOUNT.NAME",
+            "SPLITAMOUNT",
+            "OPPORTUNITY.CLOSE_DATE",
+            "OPPORTUNITY.STAGE_NAME",
+            "OPPORTUNITY.PROBABILITY",
+            "FORECAST_CATEGORY",
+            "FULL_NAME"
+          ]
+        },
+        "opportunityListFieldsUnselectedSettings": {
+          "field": [
+            "OPPORTUNITY.AMOUNT",
+            "CORE.USERS.ALIAS",
+            "CORE.USERS.FIRST_NAME",
+            "CORE.USERS.LAST_NAME",
+            "DESCRIPTION",
+            "OPPORTUNITY.LEAD_SOURCE",
+            "OPPORTUNITY.NEXT_STEP",
+            "OPPORTUNITY.TYPE",
+            "UPDATEDBY_USER.ALIAS",
+            "CREATEDBY_USER.ALIAS",
+            "OPPORTUNITY.CLOSED",
+            "OPPORTUNITY.WON",
+            "OPPORTUNITY.FISCAL_YEAR",
+            "OPPORTUNITY.FISCAL_QUARTER",
+            "OPPORTUNITY.FISCAL_PERIOD",
+            "OPPORTUNITY.LAST_ACTIVITY",
+            "OPPORTUNITY.CREATED_DATE",
+            "OPPORTUNITY.LAST_UPDATE",
+            "OPPORTUNITY.LAST_STAGE_CHANGE",
+            "OPPORTUNITY.PUSH_COUNT"
+          ]
+        },
+        "adjustmentsSettings": {
+          "enableAdjustments": false,
+          "enableOwnerAdjustments": false
+        },
+        "forecastRangeSettings": {
+          "beginning": 0,
+          "displaying": 0,
+          "periodType": ""
+        },
+        "managerAdjustableCategoryApiNames": [],
+        "ownerAdjustableCategoryApiNames": [],
+        "quotasSettings": {
+          "showQuotas": false
+        }
+      },
+      {
+        "active": false,
+        "displayedCategoryApiNames": [
+          "closedonly",
+          "commitonly",
+          "bestcaseonly",
+          "pipelineonly"
+        ],
+        "forecastedCategoryApiNames": [
+          "commitonly",
+          "closedonly",
+          "pipelineonly",
+          "customcategory",
+          "bestcaseonly"
+        ],
+        "forecastingDateType": "ProductDate",
+        "hasProductFamily": true,
+        "isAmount": false,
+        "isAvailable": true,
+        "isQuantity": true,
+        "masterLabel": "Line Item Quantity Product Date",
+        "name": "LineItemQuantityProductDate",
+        "opportunityListFieldsLabelMappings": [
+          {
+            "field": "OPPORTUNITY.NAME",
+            "label": "Opportunity Name"
+          },
+          {
+            "field": "ACCOUNT.NAME",
+            "label": "Account Name"
+          },
+          {
+            "field": "OPPORTUNITY.CLOSE_DATE",
+            "label": "Close Date"
+          },
+          {
+            "field": "OPPORTUNITY.STAGE_NAME",
+            "label": "Stage"
+          },
+          {
+            "field": "OPPORTUNITY.PROBABILITY",
+            "label": "Probability (%)"
+          },
+          {
+            "field": "FORECAST_CATEGORY",
+            "label": "Forecast Category"
+          },
+          {
+            "field": "FULL_NAME",
+            "label": "Owner Full Name"
+          },
+          {
+            "field": "OPPORTUNITY.AMOUNT",
+            "label": "Amount"
+          },
+          {
+            "field": "CORE.USERS.ALIAS",
+            "label": "Opportunity Owner Alias"
+          },
+          {
+            "field": "CORE.USERS.FIRST_NAME",
+            "label": "Owner First Name"
+          },
+          {
+            "field": "CORE.USERS.LAST_NAME",
+            "label": "Owner Last Name"
+          },
+          {
+            "field": "DESCRIPTION",
+            "label": "Description"
+          },
+          {
+            "field": "OPPORTUNITY.LEAD_SOURCE",
+            "label": "Lead Source"
+          },
+          {
+            "field": "OPPORTUNITY.NEXT_STEP",
+            "label": "Next Step"
+          },
+          {
+            "field": "OPPORTUNITY.TYPE",
+            "label": "Type"
+          },
+          {
+            "field": "UPDATEDBY_USER.ALIAS",
+            "label": "Last Modified By Alias"
+          },
+          {
+            "field": "CREATEDBY_USER.ALIAS",
+            "label": "Created By Alias"
+          },
+          {
+            "field": "OPPORTUNITY.CLOSED",
+            "label": "Closed"
+          },
+          {
+            "field": "OPPORTUNITY.WON",
+            "label": "Won"
+          },
+          {
+            "field": "OPPORTUNITY.FISCAL_YEAR",
+            "label": "Fiscal Year"
+          },
+          {
+            "field": "OPPORTUNITY.FISCAL_QUARTER",
+            "label": "Fiscal Quarter"
+          },
+          {
+            "field": "OPPORTUNITY.FISCAL_PERIOD",
+            "label": "Fiscal Period"
+          },
+          {
+            "field": "OPPORTUNITY.LAST_ACTIVITY",
+            "label": "Last Activity"
+          },
+          {
+            "field": "OPPORTUNITY.CREATED_DATE",
+            "label": "Created Date"
+          },
+          {
+            "field": "OPPORTUNITY.LAST_UPDATE",
+            "label": "Last Modified Date"
+          },
+          {
+            "field": "OPPORTUNITY.LAST_STAGE_CHANGE",
+            "label": "Last Stage Change Date"
+          },
+          {
+            "field": "OPPORTUNITY.PUSH_COUNT",
+            "label": "Push Count"
+          }
+        ],
+        "opportunityListFieldsSelectedSettings": {
+          "field": [
+            "OPPORTUNITY.NAME",
+            "ACCOUNT.NAME",
+            "OPPORTUNITY.CLOSE_DATE",
+            "OPPORTUNITY.STAGE_NAME",
+            "OPPORTUNITY.PROBABILITY",
+            "FORECAST_CATEGORY",
+            "FULL_NAME"
+          ]
+        },
+        "opportunityListFieldsUnselectedSettings": {
+          "field": [
+            "OPPORTUNITY.AMOUNT",
+            "CORE.USERS.ALIAS",
+            "CORE.USERS.FIRST_NAME",
+            "CORE.USERS.LAST_NAME",
+            "DESCRIPTION",
+            "OPPORTUNITY.LEAD_SOURCE",
+            "OPPORTUNITY.NEXT_STEP",
+            "OPPORTUNITY.TYPE",
+            "UPDATEDBY_USER.ALIAS",
+            "CREATEDBY_USER.ALIAS",
+            "OPPORTUNITY.CLOSED",
+            "OPPORTUNITY.WON",
+            "OPPORTUNITY.FISCAL_YEAR",
+            "OPPORTUNITY.FISCAL_QUARTER",
+            "OPPORTUNITY.FISCAL_PERIOD",
+            "OPPORTUNITY.LAST_ACTIVITY",
+            "OPPORTUNITY.CREATED_DATE",
+            "OPPORTUNITY.LAST_UPDATE",
+            "OPPORTUNITY.LAST_STAGE_CHANGE",
+            "OPPORTUNITY.PUSH_COUNT"
+          ]
+        },
+        "adjustmentsSettings": {
+          "enableAdjustments": false,
+          "enableOwnerAdjustments": false
+        },
+        "forecastRangeSettings": {
+          "beginning": 0,
+          "displaying": 0,
+          "periodType": ""
+        },
+        "managerAdjustableCategoryApiNames": [],
+        "ownerAdjustableCategoryApiNames": [],
+        "quotasSettings": {
+          "showQuotas": false
+        }
+      },
+      {
+        "active": false,
+        "displayedCategoryApiNames": [
+          "closedonly",
+          "commitonly",
+          "bestcaseonly",
+          "pipelineonly"
+        ],
+        "forecastedCategoryApiNames": [
+          "commitonly",
+          "closedonly",
+          "pipelineonly",
+          "customcategory",
+          "bestcaseonly"
+        ],
+        "forecastingDateType": "ScheduleDate",
+        "hasProductFamily": false,
+        "isAmount": true,
+        "isAvailable": false,
+        "isQuantity": false,
+        "masterLabel": "Opportunity Revenue Schedule Date",
+        "name": "OpportunityRevenueScheduleDate",
+        "opportunityListFieldsLabelMappings": [
+          {
+            "field": "OPPORTUNITY.NAME",
+            "label": "Opportunity Name"
+          },
+          {
+            "field": "ACCOUNT.NAME",
+            "label": "Account Name"
+          },
+          {
+            "field": "SPLITAMOUNT",
+            "label": "Forecasted Amount"
+          },
+          {
+            "field": "OPPORTUNITY.CLOSE_DATE",
+            "label": "Close Date"
+          },
+          {
+            "field": "OPPORTUNITY.STAGE_NAME",
+            "label": "Stage"
+          },
+          {
+            "field": "OPPORTUNITY.PROBABILITY",
+            "label": "Probability (%)"
+          },
+          {
+            "field": "FORECAST_CATEGORY",
+            "label": "Forecast Category"
+          },
+          {
+            "field": "FULL_NAME",
+            "label": "Owner Full Name"
+          },
+          {
+            "field": "OPPORTUNITY.AMOUNT",
+            "label": "Amount"
+          },
+          {
+            "field": "CORE.USERS.ALIAS",
+            "label": "Opportunity Owner Alias"
+          },
+          {
+            "field": "CORE.USERS.FIRST_NAME",
+            "label": "Owner First Name"
+          },
+          {
+            "field": "CORE.USERS.LAST_NAME",
+            "label": "Owner Last Name"
+          },
+          {
+            "field": "DESCRIPTION",
+            "label": "Description"
+          },
+          {
+            "field": "OPPORTUNITY.LEAD_SOURCE",
+            "label": "Lead Source"
+          },
+          {
+            "field": "OPPORTUNITY.NEXT_STEP",
+            "label": "Next Step"
+          },
+          {
+            "field": "OPPORTUNITY.TYPE",
+            "label": "Type"
+          },
+          {
+            "field": "UPDATEDBY_USER.ALIAS",
+            "label": "Last Modified By Alias"
+          },
+          {
+            "field": "CREATEDBY_USER.ALIAS",
+            "label": "Created By Alias"
+          },
+          {
+            "field": "OPPORTUNITY.CLOSED",
+            "label": "Closed"
+          },
+          {
+            "field": "OPPORTUNITY.WON",
+            "label": "Won"
+          },
+          {
+            "field": "OPPORTUNITY.FISCAL_YEAR",
+            "label": "Fiscal Year"
+          },
+          {
+            "field": "OPPORTUNITY.FISCAL_QUARTER",
+            "label": "Fiscal Quarter"
+          },
+          {
+            "field": "OPPORTUNITY.FISCAL_PERIOD",
+            "label": "Fiscal Period"
+          },
+          {
+            "field": "OPPORTUNITY.LAST_ACTIVITY",
+            "label": "Last Activity"
+          },
+          {
+            "field": "OPPORTUNITY.CREATED_DATE",
+            "label": "Created Date"
+          },
+          {
+            "field": "OPPORTUNITY.LAST_UPDATE",
+            "label": "Last Modified Date"
+          },
+          {
+            "field": "OPPORTUNITY.LAST_STAGE_CHANGE",
+            "label": "Last Stage Change Date"
+          },
+          {
+            "field": "OPPORTUNITY.PUSH_COUNT",
+            "label": "Push Count"
+          }
+        ],
+        "opportunityListFieldsSelectedSettings": {
+          "field": [
+            "OPPORTUNITY.NAME",
+            "ACCOUNT.NAME",
+            "SPLITAMOUNT",
+            "OPPORTUNITY.CLOSE_DATE",
+            "OPPORTUNITY.STAGE_NAME",
+            "OPPORTUNITY.PROBABILITY",
+            "FORECAST_CATEGORY",
+            "FULL_NAME"
+          ]
+        },
+        "opportunityListFieldsUnselectedSettings": {
+          "field": [
+            "OPPORTUNITY.AMOUNT",
+            "CORE.USERS.ALIAS",
+            "CORE.USERS.FIRST_NAME",
+            "CORE.USERS.LAST_NAME",
+            "DESCRIPTION",
+            "OPPORTUNITY.LEAD_SOURCE",
+            "OPPORTUNITY.NEXT_STEP",
+            "OPPORTUNITY.TYPE",
+            "UPDATEDBY_USER.ALIAS",
+            "CREATEDBY_USER.ALIAS",
+            "OPPORTUNITY.CLOSED",
+            "OPPORTUNITY.WON",
+            "OPPORTUNITY.FISCAL_YEAR",
+            "OPPORTUNITY.FISCAL_QUARTER",
+            "OPPORTUNITY.FISCAL_PERIOD",
+            "OPPORTUNITY.LAST_ACTIVITY",
+            "OPPORTUNITY.CREATED_DATE",
+            "OPPORTUNITY.LAST_UPDATE",
+            "OPPORTUNITY.LAST_STAGE_CHANGE",
+            "OPPORTUNITY.PUSH_COUNT"
+          ]
+        },
+        "adjustmentsSettings": {
+          "enableAdjustments": false,
+          "enableOwnerAdjustments": false
+        },
+        "forecastRangeSettings": {
+          "beginning": 0,
+          "displaying": 0,
+          "periodType": ""
+        },
+        "managerAdjustableCategoryApiNames": [],
+        "ownerAdjustableCategoryApiNames": [],
+        "quotasSettings": {
+          "showQuotas": false
+        }
+      },
+      {
+        "active": false,
+        "displayedCategoryApiNames": [
+          "closedonly",
+          "commitonly",
+          "bestcaseonly",
+          "pipelineonly"
+        ],
+        "forecastedCategoryApiNames": [
+          "commitonly",
+          "closedonly",
+          "pipelineonly",
+          "customcategory",
+          "bestcaseonly"
+        ],
+        "forecastingDateType": "ScheduleDate",
+        "hasProductFamily": false,
+        "isAmount": false,
+        "isAvailable": false,
+        "isQuantity": true,
+        "masterLabel": "Opportunity Quantity Schedule Date",
+        "name": "OpportunityQuantityScheduleDate",
+        "opportunityListFieldsLabelMappings": [
+          {
+            "field": "OPPORTUNITY.NAME",
+            "label": "Opportunity Name"
+          },
+          {
+            "field": "ACCOUNT.NAME",
+            "label": "Account Name"
+          },
+          {
+            "field": "OPPORTUNITY.CLOSE_DATE",
+            "label": "Close Date"
+          },
+          {
+            "field": "OPPORTUNITY.STAGE_NAME",
+            "label": "Stage"
+          },
+          {
+            "field": "OPPORTUNITY.PROBABILITY",
+            "label": "Probability (%)"
+          },
+          {
+            "field": "FORECAST_CATEGORY",
+            "label": "Forecast Category"
+          },
+          {
+            "field": "FULL_NAME",
+            "label": "Owner Full Name"
+          },
+          {
+            "field": "OPPORTUNITY.AMOUNT",
+            "label": "Amount"
+          },
+          {
+            "field": "CORE.USERS.ALIAS",
+            "label": "Opportunity Owner Alias"
+          },
+          {
+            "field": "CORE.USERS.FIRST_NAME",
+            "label": "Owner First Name"
+          },
+          {
+            "field": "CORE.USERS.LAST_NAME",
+            "label": "Owner Last Name"
+          },
+          {
+            "field": "DESCRIPTION",
+            "label": "Description"
+          },
+          {
+            "field": "OPPORTUNITY.LEAD_SOURCE",
+            "label": "Lead Source"
+          },
+          {
+            "field": "OPPORTUNITY.NEXT_STEP",
+            "label": "Next Step"
+          },
+          {
+            "field": "OPPORTUNITY.TYPE",
+            "label": "Type"
+          },
+          {
+            "field": "UPDATEDBY_USER.ALIAS",
+            "label": "Last Modified By Alias"
+          },
+          {
+            "field": "CREATEDBY_USER.ALIAS",
+            "label": "Created By Alias"
+          },
+          {
+            "field": "OPPORTUNITY.CLOSED",
+            "label": "Closed"
+          },
+          {
+            "field": "OPPORTUNITY.WON",
+            "label": "Won"
+          },
+          {
+            "field": "OPPORTUNITY.FISCAL_YEAR",
+            "label": "Fiscal Year"
+          },
+          {
+            "field": "OPPORTUNITY.FISCAL_QUARTER",
+            "label": "Fiscal Quarter"
+          },
+          {
+            "field": "OPPORTUNITY.FISCAL_PERIOD",
+            "label": "Fiscal Period"
+          },
+          {
+            "field": "OPPORTUNITY.LAST_ACTIVITY",
+            "label": "Last Activity"
+          },
+          {
+            "field": "OPPORTUNITY.CREATED_DATE",
+            "label": "Created Date"
+          },
+          {
+            "field": "OPPORTUNITY.LAST_UPDATE",
+            "label": "Last Modified Date"
+          },
+          {
+            "field": "OPPORTUNITY.LAST_STAGE_CHANGE",
+            "label": "Last Stage Change Date"
+          },
+          {
+            "field": "OPPORTUNITY.PUSH_COUNT",
+            "label": "Push Count"
+          }
+        ],
+        "opportunityListFieldsSelectedSettings": {
+          "field": [
+            "OPPORTUNITY.NAME",
+            "ACCOUNT.NAME",
+            "OPPORTUNITY.CLOSE_DATE",
+            "OPPORTUNITY.STAGE_NAME",
+            "OPPORTUNITY.PROBABILITY",
+            "FORECAST_CATEGORY",
+            "FULL_NAME"
+          ]
+        },
+        "opportunityListFieldsUnselectedSettings": {
+          "field": [
+            "OPPORTUNITY.AMOUNT",
+            "CORE.USERS.ALIAS",
+            "CORE.USERS.FIRST_NAME",
+            "CORE.USERS.LAST_NAME",
+            "DESCRIPTION",
+            "OPPORTUNITY.LEAD_SOURCE",
+            "OPPORTUNITY.NEXT_STEP",
+            "OPPORTUNITY.TYPE",
+            "UPDATEDBY_USER.ALIAS",
+            "CREATEDBY_USER.ALIAS",
+            "OPPORTUNITY.CLOSED",
+            "OPPORTUNITY.WON",
+            "OPPORTUNITY.FISCAL_YEAR",
+            "OPPORTUNITY.FISCAL_QUARTER",
+            "OPPORTUNITY.FISCAL_PERIOD",
+            "OPPORTUNITY.LAST_ACTIVITY",
+            "OPPORTUNITY.CREATED_DATE",
+            "OPPORTUNITY.LAST_UPDATE",
+            "OPPORTUNITY.LAST_STAGE_CHANGE",
+            "OPPORTUNITY.PUSH_COUNT"
+          ]
+        },
+        "adjustmentsSettings": {
+          "enableAdjustments": false,
+          "enableOwnerAdjustments": false
+        },
+        "forecastRangeSettings": {
+          "beginning": 0,
+          "displaying": 0,
+          "periodType": ""
+        },
+        "managerAdjustableCategoryApiNames": [],
+        "ownerAdjustableCategoryApiNames": [],
+        "quotasSettings": {
+          "showQuotas": false
+        }
+      },
+      {
+        "active": false,
+        "displayedCategoryApiNames": [
+          "closedonly",
+          "commitonly",
+          "bestcaseonly",
+          "pipelineonly"
+        ],
+        "forecastedCategoryApiNames": [
+          "commitonly",
+          "closedonly",
+          "pipelineonly",
+          "customcategory",
+          "bestcaseonly"
+        ],
+        "forecastingDateType": "ScheduleDate",
+        "hasProductFamily": true,
+        "isAmount": true,
+        "isAvailable": false,
+        "isQuantity": false,
+        "masterLabel": "Line Item Revenue Schedule Date",
+        "name": "LineItemRevenueScheduleDate",
+        "opportunityListFieldsLabelMappings": [
+          {
+            "field": "OPPORTUNITY.NAME",
+            "label": "Opportunity Name"
+          },
+          {
+            "field": "ACCOUNT.NAME",
+            "label": "Account Name"
+          },
+          {
+            "field": "SPLITAMOUNT",
+            "label": "Forecasted Amount"
+          },
+          {
+            "field": "OPPORTUNITY.CLOSE_DATE",
+            "label": "Close Date"
+          },
+          {
+            "field": "OPPORTUNITY.STAGE_NAME",
+            "label": "Stage"
+          },
+          {
+            "field": "OPPORTUNITY.PROBABILITY",
+            "label": "Probability (%)"
+          },
+          {
+            "field": "FORECAST_CATEGORY",
+            "label": "Forecast Category"
+          },
+          {
+            "field": "FULL_NAME",
+            "label": "Owner Full Name"
+          },
+          {
+            "field": "OPPORTUNITY.AMOUNT",
+            "label": "Amount"
+          },
+          {
+            "field": "CORE.USERS.ALIAS",
+            "label": "Opportunity Owner Alias"
+          },
+          {
+            "field": "CORE.USERS.FIRST_NAME",
+            "label": "Owner First Name"
+          },
+          {
+            "field": "CORE.USERS.LAST_NAME",
+            "label": "Owner Last Name"
+          },
+          {
+            "field": "DESCRIPTION",
+            "label": "Description"
+          },
+          {
+            "field": "OPPORTUNITY.LEAD_SOURCE",
+            "label": "Lead Source"
+          },
+          {
+            "field": "OPPORTUNITY.NEXT_STEP",
+            "label": "Next Step"
+          },
+          {
+            "field": "OPPORTUNITY.TYPE",
+            "label": "Type"
+          },
+          {
+            "field": "UPDATEDBY_USER.ALIAS",
+            "label": "Last Modified By Alias"
+          },
+          {
+            "field": "CREATEDBY_USER.ALIAS",
+            "label": "Created By Alias"
+          },
+          {
+            "field": "OPPORTUNITY.CLOSED",
+            "label": "Closed"
+          },
+          {
+            "field": "OPPORTUNITY.WON",
+            "label": "Won"
+          },
+          {
+            "field": "OPPORTUNITY.FISCAL_YEAR",
+            "label": "Fiscal Year"
+          },
+          {
+            "field": "OPPORTUNITY.FISCAL_QUARTER",
+            "label": "Fiscal Quarter"
+          },
+          {
+            "field": "OPPORTUNITY.FISCAL_PERIOD",
+            "label": "Fiscal Period"
+          },
+          {
+            "field": "OPPORTUNITY.LAST_ACTIVITY",
+            "label": "Last Activity"
+          },
+          {
+            "field": "OPPORTUNITY.CREATED_DATE",
+            "label": "Created Date"
+          },
+          {
+            "field": "OPPORTUNITY.LAST_UPDATE",
+            "label": "Last Modified Date"
+          },
+          {
+            "field": "OPPORTUNITY.LAST_STAGE_CHANGE",
+            "label": "Last Stage Change Date"
+          },
+          {
+            "field": "OPPORTUNITY.PUSH_COUNT",
+            "label": "Push Count"
+          }
+        ],
+        "opportunityListFieldsSelectedSettings": {
+          "field": [
+            "OPPORTUNITY.NAME",
+            "ACCOUNT.NAME",
+            "SPLITAMOUNT",
+            "OPPORTUNITY.CLOSE_DATE",
+            "OPPORTUNITY.STAGE_NAME",
+            "OPPORTUNITY.PROBABILITY",
+            "FORECAST_CATEGORY",
+            "FULL_NAME"
+          ]
+        },
+        "opportunityListFieldsUnselectedSettings": {
+          "field": [
+            "OPPORTUNITY.AMOUNT",
+            "CORE.USERS.ALIAS",
+            "CORE.USERS.FIRST_NAME",
+            "CORE.USERS.LAST_NAME",
+            "DESCRIPTION",
+            "OPPORTUNITY.LEAD_SOURCE",
+            "OPPORTUNITY.NEXT_STEP",
+            "OPPORTUNITY.TYPE",
+            "UPDATEDBY_USER.ALIAS",
+            "CREATEDBY_USER.ALIAS",
+            "OPPORTUNITY.CLOSED",
+            "OPPORTUNITY.WON",
+            "OPPORTUNITY.FISCAL_YEAR",
+            "OPPORTUNITY.FISCAL_QUARTER",
+            "OPPORTUNITY.FISCAL_PERIOD",
+            "OPPORTUNITY.LAST_ACTIVITY",
+            "OPPORTUNITY.CREATED_DATE",
+            "OPPORTUNITY.LAST_UPDATE",
+            "OPPORTUNITY.LAST_STAGE_CHANGE",
+            "OPPORTUNITY.PUSH_COUNT"
+          ]
+        },
+        "adjustmentsSettings": {
+          "enableAdjustments": false,
+          "enableOwnerAdjustments": false
+        },
+        "forecastRangeSettings": {
+          "beginning": 0,
+          "displaying": 0,
+          "periodType": ""
+        },
+        "managerAdjustableCategoryApiNames": [],
+        "ownerAdjustableCategoryApiNames": [],
+        "quotasSettings": {
+          "showQuotas": false
+        }
+      },
+      {
+        "active": false,
+        "displayedCategoryApiNames": [
+          "closedonly",
+          "commitonly",
+          "bestcaseonly",
+          "pipelineonly"
+        ],
+        "forecastedCategoryApiNames": [
+          "commitonly",
+          "closedonly",
+          "pipelineonly",
+          "customcategory",
+          "bestcaseonly"
+        ],
+        "forecastingDateType": "ScheduleDate",
+        "hasProductFamily": true,
+        "isAmount": false,
+        "isAvailable": false,
+        "isQuantity": true,
+        "masterLabel": "Line Item Quantity Schedule Date",
+        "name": "LineItemQuantityScheduleDate",
+        "opportunityListFieldsLabelMappings": [
+          {
+            "field": "OPPORTUNITY.NAME",
+            "label": "Opportunity Name"
+          },
+          {
+            "field": "ACCOUNT.NAME",
+            "label": "Account Name"
+          },
+          {
+            "field": "OPPORTUNITY.CLOSE_DATE",
+            "label": "Close Date"
+          },
+          {
+            "field": "OPPORTUNITY.STAGE_NAME",
+            "label": "Stage"
+          },
+          {
+            "field": "OPPORTUNITY.PROBABILITY",
+            "label": "Probability (%)"
+          },
+          {
+            "field": "FORECAST_CATEGORY",
+            "label": "Forecast Category"
+          },
+          {
+            "field": "FULL_NAME",
+            "label": "Owner Full Name"
+          },
+          {
+            "field": "OPPORTUNITY.AMOUNT",
+            "label": "Amount"
+          },
+          {
+            "field": "CORE.USERS.ALIAS",
+            "label": "Opportunity Owner Alias"
+          },
+          {
+            "field": "CORE.USERS.FIRST_NAME",
+            "label": "Owner First Name"
+          },
+          {
+            "field": "CORE.USERS.LAST_NAME",
+            "label": "Owner Last Name"
+          },
+          {
+            "field": "DESCRIPTION",
+            "label": "Description"
+          },
+          {
+            "field": "OPPORTUNITY.LEAD_SOURCE",
+            "label": "Lead Source"
+          },
+          {
+            "field": "OPPORTUNITY.NEXT_STEP",
+            "label": "Next Step"
+          },
+          {
+            "field": "OPPORTUNITY.TYPE",
+            "label": "Type"
+          },
+          {
+            "field": "UPDATEDBY_USER.ALIAS",
+            "label": "Last Modified By Alias"
+          },
+          {
+            "field": "CREATEDBY_USER.ALIAS",
+            "label": "Created By Alias"
+          },
+          {
+            "field": "OPPORTUNITY.CLOSED",
+            "label": "Closed"
+          },
+          {
+            "field": "OPPORTUNITY.WON",
+            "label": "Won"
+          },
+          {
+            "field": "OPPORTUNITY.FISCAL_YEAR",
+            "label": "Fiscal Year"
+          },
+          {
+            "field": "OPPORTUNITY.FISCAL_QUARTER",
+            "label": "Fiscal Quarter"
+          },
+          {
+            "field": "OPPORTUNITY.FISCAL_PERIOD",
+            "label": "Fiscal Period"
+          },
+          {
+            "field": "OPPORTUNITY.LAST_ACTIVITY",
+            "label": "Last Activity"
+          },
+          {
+            "field": "OPPORTUNITY.CREATED_DATE",
+            "label": "Created Date"
+          },
+          {
+            "field": "OPPORTUNITY.LAST_UPDATE",
+            "label": "Last Modified Date"
+          },
+          {
+            "field": "OPPORTUNITY.LAST_STAGE_CHANGE",
+            "label": "Last Stage Change Date"
+          },
+          {
+            "field": "OPPORTUNITY.PUSH_COUNT",
+            "label": "Push Count"
+          }
+        ],
+        "opportunityListFieldsSelectedSettings": {
+          "field": [
+            "OPPORTUNITY.NAME",
+            "ACCOUNT.NAME",
+            "OPPORTUNITY.CLOSE_DATE",
+            "OPPORTUNITY.STAGE_NAME",
+            "OPPORTUNITY.PROBABILITY",
+            "FORECAST_CATEGORY",
+            "FULL_NAME"
+          ]
+        },
+        "opportunityListFieldsUnselectedSettings": {
+          "field": [
+            "OPPORTUNITY.AMOUNT",
+            "CORE.USERS.ALIAS",
+            "CORE.USERS.FIRST_NAME",
+            "CORE.USERS.LAST_NAME",
+            "DESCRIPTION",
+            "OPPORTUNITY.LEAD_SOURCE",
+            "OPPORTUNITY.NEXT_STEP",
+            "OPPORTUNITY.TYPE",
+            "UPDATEDBY_USER.ALIAS",
+            "CREATEDBY_USER.ALIAS",
+            "OPPORTUNITY.CLOSED",
+            "OPPORTUNITY.WON",
+            "OPPORTUNITY.FISCAL_YEAR",
+            "OPPORTUNITY.FISCAL_QUARTER",
+            "OPPORTUNITY.FISCAL_PERIOD",
+            "OPPORTUNITY.LAST_ACTIVITY",
+            "OPPORTUNITY.CREATED_DATE",
+            "OPPORTUNITY.LAST_UPDATE",
+            "OPPORTUNITY.LAST_STAGE_CHANGE",
+            "OPPORTUNITY.PUSH_COUNT"
+          ]
+        },
+        "adjustmentsSettings": {
+          "enableAdjustments": false,
+          "enableOwnerAdjustments": false
+        },
+        "forecastRangeSettings": {
+          "beginning": 0,
+          "displaying": 0,
+          "periodType": ""
+        },
+        "managerAdjustableCategoryApiNames": [],
+        "ownerAdjustableCategoryApiNames": [],
+        "quotasSettings": {
+          "showQuotas": false
+        }
+      }
+    ],
+    "globalAdjustmentsSettings": {
+      "allowExpandedColumns": "false",
+      "enableAdjustments": "false",
+      "enableOwnerAdjustments": "false"
+    },
+    "globalForecastRangeSettings": {
+      "beginning": "0",
+      "displaying": "6",
+      "periodType": "Month"
+    },
+    "globalQuotasSettings": {
+      "showQuotas": "false"
+    },
+    "forecastingDisplayedFamilySettings": []
+  },
+  "formula": {
+    "fullName": "FormulaSettings",
+    "enableDSTAwareDatevalue": false
+  },
+  "googleApps": {
+    "fullName": "GoogleAppsSettings",
+    "enableGmailButtons": false,
+    "enableGmailButtonsAndLinks": false,
+    "enableGmailLinks": false,
+    "enableGoogleDocs": false,
+    "enableGoogleDocsTab": false,
+    "enableGoogleTalk": false,
+    "googleAppsDomainLinked": false,
+    "googleAppsDomainValidated": false
+  },
+  "gRCIntelligenceUdd": {
+    "fullName": "GRCIntelligenceUddSettings",
+    "enablePolicyAuthoringAI": "false",
+    "enableProactAsstForRisk": "false",
+    "enableProactSummaryForRisk": "false"
+  },
+  "herokuAppLink": {
+    "fullName": "HerokuAppLinkSettings",
+    "enableHerokuAppLink": "false"
+  },
+  "ideas": {
+    "fullName": "IdeasSettings",
+    "enableChatterProfile": false,
+    "enableHtmlIdea": true,
+    "enableIdeaMultipleCategory": true,
+    "enableIdeaThemes": false,
+    "enableIdeas": true,
+    "enableIdeasControllerExtensions": false,
+    "enableIdeasReputation": false,
+    "halfLife": 2
+  },
+  "identityProvider": {
+    "fullName": "IdentityProviderSettings",
+    "certificateName": "",
+    "enableIdentityProvider": "false"
+  },
+  "incidentMgmt": {
+    "fullName": "IncidentMgmtSettings",
+    "enableAiKnowledgeCreation": "false",
+    "enableAutoClosureOfChildIncident": "false",
+    "enableAutoCreationOfProblem": "false",
+    "enableChangePriorityMatrix": "false",
+    "enableChangePriorityOverride": "false",
+    "enableChangeRequestValidations": "false",
+    "enableChatToIncidentAi": "false",
+    "enableChgCnfcltForMaintSchd": "false",
+    "enableChgCnflctForChgOwner": "false",
+    "enableChgCnflctForCnfgItems": "false",
+    "enableChgCnflctForMoratSchd": "false",
+    "enableChgRqstCnflctDetection": "false",
+    "enableCnfgItemCopyForRecords": "false",
+    "enableDedupE2IncidentAttachment": "false",
+    "enableEmailToIncident": "false",
+    "enableEmailToIncidentAi": "false",
+    "enableITSMChangeMgmt": "false",
+    "enableITSMIncidentMgmt": "false",
+    "enableITSMMajorIncParent": "false",
+    "enableITSMProblemMgmt": "false",
+    "enableIncPriorityMatrix": "false",
+    "enableIncPriorityOverride": "false",
+    "enableIncidentValidations": "false",
+    "enableMiawForRequestorAgent": "false",
+    "enablePrivilegeAssignment": "false",
+    "enableProbPriorityMatrix": "false",
+    "enableProbPriorityOverride": "false",
+    "enableProblemValidations": "false",
+    "enableRiskAssessment": "false",
+    "enableSaveE2IncidentAttachment": "false"
+  },
+  "industries": {
+    "fullName": "IndustriesSettings",
+    "enableAccountScoreEnabled": "false",
+    "enableDontSharePartyprofWPortalOrgPref": "false",
+    "enablePartyProfileParentSharingOrgPref": "false",
+    "enablePartyprofParentMultiSharingOrgPref": "false",
+    "participantRecordDeactivateUser": "PreventDeactivateUserWithParticipantRecords",
+    "partyProfMultiShrPrtnrsOrgPref": "false",
+    "rlaEditIfAccHasEdit": "false"
+  },
+  "industriesEinsteinFeature": {
+    "fullName": "IndustriesEinsteinFeatureSettings",
+    "documentReaderConfidenceOrgValue": "0.0"
+  },
+  "industriesEnergyUtilitiesMultiSite": {
+    "fullName": "IndustriesEnergyUtilitiesMultiSiteSettings"
+  },
+  "industriesUnifiedInventory": {
+    "fullName": "IndustriesUnifiedInventorySettings",
+    "enableBatchManagement": "false"
+  },
+  "insuranceBrokerage": {
+    "fullName": "InsuranceBrokerageSettings",
+    "brokerageTransGranularity": "DETAILS_LEVEL",
+    "insBrkBillingCtxDef": "InsBillingTransactionContext__stdctx",
+    "insBrkBillingCtxSchedGrpMap": "BSGEntitiesMapping",
+    "insBrkBillingCtxTnxMapping": "InsBillingTransactionMapping",
+    "iptEnabledForBrokerage": "false",
+    "iptdEnabledForBrokerage": "false"
+  },
+  "invocableAction": {
+    "fullName": "InvocableActionSettings",
+    "isPartialSaveAllowed": true
+  },
+  "ioT": {
+    "fullName": "IoTSettings",
+    "enableIoT": false,
+    "enableIoTInsightsPilot": false,
+    "enableIoTUsageEmail": false
+  },
+  "knowledge": {
+    "fullName": "KnowledgeSettings",
+    "answers": {
+      "enableArticleCreation": false
+    },
+    "cases": {
+      "enableArticleCreation": false,
+      "enableArticlePublicSharingSites": false,
+      "enableCaseDataCategoryMapping": true,
+      "useProfileForPDFCreation": false
+    },
+    "defaultLanguage": "en_US",
+    "enableChatterQuestionKBDeflection": false,
+    "enableCreateEditOnArticlesTab": true,
+    "enableExternalMediaContent": true,
+    "enableKnowledge": true,
+    "enableKnowledgeAgentContribution": "false",
+    "enableKnowledgeAnswersPromotion": "false",
+    "enableKnowledgeArticleTextHighlights": false,
+    "enableKnowledgeCaseRL": "true",
+    "enableKnowledgeKeywordAutoComplete": false,
+    "enableKnowledgeTitleAutoComplete": false,
+    "enableLightningKbAutoLoadRichTextField": false,
+    "enableLightningKnowledge": false,
+    "showArticleSummariesCustomerPortal": true,
+    "showArticleSummariesInternalApp": true,
+    "showArticleSummariesPartnerPortal": true,
+    "showValidationStatusField": true,
+    "suggestedArticles": {
+      "caseFields": {
+        "field": [
+          {
+            "name": "Subject"
+          }
+        ]
+      },
+      "useSuggestedArticlesForCase": false,
+      "workOrderFields": {
+        "field": [
+          {
+            "name": "Subject"
+          }
+        ]
+      },
+      "workOrderLineItemFields": {
+        "field": [
+          {
+            "name": "Subject"
+          }
+        ]
+      }
+    },
+    "votingEnabled": "true"
+  },
+  "knowledgeGeneration": {
+    "fullName": "KnowledgeGenerationSettings"
+  },
+  "language": {
+    "fullName": "LanguageSettings",
+    "enableCanadaIcuFormat": true,
+    "enableEndUserLanguages": false,
+    "enableICULocaleDateFormat": true,
+    "enableLanguageExtensionPackage": "false",
+    "enableLocalNamesForStdObjects": "false",
+    "enableLocaleInsensitiveFiltering": "false",
+    "enablePlatformLanguages": false,
+    "enableTranslationWorkbench": false,
+    "useLanguageFallback": false
+  },
+  "leadConfig": {
+    "fullName": "LeadConfigSettings",
+    "doesEnableLeadConvertDefaultSubjectBlankTaskCreation": false,
+    "doesHideOpportunityInConvertLeadWindow": false,
+    "doesPreserveLeadStatus": true,
+    "doesSelectNoOpportunityOnConvertLead": false,
+    "doesTrackHistory": false,
+    "enableConversionsOnMobile": true,
+    "enableOrgWideMergeAndDelete": true,
+    "shouldLeadConvertRequireValidation": true,
+    "shouldSendNotificationEmailWhenLeadOwnerUpdatesViaApexInLEX": "false"
+  },
+  "lightningExperience": {
+    "fullName": "LightningExperienceSettings",
+    "enableAccessCheckCrucPref": false,
+    "enableApiUserLtngOutAccessPref": false,
+    "enableAuraBoxcarReductionPref": "false",
+    "enableAuraCDNPref": true,
+    "enableAuraSecStaticResCRUCPref": "false",
+    "enableDeferRenderingWorkspacePage": "true",
+    "enableErrorExperienceEnabled": "false",
+    "enableFeedbackInMobile": true,
+    "enableHideOpenInQuip": "false",
+    "enableIE11DeprecationMsgHidden": false,
+    "enableIE11LEXCrucPref": false,
+    "enableInAppTooltips": true,
+    "enableLEXExtensionComponentCustomization": "false",
+    "enableLEXExtensionDarkMode": "false",
+    "enableLEXExtensionInlineEditModifier": "false",
+    "enableLEXExtensionLinkGrabber": "false",
+    "enableLEXExtensionRelatedLists": "false",
+    "enableLEXExtensionRequiredFields": "false",
+    "enableLEXExtensionTrailhead": "false",
+    "enableLEXOnIpadEnabled": false,
+    "enableLexEndUsersNoSwitching": false,
+    "enableLightningPreviewPref": "false",
+    "enableNavPersonalizationOptOut": false,
+    "enableNoBackgroundNavigations": "false",
+    "enableQuip": "false",
+    "enableRemoveThemeBrandBanner": false,
+    "enableS1BannerPref": true,
+    "enableS1BrowserEnabled": true,
+    "enableS1DesktopEnabled": true,
+    "enableS1UiLoggingEnabled": true,
+    "enableSidToken3rdPartyAuraApp": "false",
+    "enableStackedModalManagerEnabled": "true",
+    "enableTryLightningOptOut": false,
+    "enableUseS1AlohaDesktop": false,
+    "enableUsersAreLightningOnly": false,
+    "isLEXExtensionComponentCustomizationOff": "false",
+    "isLEXExtensionDarkModeOff": "false",
+    "isLEXExtensionLinkGrabberOff": "false",
+    "isLEXExtensionOff": "false"
+  },
+  "macro": {
+    "fullName": "MacroSettings",
+    "contextualMacroFiltering": "true",
+    "enableAdvancedSearch": false,
+    "macrosInFolders": false
+  },
+  "mailMerge": {
+    "fullName": "MailMergeSettings",
+    "enableExtendedMailMerge": "false",
+    "saveMailMergeDocsAsSalesforceDocs": "false"
+  },
+  "mapsAndLocation": {
+    "fullName": "MapsAndLocationSettings",
+    "enableAddressAutoComplete": true,
+    "enableMapsAndLocation": true
+  },
+  "meetings": {
+    "fullName": "MeetingsSettings"
+  },
+  "mobile": {
+    "fullName": "MobileSettings",
+    "dashboardMobile": {
+      "enableDashboardIPadApp": true
+    },
+    "enableImportContactFromDevice": true,
+    "enablePopulateNameManuallyInToday": false,
+    "enableS1EncryptedStoragePref2": true,
+    "enableS1OfflinePref": true
+  },
+  "myDomain": {
+    "fullName": "MyDomainSettings",
+    "areLegacyRedirectsMaintained": "false",
+    "areLgcyRdirMaintainedWntr26": "false",
+    "canOnlyLoginWithMyDomainUrl": false,
+    "doesApiLoginRequireOrgDomain": false,
+    "doesWarnOnForceComRedirect": "false",
+    "doesWarnOnRedirect": "false",
+    "domainPartition": "scratch",
+    "edgeRoutingMethod": "global",
+    "enableCrossDomainPreviewCookies": "true",
+    "enableEdgeDuringRollout": "true",
+    "enableExtendedRedirections": "false",
+    "enableLegacyRedirections": "false",
+    "enableNativeBrowserForAuthOnAndroid": false,
+    "enableNativeBrowserForAuthOnIos": false,
+    "enableShareBrowserSessionAndroidForAuth": "false",
+    "enableShareBrowserSessionIOSForAuth": "false",
+    "instancedUrlRedirectHandling": "NoRedirect",
+    "isFirstPartyCookieUseRequired": "false",
+    "isIcorInstApiTrafficBlocked": "false",
+    "isInstancedApiTrafficBlocked": "true",
+    "logRedirections": "false",
+    "myDomainName": "business-customer-3642",
+    "myDomainSuffix": "MySalesforce",
+    "onboardCustomerSpecificSuffix": "false",
+    "redirectForceComSiteUrls": "true",
+    "redirectPriorMyDomain": "true",
+    "use3rdPartyCookieBlockingCompatibleHostnames": "true",
+    "useEdge": "true",
+    "useEnhancedDomainsInSandbox": "true",
+    "useStabilizedMyDomainHostnames": true,
+    "useStabilizedSandboxMyDomainHostnames": true
+  },
+  "name": {
+    "fullName": "NameSettings",
+    "enableMiddleName": false,
+    "enableNameSuffix": false
+  },
+  "notifications": {
+    "fullName": "NotificationsSettings",
+    "enableMobileAppPushNotifications": true,
+    "enableNotifications": true
+  },
+  "oauthOidc": {
+    "fullName": "OauthOidcSettings",
+    "agentAuthLinking": "true",
+    "blockOAuthUnPwFlow": "true",
+    "blockOAuthUsrAgtFlow": "false",
+    "isPkceRequired": "false",
+    "oAuthCdCrdtFlowEnable": "false"
+  },
+  "objectLinking": {
+    "fullName": "ObjectLinkingSettings"
+  },
+  "omniChannel": {
+    "fullName": "OmniChannelSettings",
+    "enableOmniChannel": false,
+    "enableOmniSkillsRouting": false
+  },
+  "omniChannelPricing": {
+    "fullName": "OmniChannelPricingSettings"
+  },
+  "omniStudio": {
+    "fullName": "OmniStudioSettings"
+  },
+  "onlineSales": {
+    "fullName": "OnlineSalesSettings",
+    "enableSubscriptionAppEnrolled": "true"
+  },
+  "opportunity": {
+    "fullName": "OpportunitySettings",
+    "autoActivateNewReminders": true,
+    "customizableProductSchedulesEnabled": false,
+    "doesEnforceStandardOpportunitySaveLogic": true,
+    "enableFindSimilarOpportunities": false,
+    "enableOpportunityFieldHistoryTracking": false,
+    "enableOpportunityInsightsInMobile": false,
+    "enableOpportunityTeam": false,
+    "enableUpdateReminders": true,
+    "oppAmountDealMotionEnabled": "true",
+    "oppCloseDateDealMotionEnabled": "true",
+    "promptToAddProducts": false,
+    "pushCountEnabled": "true",
+    "simpleOppCreateFromContact": "false",
+    "simpleOppCreateFromEvent": "false"
+  },
+  "order": {
+    "fullName": "OrderSettings",
+    "enableNegativeQuantity": false,
+    "enableOrderEvents": "false",
+    "enableOrders": true,
+    "enableReductionOrders": false,
+    "enableZeroQuantity": false
+  },
+  "org": {
+    "fullName": "OrgSettings",
+    "enableCustomerSuccessPortal": true,
+    "enableMakeDeploymentsMandatory": true,
+    "enableManageSelfServiceUsers": false,
+    "enableRADeploymentAttributeOnly": true
+  },
+  "pardot": {
+    "fullName": "PardotSettings",
+    "enablePardotAppV1Enabled": false
+  },
+  "pardotEinstein": {
+    "fullName": "PardotEinsteinSettings"
+  },
+  "partyDataModel": {
+    "fullName": "PartyDataModelSettings",
+    "enableAutoSelectIndividualOnMerge": false,
+    "enableConsentManagement": true,
+    "enableIndividualAutoCreate": "false"
+  },
+  "pathAssistant": {
+    "fullName": "PathAssistantSettings",
+    "canOverrideAutoPathCollapseWithUserPref": false,
+    "pathAssistantEnabled": false
+  },
+  "paymentsManagementEnabled": {
+    "fullName": "PaymentsManagementEnabledSettings",
+    "paymentsManagementEnabled": "false"
+  },
+  "picklist": {
+    "fullName": "PicklistSettings",
+    "isPicklistApiNameEditDisabled": false
+  },
+  "platformEncryption": {
+    "fullName": "PlatformEncryptionSettings",
+    "enableEventBusEncryption": false
+  },
+  "platformEvent": {
+    "fullName": "PlatformEventSettings",
+    "enableEnhancedUsageMetrics": "false"
+  },
+  "platformWebIde": {
+    "fullName": "PlatformWebIdeSettings",
+    "enablePlatformWebIde": "false",
+    "platformWebIdeAsDefault": "false"
+  },
+  "portals": {
+    "fullName": "PortalsSettings",
+    "clickjackSSPLoginPage": "false",
+    "redirectPortalLoginToHttps": "false"
+  },
+  "predictionBuilder": {
+    "fullName": "PredictionBuilderSettings"
+  },
+  "privacy": {
+    "fullName": "PrivacySettings",
+    "enableConsentEventStream": false,
+    "enableDefaultMetadataValues": false
+  },
+  "prmCore": {
+    "fullName": "PrmCoreSettings",
+    "enableDealRegistration": "false"
+  },
+  "product": {
+    "fullName": "ProductSettings",
+    "enableCascadeActivateToRelatedPrices": true,
+    "enableMySettings": false,
+    "enableQuantitySchedule": false,
+    "enableRevenueSchedule": false
+  },
+  "productDiscovery": {
+    "fullName": "ProductDiscoverySettings",
+    "discoverProductsFlowNameOrgValue": "revenue_products__DiscoverProducts",
+    "prodDiscBrowseContextDefOrgValue": "ProductDiscoveryContext__stdctx",
+    "prodDiscPricingEnabledOrgValue": "false",
+    "prodDiscQualEnabledOrgValue": "false",
+    "promoContextMappingNameOrgValue": "ProductDiscoveryPromoMapping"
+  },
+  "purchaseOrderMgmt": {
+    "fullName": "PurchaseOrderMgmtSettings"
+  },
+  "quickText": {
+    "fullName": "QuickTextSettings",
+    "hideQuickTextUiInLtng": "false",
+    "lightningQuickTextEnabled": "true",
+    "quickTextsInFolders": "false"
+  },
+  "quote": {
+    "fullName": "QuoteSettings",
+    "enableQuote": false,
+    "enableQuotesWithoutOppEnabled": false
+  },
+  "realTimeEvent": {
+    "fullName": "RealTimeEventSettings",
+    "realTimeEvents": [
+      {
+        "entityName": "LoginEventStream",
+        "isEnabled": "false"
+      },
+      {
+        "entityName": "LogoutEventStream",
+        "isEnabled": "false"
+      }
+    ]
+  },
+  "recommendationBuilder": {
+    "fullName": "RecommendationBuilderSettings",
+    "enableErbEnabledPref": "false",
+    "enableErbStartedPref": "false"
+  },
+  "recordPage": {
+    "fullName": "RecordPageSettings",
+    "enableActivityRelatedList": false,
+    "enableFullRecordView": false
+  },
+  "releaseMgmt": {
+    "fullName": "ReleaseMgmtSettings",
+    "enableITSMReleaseMgmt": "false",
+    "enableReleaseEventCreation": "false",
+    "enableReleaseValidations": "false"
+  },
+  "retailExecution": {
+    "fullName": "RetailExecutionSettings"
+  },
+  "riskMgmt": {
+    "fullName": "RiskMgmtSettings",
+    "enableAutoResidualRiskBRE": "false",
+    "enableItCompliance": "false",
+    "enableRiskMgmt": "false"
+  },
+  "sandbox": {
+    "fullName": "SandboxSettings",
+    "disableSandboxExpirationEmails": "false",
+    "sandboxDetailNewUIOptOut": "false"
+  },
+  "sceGlobalModelOptOut": {
+    "fullName": "SceGlobalModelOptOutSettings"
+  },
+  "schema": {
+    "fullName": "SchemaSettings",
+    "enableAdvancedCMTSecurity": true,
+    "enableAdvancedCSSecurity": true,
+    "enableListCustomSettingCreation": false,
+    "enableSOSLOnCustomSettings": false
+  },
+  "search": {
+    "fullName": "SearchSettings",
+    "documentContentSearchEnabled": true,
+    "enableAdvancedSearchInAlohaSidebar": false,
+    "enableEinsteinSearchAssistantDialog": "true",
+    "enableEinsteinSearchEs4kPilot": "false",
+    "enableEinsteinSearchNLSFilters": "false",
+    "enableEinsteinSearchNaturalLanguage": "true",
+    "enableEinsteinSearchPersonalization": true,
+    "enablePersonalTagging": "false",
+    "enablePublicTagging": "false",
+    "enableQuerySuggestionPigOn": false,
+    "enableSalesforceGeneratedSynonyms": true,
+    "enableSetupSearch": true,
+    "enableSuggestArticlesLinksOnly": "false",
+    "optimizeSearchForCJKEnabled": false,
+    "recentlyViewedUsersForBlankLookupEnabled": true,
+    "searchSettingsByObject": {
+      "searchSettingsByObject": [
+        {
+          "enhancedLookupEnabled": false,
+          "lookupAutoCompleteEnabled": false,
+          "name": "Account",
+          "resultsPerPageCount": 25
+        },
+        {
+          "enhancedLookupEnabled": false,
+          "lookupAutoCompleteEnabled": false,
+          "name": "AccountBrand",
+          "resultsPerPageCount": 25
+        },
+        {
+          "enhancedLookupEnabled": false,
+          "lookupAutoCompleteEnabled": false,
+          "name": "Activity",
+          "resultsPerPageCount": 25
+        },
+        {
+          "enhancedLookupEnabled": false,
+          "lookupAutoCompleteEnabled": false,
+          "name": "Asset",
+          "resultsPerPageCount": 25
+        },
+        {
+          "enhancedLookupEnabled": false,
+          "lookupAutoCompleteEnabled": false,
+          "name": "AssetRelationship",
+          "resultsPerPageCount": 25
+        },
+        {
+          "enhancedLookupEnabled": false,
+          "lookupAutoCompleteEnabled": false,
+          "name": "Attachment",
+          "resultsPerPageCount": 25
+        },
+        {
+          "enhancedLookupEnabled": false,
+          "lookupAutoCompleteEnabled": false,
+          "name": "AuthorizationForm",
+          "resultsPerPageCount": 25
+        },
+        {
+          "enhancedLookupEnabled": false,
+          "lookupAutoCompleteEnabled": false,
+          "name": "AuthorizationFormConsent",
+          "resultsPerPageCount": 25
+        },
+        {
+          "enhancedLookupEnabled": false,
+          "lookupAutoCompleteEnabled": false,
+          "name": "AuthorizationFormDataUse",
+          "resultsPerPageCount": 25
+        },
+        {
+          "enhancedLookupEnabled": false,
+          "lookupAutoCompleteEnabled": false,
+          "name": "AuthorizationFormText",
+          "resultsPerPageCount": 25
+        },
+        {
+          "enhancedLookupEnabled": false,
+          "lookupAutoCompleteEnabled": false,
+          "name": "Calendar",
+          "resultsPerPageCount": 25
+        },
+        {
+          "enhancedLookupEnabled": false,
+          "lookupAutoCompleteEnabled": false,
+          "name": "Campaign",
+          "resultsPerPageCount": 25
+        },
+        {
+          "enhancedLookupEnabled": false,
+          "lookupAutoCompleteEnabled": false,
+          "name": "Case",
+          "resultsPerPageCount": 25
+        },
+        {
+          "enhancedLookupEnabled": false,
+          "lookupAutoCompleteEnabled": false,
+          "name": "CaseComment",
+          "resultsPerPageCount": 25
+        },
+        {
+          "enhancedLookupEnabled": false,
+          "lookupAutoCompleteEnabled": false,
+          "name": "CollaborationGroup",
+          "resultsPerPageCount": 25
+        },
+        {
+          "enhancedLookupEnabled": false,
+          "lookupAutoCompleteEnabled": false,
+          "name": "CommSubscription",
+          "resultsPerPageCount": 25
+        },
+        {
+          "enhancedLookupEnabled": false,
+          "lookupAutoCompleteEnabled": false,
+          "name": "CommSubscriptionChannelType",
+          "resultsPerPageCount": 25
+        },
+        {
+          "enhancedLookupEnabled": false,
+          "lookupAutoCompleteEnabled": false,
+          "name": "CommSubscriptionConsent",
+          "resultsPerPageCount": 25
+        },
+        {
+          "enhancedLookupEnabled": false,
+          "lookupAutoCompleteEnabled": false,
+          "name": "Contact",
+          "resultsPerPageCount": 25
+        },
+        {
+          "enhancedLookupEnabled": false,
+          "lookupAutoCompleteEnabled": false,
+          "name": "ContactPointAddress",
+          "resultsPerPageCount": 25
+        },
+        {
+          "enhancedLookupEnabled": false,
+          "lookupAutoCompleteEnabled": false,
+          "name": "ContactPointConsent",
+          "resultsPerPageCount": 25
+        },
+        {
+          "enhancedLookupEnabled": false,
+          "lookupAutoCompleteEnabled": false,
+          "name": "ContactPointEmail",
+          "resultsPerPageCount": 25
+        },
+        {
+          "enhancedLookupEnabled": false,
+          "lookupAutoCompleteEnabled": false,
+          "name": "ContactPointPhone",
+          "resultsPerPageCount": 25
+        },
+        {
+          "enhancedLookupEnabled": false,
+          "lookupAutoCompleteEnabled": false,
+          "name": "ContactPointTypeConsent",
+          "resultsPerPageCount": 25
+        },
+        {
+          "enhancedLookupEnabled": false,
+          "lookupAutoCompleteEnabled": false,
+          "name": "ContentVersion",
+          "resultsPerPageCount": 25
+        },
+        {
+          "enhancedLookupEnabled": false,
+          "lookupAutoCompleteEnabled": false,
+          "name": "Contract",
+          "resultsPerPageCount": 25
+        },
+        {
+          "enhancedLookupEnabled": false,
+          "lookupAutoCompleteEnabled": false,
+          "name": "ContractLineItem",
+          "resultsPerPageCount": 25
+        },
+        {
+          "enhancedLookupEnabled": false,
+          "lookupAutoCompleteEnabled": false,
+          "name": "DataUseLegalBasis",
+          "resultsPerPageCount": 25
+        },
+        {
+          "enhancedLookupEnabled": false,
+          "lookupAutoCompleteEnabled": false,
+          "name": "DataUsePurpose",
+          "resultsPerPageCount": 25
+        },
+        {
+          "enhancedLookupEnabled": false,
+          "lookupAutoCompleteEnabled": false,
+          "name": "Document",
+          "resultsPerPageCount": 25
+        },
+        {
+          "enhancedLookupEnabled": false,
+          "lookupAutoCompleteEnabled": false,
+          "name": "EmailMessage",
+          "resultsPerPageCount": 25
+        },
+        {
+          "enhancedLookupEnabled": false,
+          "lookupAutoCompleteEnabled": false,
+          "name": "EngagementChannelType",
+          "resultsPerPageCount": 25
+        },
+        {
+          "enhancedLookupEnabled": false,
+          "lookupAutoCompleteEnabled": false,
+          "name": "EnhancedLetterhead",
+          "resultsPerPageCount": 25
+        },
+        {
+          "enhancedLookupEnabled": false,
+          "lookupAutoCompleteEnabled": false,
+          "name": "Entitlement",
+          "resultsPerPageCount": 25
+        },
+        {
+          "enhancedLookupEnabled": false,
+          "lookupAutoCompleteEnabled": false,
+          "name": "Folder",
+          "resultsPerPageCount": 25
+        },
+        {
+          "enhancedLookupEnabled": false,
+          "lookupAutoCompleteEnabled": false,
+          "name": "Idea",
+          "resultsPerPageCount": 25
+        },
+        {
+          "enhancedLookupEnabled": false,
+          "lookupAutoCompleteEnabled": false,
+          "name": "Individual",
+          "resultsPerPageCount": 25
+        },
+        {
+          "enhancedLookupEnabled": false,
+          "lookupAutoCompleteEnabled": false,
+          "name": "KnowledgeArticleVersion",
+          "resultsPerPageCount": 25
+        },
+        {
+          "enhancedLookupEnabled": false,
+          "lookupAutoCompleteEnabled": false,
+          "name": "Lead",
+          "resultsPerPageCount": 25
+        },
+        {
+          "enhancedLookupEnabled": false,
+          "lookupAutoCompleteEnabled": false,
+          "name": "ListEmail",
+          "resultsPerPageCount": 25
+        },
+        {
+          "enhancedLookupEnabled": false,
+          "lookupAutoCompleteEnabled": false,
+          "name": "Location",
+          "resultsPerPageCount": 25
+        },
+        {
+          "enhancedLookupEnabled": false,
+          "lookupAutoCompleteEnabled": false,
+          "name": "Macro",
+          "resultsPerPageCount": 25
+        },
+        {
+          "enhancedLookupEnabled": false,
+          "lookupAutoCompleteEnabled": false,
+          "name": "Note",
+          "resultsPerPageCount": 25
+        },
+        {
+          "enhancedLookupEnabled": false,
+          "lookupAutoCompleteEnabled": false,
+          "name": "Opportunity",
+          "resultsPerPageCount": 25
+        },
+        {
+          "enhancedLookupEnabled": false,
+          "lookupAutoCompleteEnabled": false,
+          "name": "Order",
+          "resultsPerPageCount": 25
+        },
+        {
+          "enhancedLookupEnabled": false,
+          "lookupAutoCompleteEnabled": false,
+          "name": "PartyConsent",
+          "resultsPerPageCount": 25
+        },
+        {
+          "enhancedLookupEnabled": false,
+          "lookupAutoCompleteEnabled": false,
+          "name": "Pricebook2",
+          "resultsPerPageCount": 25
+        },
+        {
+          "enhancedLookupEnabled": false,
+          "lookupAutoCompleteEnabled": false,
+          "name": "PricebookEntry",
+          "resultsPerPageCount": 25
+        },
+        {
+          "enhancedLookupEnabled": false,
+          "lookupAutoCompleteEnabled": false,
+          "name": "Product2",
+          "resultsPerPageCount": 25
+        },
+        {
+          "enhancedLookupEnabled": false,
+          "lookupAutoCompleteEnabled": false,
+          "name": "QuickText",
+          "resultsPerPageCount": 25
+        },
+        {
+          "enhancedLookupEnabled": false,
+          "lookupAutoCompleteEnabled": false,
+          "name": "Recommendation",
+          "resultsPerPageCount": 25
+        },
+        {
+          "enhancedLookupEnabled": false,
+          "lookupAutoCompleteEnabled": false,
+          "name": "Report",
+          "resultsPerPageCount": 25
+        },
+        {
+          "enhancedLookupEnabled": false,
+          "lookupAutoCompleteEnabled": false,
+          "name": "ServiceContract",
+          "resultsPerPageCount": 25
+        },
+        {
+          "enhancedLookupEnabled": false,
+          "lookupAutoCompleteEnabled": false,
+          "name": "SocialPersona",
+          "resultsPerPageCount": 25
+        },
+        {
+          "enhancedLookupEnabled": false,
+          "lookupAutoCompleteEnabled": false,
+          "name": "SocialPost",
+          "resultsPerPageCount": 25
+        },
+        {
+          "enhancedLookupEnabled": false,
+          "lookupAutoCompleteEnabled": false,
+          "name": "Solution",
+          "resultsPerPageCount": 25
+        },
+        {
+          "enhancedLookupEnabled": false,
+          "lookupAutoCompleteEnabled": false,
+          "name": "User",
+          "resultsPerPageCount": 25
+        },
+        {
+          "enhancedLookupEnabled": false,
+          "lookupAutoCompleteEnabled": false,
+          "name": "WorkOrder",
+          "resultsPerPageCount": 25
+        },
+        {
+          "enhancedLookupEnabled": false,
+          "lookupAutoCompleteEnabled": false,
+          "name": "WorkOrderLineItem",
+          "resultsPerPageCount": 25
+        }
+      ]
+    },
+    "sidebarAutoCompleteEnabled": true,
+    "sidebarDropDownListEnabled": true,
+    "sidebarLimitToItemsIOwnCheckboxEnabled": true,
+    "singleSearchResultShortcutEnabled": true,
+    "spellCorrectKnowledgeSearchEnabled": false
+  },
+  "security": {
+    "fullName": "SecuritySettings",
+    "canUsersGrantLoginAccess": true,
+    "enableAdminLoginAsAnyUser": false,
+    "enableAuditFieldsInactiveOwner": false,
+    "enableAuraSecureEvalPref": true,
+    "enableCoepHeader": "false",
+    "enableCoopHeader": "false",
+    "enableCrossOrgRedirects": "false",
+    "enablePermissionsPolicy": "false",
+    "enableRequireHttpsConnection": true,
+    "networkAccess": {
+      "ipRanges": []
+    },
+    "passwordPolicies": {
+      "complexity": "AlphaNumeric",
+      "expiration": "NinetyDays",
+      "historyRestriction": "3",
+      "lockoutInterval": "FifteenMinutes",
+      "maxLoginAttempts": "TenAttempts",
+      "minimumPasswordLength": "8",
+      "minimumPasswordLifetime": false,
+      "obscureSecretAnswer": false,
+      "questionRestriction": "DoesNotContainPassword"
+    },
+    "redirectBlockModeEnabled": "false",
+    "sendCspForUncommonClients": "false",
+    "sessionSettings": {
+      "allowUserAuthenticationByCertificate": false,
+      "allowUserCertBasedAuthenticationWithOcspValidation": "false",
+      "auraBoxcarReductionPref": "false",
+      "canConfirmEmailChangeInLightningCommunities": true,
+      "canConfirmIdentityBySmsOnly": "false",
+      "disableTimeoutWarning": false,
+      "enableBuiltInAuthenticator": "true",
+      "enableCSPOnEmail": true,
+      "enableCSRFOnGet": true,
+      "enableCSRFOnPost": true,
+      "enableCacheAndAutocomplete": true,
+      "enableClickjackNonsetupSFDC": true,
+      "enableClickjackNonsetupUser": false,
+      "enableClickjackNonsetupUserHeaderless": false,
+      "enableClickjackSetup": true,
+      "enableCoepHeader": "false",
+      "enableContentSniffingProtection": true,
+      "enableCoopHeader": "false",
+      "enableLightningLogin": true,
+      "enableLightningLoginOnlyWithUserPerm": false,
+      "enableMFADirectUILoginOptIn": "false",
+      "enableOauthCorsPolicy": "false",
+      "enablePermissionsPolicy": "false",
+      "enablePostForSessions": false,
+      "enableSMSIdentity": false,
+      "enableU2F": true,
+      "enforceIpRangesEveryRequest": false,
+      "enforceUserDeviceRevoked": "false",
+      "forceLogoutOnSessionTimeout": false,
+      "forceRelogin": false,
+      "grantCameraAccess": "TrustedUrls",
+      "grantMicrophoneAccess": "TrustedUrls",
+      "hasRetainedLoginHints": false,
+      "hasUserSwitching": true,
+      "identityConfirmationOnEmailChange": false,
+      "identityConfirmationOnTwoFactorRegistrationEnabled": true,
+      "lockSessionsToDomain": true,
+      "lockSessionsToIp": false,
+      "lockerServiceCSP": true,
+      "lockerServiceNext": "true",
+      "lockerServiceNextControl": "false",
+      "lockerTrustedMode": "false",
+      "redirectBlockModeEnabled": "false",
+      "redirectionWarning": true,
+      "referrerPolicy": true,
+      "referrerPolicyDirective": "strict-origin-when-cross-origin",
+      "requireHttpOnly": false,
+      "sendCspForUncommonClients": "false",
+      "sessionTimeout": "TwoHours",
+      "sidToken3rdPartyAuraApp": "false",
+      "skipSFAWhenMFADirectUILogin": "false",
+      "terminateUserSessionsWhenAdminResetsPassword": "false",
+      "untrustedRedirect": "AlwaysAllowed",
+      "useEAPIRateLimitForConnectAPI": "false",
+      "useLocalStorageForLogoutUrl": "false"
+    },
+    "singleSignOnSettings": {
+      "enableCaseInsensitiveFederationID": "false",
+      "enableMultipleSamlConfigs": true,
+      "enableSamlJitProvisioning": false,
+      "enableSamlLogin": false,
+      "isLoginWithSalesforceCredentialsDisabled": "false"
+    }
+  },
+  "serviceAIRecommendations": {
+    "fullName": "ServiceAIRecommendationsSettings"
+  },
+  "serviceCloudVoice": {
+    "fullName": "ServiceCloudVoiceSettings"
+  },
+  "serviceItsmIntelligenceUdd": {
+    "fullName": "ServiceItsmIntelligenceUddSettings",
+    "enableAsgnProbWEinstein": "false",
+    "enableAsocSmlrProbToProb": "false",
+    "enableCheckIncAttrProactvAsst": "false",
+    "enableCheckProbmForAttr": "false",
+    "enableCreaProbmForRootCseSum": "false",
+    "enableCreateChgReqWithEinstein": "false",
+    "enableEinsteinAssignGrpInc": "false",
+    "enableEinsteinProbmCreationInc": "false",
+    "enableIncAsgntProactvAsst": "false",
+    "enableIncPrpsRsolSumProactvAsst": "false",
+    "enableIncRootCseSumProactvAsst": "false",
+    "enableIncSmlrRecProactvAsst": "false",
+    "enableIncSrvcPlanProactvAsst": "false",
+    "enableIncSummaryProactvAsst": "false",
+    "enableItSrvcsEmployeeAgent": "false",
+    "enableItSrvcsFulfillerAgent": "false",
+    "enableProactivAsstForProbm": "false",
+    "enableProactvAsstforItSrvcs": "false",
+    "enableProposSumForProbm": "false",
+    "enableQuickActnForSvcPlan": "false",
+    "enableSumForProbm": "false"
+  },
+  "serviceSetupAssistant": {
+    "fullName": "ServiceSetupAssistantSettings",
+    "enableServiceSetupAssistant": "false"
+  },
+  "sharing": {
+    "fullName": "SharingSettings",
+    "deferGroupMembership": "false",
+    "deferSharingRules": "false",
+    "enableAssetSharing": false,
+    "enableCommunityUserVisibility": false,
+    "enableExternalSharingModel": true,
+    "enableManagerGroups": false,
+    "enableManualUserRecordSharing": false,
+    "enablePortalUserCaseSharing": true,
+    "enablePortalUserVisibility": false,
+    "enableRemoveTMGroupMembership": false,
+    "enableRestrictAccessLookupRecords": "false",
+    "enableSecureGuestAccess": false,
+    "enableStandardReportVisibility": true
+  },
+  "site": {
+    "fullName": "SiteSettings",
+    "enableProxyLoginICHeader": false,
+    "enableTopicsInSites": false
+  },
+  "socialCustomerService": {
+    "fullName": "SocialCustomerServiceSettings",
+    "caseSubjectOption": "SocialPostContent",
+    "enableSocialCustomerService": false,
+    "enableSocialPersonaHistoryTracking": false,
+    "enableSocialPostHistoryTracking": false
+  },
+  "sourceTracking": {
+    "fullName": "SourceTrackingSettings",
+    "enableSourceTrackingSandboxes": false
+  },
+  "subscriptionManagement": {
+    "fullName": "SubscriptionManagementSettings"
+  },
+  "survey": {
+    "fullName": "SurveySettings",
+    "enableSurvey": false
+  },
+  "systemNotification": {
+    "fullName": "SystemNotificationSettings",
+    "disableDowntimeNotifications": false,
+    "disableMaintenanceNotifications": false
+  },
+  "territory2": {
+    "fullName": "Territory2Settings",
+    "defaultAccountAccessLevel": "Read",
+    "defaultCaseAccessLevel": "None",
+    "defaultContactAccessLevel": "Edit",
+    "defaultOpportunityAccessLevel": "None",
+    "enableTerritoryManagement2": false,
+    "opportunityFilterSettings": {
+      "apexClassName": null,
+      "enableFilter": false,
+      "runMultiThreaded": "false",
+      "runOnCreate": false
+    },
+    "t2ForecastAccessLevel": "Read",
+    "tm2BypassRealignAccInsert": "false",
+    "tm2EnableUserAssignmentLog": "false"
+  },
+  "trailhead": {
+    "fullName": "TrailheadSettings"
+  },
+  "trialOrg": {
+    "fullName": "TrialOrgSettings",
+    "enableSampleDataDeleted": "false"
+  },
+  "uIBundle": {
+    "fullName": "UIBundleSettings",
+    "salesforceAppDomain": "false",
+    "webAppOptIn": "false"
+  },
+  "userEngagement": {
+    "fullName": "UserEngagementSettings",
+    "canUseAdoptionApps": "false",
+    "doesScheduledSwitcherRunDaily": false,
+    "enableCustomHelpGlobalSection": false,
+    "enableHelpMenuShowFeedback": true,
+    "enableHelpMenuShowHelp": true,
+    "enableHelpMenuShowNewUser": true,
+    "enableHelpMenuShowSearch": true,
+    "enableHelpMenuShowSfdcContent": true,
+    "enableHelpMenuShowShortcut": true,
+    "enableHelpMenuShowSupport": true,
+    "enableHelpMenuShowTrailhead": true,
+    "enableIBILOptOutDashboards": false,
+    "enableIBILOptOutEvents": false,
+    "enableIBILOptOutReports": false,
+    "enableIBILOptOutTasks": false,
+    "enableLexToClassicFeedbackEnable": false,
+    "enableOrchestrationInSandbox": false,
+    "enableOrgUserAssistEnabled": true,
+    "enableScheduledSwitcher": true,
+    "enableSfdcProductFeedbackSurvey": true,
+    "enableShowSalesforceUserAssist": true,
+    "isAutoTransitionDelayed": false,
+    "isCrucNotificationDisabled": false,
+    "isCustomProfileAutoTransitionDelayed": false,
+    "isLEXWelcomeMatDisabled": false,
+    "isMeetTheAssistantDisabledInClassic": false,
+    "isMeetTheAssistantDisabledInLightning": false,
+    "isSmartNudgesDisabled": "false",
+    "optimizerAppEnabled": false,
+    "suggestedForYou": "true"
+  },
+  "userInterface": {
+    "fullName": "UserInterfaceSettings",
+    "alternateAlohaListView": true,
+    "dynamicMruActionsOff": "false",
+    "enableAsyncRelatedLists": false,
+    "enableClickjackUserPageHeaderless": false,
+    "enableCollapsibleSections": true,
+    "enableCollapsibleSideBar": false,
+    "enableCustomObjectTruncate": false,
+    "enableCustomeSideBarOnAllPages": true,
+    "enableDeleteFieldHistory": false,
+    "enableExternalObjectAsyncRelatedLists": "true",
+    "enableHoverDetails": true,
+    "enableInlineEdit": true,
+    "enableNewPageLayoutEditor": true,
+    "enablePersonalCanvas": true,
+    "enablePrintableListViews": true,
+    "enableProfileCustomTabsets": true,
+    "enableQuickCreate": true,
+    "enableRelatedListHovers": "true",
+    "enableSldsV2": "false",
+    "enableSldsV2DarkModeInCosmos": "false",
+    "enableTabOrganizer": true,
+    "multiColumnSort": "false",
+    "multiColumnSortLv": "true",
+    "multiColumnSortRl": "true"
+  },
+  "userManagement": {
+    "fullName": "UserManagementSettings",
+    "enableCanAnswerContainUsername": true,
+    "enableConcealPersonalInfo": true,
+    "enableEnhancedConcealPersonalInfo": "false",
+    "enableEnhancedPermsetMgmt": false,
+    "enableEnhancedProfileMgmt": true,
+    "enableEnhcUiUserAccessPolicies": "false",
+    "enableNewProfileUI": false,
+    "enableProfileFiltering": "false",
+    "enableRestrictEmailDomains": "false",
+    "enableScrambleUserData": false,
+    "enableUserSelfDeactivate": false,
+    "enhancedPermSetList": "false",
+    "enhancedUserListView": "false",
+    "enhancedUserRoleListView": "false",
+    "groupSummaryUIEnhancement": "true",
+    "permsetsInFieldCreation": "false",
+    "psaExpirationUIEnabled": "true",
+    "restrictedProfileCloning": "false",
+    "userAccessPoliciesEnabled": "false",
+    "userFieldHistoryTracking": "false"
+  },
+  "voice": {
+    "fullName": "VoiceSettings"
+  },
+  "webToX": {
+    "fullName": "WebToXSettings",
+    "optOutEmailForInactiveWebToCase": "false",
+    "shouldHideRecordInfoInEmail": "false",
+    "webToCaseSpamFilter": "false",
+    "webToLeadSpamFilter": "false"
+  },
+  "workDotCom": {
+    "fullName": "WorkDotComSettings",
+    "enableProfileSkills": false,
+    "enableProfileSkillsAddFeedPost": false,
+    "enableProfileSkillsAutoSuggest": false,
+    "enableProfileSkillsUsePlatform": false,
+    "enableWorkCanvasPref": false,
+    "enableWorkCertification": false,
+    "enableWorkCertificationNotification": false,
+    "enableWorkThanksPref": false
+  }
+}

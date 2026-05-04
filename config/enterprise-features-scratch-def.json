@@ -1,0 +1,17 @@
+{
+  "orgName": "ACME Inc.",
+  "edition": "enterprise",
+  "language": "en_US",
+  "features": [
+    "Communities",
+    "ContactsToMultipleAccounts",
+    "CPQ",
+    "Knowledge",
+    "PersonAccounts",
+    "ServiceCloud",
+    "SharedActivities",
+    "Sites",
+    "SocialCustomerService",
+    "StateAndCountryPicklist"
+  ]
+}
