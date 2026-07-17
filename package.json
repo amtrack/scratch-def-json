@@ -11,7 +11,7 @@
   "exports": "./src/index.ts",
   "devDependencies": {
     "@jsforce/jsforce-node": "3.10.14",
-    "@salesforce/apex-node": "8.4.22",
+    "@salesforce/apex-node": "8.4.36",
     "@salesforce/core": "8.29.0",
     "@types/bun": "1.3.13"
   },
