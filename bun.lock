@@ -6,7 +6,7 @@
       "name": "@amtrack/scratch-def-json",
       "devDependencies": {
         "@jsforce/jsforce-node": "3.10.19",
-        "@salesforce/apex-node": "8.4.36",
+        "@salesforce/apex-node": "9.0.4",
         "@salesforce/core": "8.32.4",
         "@types/bun": "1.3.14",
       },
@@ -39,11 +39,11 @@
 
     "@pinojs/redact": ["@pinojs/redact@0.4.0", "", {}, "sha512-k2ENnmBugE/rzQfEcdWHcCY+/FM3VLzH9cYEsbdsoqrvzAKRhUZeRNhAZvB8OitQJ1TBed3yqWtdjzS6wJKBwg=="],
 
-    "@salesforce/apex-node": ["@salesforce/apex-node@8.4.36", "", { "dependencies": { "@salesforce/core": "^8.32.2", "@salesforce/kit": "^3.2.6", "@types/istanbul-reports": "^3.0.4", "fast-glob": "^3.3.2", "faye": "1.4.1", "istanbul-lib-coverage": "^3.2.2", "istanbul-lib-report": "^3.0.1", "istanbul-reports": "^3.2.0", "json-stream-stringify": "^3.1.7" } }, "sha512-9IS4xAratvzfiUeAYYsZ5b5SRP6HfBo9VqzMnFmhXYFuDnXA0ZldLV3YkxmFgRamSfKLtgSb+G2lKGkxsJl2lw=="],
+    "@salesforce/apex-node": ["@salesforce/apex-node@9.0.4", "", { "dependencies": { "@salesforce/core": "^9.1.2", "@salesforce/kit": "^4.0.0", "@types/istanbul-reports": "^3.0.4", "fast-glob": "^3.3.2", "faye": "1.4.1", "istanbul-lib-coverage": "^3.2.2", "istanbul-lib-report": "^3.0.1", "istanbul-reports": "^3.2.0", "json-stream-stringify": "^3.1.7" } }, "sha512-tfQKKh3O9BlKC4PS0gbkXvHns4JT4X+OGYOyU3PbC+5lapy3125CPo22WadVY1QpTsZepT6VBqLwK0VpUSDBzw=="],
 
     "@salesforce/core": ["@salesforce/core@8.32.4", "", { "dependencies": { "@jsforce/jsforce-node": "^3.10.17", "@salesforce/kit": "^3.2.4", "@salesforce/ts-types": "^2.0.12", "ajv": "^8.18.0", "change-case": "^4.1.2", "fast-levenshtein": "^3.0.0", "faye": "^1.4.1", "form-data": "^4.0.5", "js2xmlparser": "^4.0.1", "jsonwebtoken": "9.0.3", "jszip": "3.10.1", "memfs": "4.38.1", "pino": "^9.7.0", "pino-abstract-transport": "^1.2.0", "pino-pretty": "^11.3.0", "proper-lockfile": "^4.1.2", "semver": "^7.8.0", "ts-retry-promise": "^0.8.1", "zod": "^4.1.12" } }, "sha512-0p/nQ24nfPGD0ERp/NHAccgo+66+rDx6c9M88wItDYAMu9+CHcW+FHOLNDAAUsYwinHHVsqVSL8Eyag7gvitqA=="],
 
-    "@salesforce/kit": ["@salesforce/kit@3.2.6", "", { "dependencies": { "@salesforce/ts-types": "^2.0.12" } }, "sha512-O8S4LWerHa9Zosqh+IoQjgLtpxMOfObRxaRnUdRV4MLtFUi+bQxQiyFvve6eEaBaMP1b1xVDQpvSvQ+PXEDGFQ=="],
+    "@salesforce/kit": ["@salesforce/kit@4.0.0", "", { "dependencies": { "@salesforce/ts-types": "^3.0.0" } }, "sha512-VwxhSH/8PQ5YmPAdhmLaJGCgR0n/pOm8T2y+/odMFthd5SA0xsO/kTdaRLFnFQAxxNj1nYtNHRb+BoMuAatzew=="],
 
     "@salesforce/ts-types": ["@salesforce/ts-types@2.0.12", "", {}, "sha512-BIJyduJC18Kc8z+arUm5AZ9VkPRyw1KKAm+Tk+9LT99eOzhNilyfKzhZ4t+tG2lIGgnJpmytZfVDZ0e2kFul8g=="],
 
@@ -381,6 +381,12 @@
 
     "zod": ["zod@4.4.3", "", {}, "sha512-ytENFjIJFl2UwYglde2jchW2Hwm4GJFLDiSXWdTrJQBIN9Fcyp7n4DhxJEiWNAJMV1/BqWfW/kkg71UDcHJyTQ=="],
 
+    "@salesforce/apex-node/@salesforce/core": ["@salesforce/core@9.1.2", "", { "dependencies": { "@jsforce/jsforce-node": "^3.10.17", "@salesforce/kit": "^4.0.0", "@salesforce/ts-types": "^3.0.0", "ajv": "^8.18.0", "change-case": "^4.1.2", "fast-levenshtein": "^3.0.0", "faye": "^1.4.1", "form-data": "^4.0.5", "js2xmlparser": "^4.0.1", "jsonwebtoken": "9.0.3", "jszip": "3.10.1", "memfs": "4.38.1", "pino": "^9.7.0", "pino-abstract-transport": "^1.2.0", "pino-pretty": "^11.3.0", "proper-lockfile": "^4.1.2", "semver": "^7.8.0", "ts-retry-promise": "^0.8.1", "zod": "^4.1.12" } }, "sha512-ezAsmwfmUYSinGtJjqRfgioKXQsVdC0bc+KSJgMSLihysG6osjhkvbGtFqHwhoFs2kLu4evJRDERthsmfEW7nA=="],
+
+    "@salesforce/core/@salesforce/kit": ["@salesforce/kit@3.2.6", "", { "dependencies": { "@salesforce/ts-types": "^2.0.12" } }, "sha512-O8S4LWerHa9Zosqh+IoQjgLtpxMOfObRxaRnUdRV4MLtFUi+bQxQiyFvve6eEaBaMP1b1xVDQpvSvQ+PXEDGFQ=="],
+
+    "@salesforce/kit/@salesforce/ts-types": ["@salesforce/ts-types@3.0.1", "", {}, "sha512-NWkveMYT2I3O7EAYwWHi6/ba2YUwp9MFi/zJzA+czK5MVqJfdD6FZbiQrTbALZNvFzgFSdq9BvHm6ygRmtROzw=="],
+
     "jsonwebtoken/semver": ["semver@7.7.4", "", { "bin": { "semver": "bin/semver.js" } }, "sha512-vFKC2IEtQnVhpT78h1Yp8wzwrf8CM+MzKMHGJZfBtzhZNycRFnXsHk6E5TxIkkMsgNS7mdX3AGB7x2QM2di4lA=="],
 
     "jszip/readable-stream": ["readable-stream@2.3.8", "", { "dependencies": { "core-util-is": "~1.0.0", "inherits": "~2.0.3", "isarray": "~1.0.0", "process-nextick-args": "~2.0.0", "safe-buffer": "~5.1.1", "string_decoder": "~1.1.1", "util-deprecate": "~1.0.1" } }, "sha512-8p0AUk4XODgIewSi0l8Epjs+EVnWiK7NoDIEGU0HhE7+ZyY8D1IMY7odu5lRrFXGg71L15KG8QrPmum45RTtdA=="],
@@ -394,6 +400,8 @@
     "pino-pretty/pino-abstract-transport": ["pino-abstract-transport@2.0.0", "", { "dependencies": { "split2": "^4.0.0" } }, "sha512-F63x5tizV6WCh4R6RHyi2Ml+M70DNRXt/+HANowMflpgGFMAym/VKm6G7ZOQRjqN7XbGxK1Lg9t6ZrtzOaivMw=="],
 
     "pino-pretty/readable-stream": ["readable-stream@4.7.0", "", { "dependencies": { "abort-controller": "^3.0.0", "buffer": "^6.0.3", "events": "^3.3.0", "process": "^0.11.10", "string_decoder": "^1.3.0" } }, "sha512-oIGGmcpTLwPga8Bn6/Z75SVaH1z5dUut2ibSyAMVhmUggWpmDn2dapB0n7f8nwaSiRtepAsfJyfXIO5DCVAODg=="],
+
+    "@salesforce/apex-node/@salesforce/core/@salesforce/ts-types": ["@salesforce/ts-types@3.0.1", "", {}, "sha512-NWkveMYT2I3O7EAYwWHi6/ba2YUwp9MFi/zJzA+czK5MVqJfdD6FZbiQrTbALZNvFzgFSdq9BvHm6ygRmtROzw=="],
 
     "jszip/readable-stream/safe-buffer": ["safe-buffer@5.1.2", "", {}, "sha512-Gd2UZBJDkXlY7GbJxfsE8/nvKkUEU1G38c1siN6QP6a9PT9MmHB8GnpscSmMJSoF8LOIrt8ud/wPtojys4G6+g=="],
 
