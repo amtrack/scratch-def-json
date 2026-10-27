@@ -5,7 +5,7 @@
     "": {
       "name": "@amtrack/scratch-def-json",
       "devDependencies": {
-        "@jsforce/jsforce-node": "3.13.0",
+        "@jsforce/jsforce-node": "3.13.1",
         "@salesforce/apex-node": "9.0.4",
         "@salesforce/core": "9.1.2",
         "@types/bun": "1.3.14",
@@ -17,7 +17,7 @@
     },
   },
   "packages": {
-    "@jsforce/jsforce-node": ["@jsforce/jsforce-node@3.13.0", "", { "dependencies": { "@sindresorhus/is": "^4", "base64url": "^3.0.1", "cross-spawn": "^7.0.6", "csv-parse": "^7.0.2", "csv-stringify": "^6.8.3", "faye": "^1.4.2", "form-data": "^4.0.6", "multistream": "^3.1.0", "undici": "^8.11.0", "xml2js": "^0.6.2" } }, "sha512-pbEJ3vbxqkOBM3l/rV3fQHR1zaUyI/M2Hsl4cgQGUqhsAHaJ3QvInlX9q5VtWqseqhMi6qGveDM1kCHbA0ELpQ=="],
+    "@jsforce/jsforce-node": ["@jsforce/jsforce-node@3.13.1", "", { "dependencies": { "@sindresorhus/is": "^4", "base64url": "^3.0.1", "cross-spawn": "^7.0.6", "csv-parse": "^7.0.2", "csv-stringify": "^6.8.3", "faye": "^1.4.2", "form-data": "^4.0.6", "multistream": "^3.1.0", "undici": "^8.11.0", "xml2js": "^0.6.2" } }, "sha512-vpHhwc+Wcufk9vARzL4oxYSzg8ndNButSn88D6pMImjns7/NTkwPZ9qQwD2F/P4c+A0lwTyDl4Alry0BMgFsTg=="],
 
     "@jsonjoy.com/base64": ["@jsonjoy.com/base64@1.1.2", "", { "peerDependencies": { "tslib": "2" } }, "sha512-q6XAnWQDIMA3+FTiOYajoYqySkO+JSat0ytXGSuRdq9uXE7o92gzuQwQM14xaCRlBLGq3v5miDGC4vkVTn54xA=="],
 
